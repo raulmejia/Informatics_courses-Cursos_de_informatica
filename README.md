@@ -14,6 +14,11 @@ http://amicitas.bitbucket.org/pyidlrpc/
 
 
 
-Un traductor de IDL a Python
+Un traductor de IDL a Python:
 
 http://code.google.com/p/i2py/
+
+
+Software científico para python:
+
+http://scipy.org/topical-software.html
