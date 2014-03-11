@@ -1,8 +1,6 @@
 programacion-en-python
 ======================
 
-ping, more ping
-
 Este hilo está interesante. Comparan IDL con Python:
 
 http://stackoverflow.com/questions/260851/interactive-data-language-idl-does-anybody-care
@@ -29,4 +27,3 @@ AstroPy, interactive data analysis environment for astronomers
 
 http://www.astro.washington.edu/users/rowen/AstroPy.html
 
-pong
