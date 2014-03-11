@@ -1,6 +1,7 @@
 programacion-en-python
 ======================
 
+ping
 
 Este hilo está interesante. Comparan IDL con Python:
 
