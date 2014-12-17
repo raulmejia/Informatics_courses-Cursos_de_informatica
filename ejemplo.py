@@ -1,5 +1,9 @@
 #!/usr/bin/python
 
+
+a = 3
+
+b = 8
 lista = ['a', "b", 3, 234.23]
 
 diccionario = { 'llave': "valor",
