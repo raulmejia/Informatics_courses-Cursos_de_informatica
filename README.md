@@ -1,6 +1,8 @@
 programacion-en-python
 ======================
 
+Aqui agregas unas cosas. 
+
 Este hilo está interesante. Comparan IDL con Python:
 
 http://stackoverflow.com/questions/260851/interactive-data-language-idl-does-anybody-care
