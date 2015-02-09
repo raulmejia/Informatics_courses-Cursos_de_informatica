@@ -71,3 +71,22 @@ La página [virtualenv.org](http://www.virtualenv.org/) tiene una explicación m
     $ source environments/curso/bin/activate  # activar el ambiente 'curso'
     (curso) $ pip install ipython   # instalar ipython en ese ambiente, observad como (curso) aparece antes del prompt $
 
+
+## iPython
+
+Se trata de un shell interactivo para Python. Es mejor que el shell normal:
+
+* autocompleta comandos y paths con el tabulador
+* consulta documentación agregando el signo de interrogación
+* se integra con el shell del sistema, comandos como cd y ls hacen lo esperado
+ 
+
+Para más conveniencia, se puede cargar a un shell de iPython un script desde un archivo,
+de modo que es posible ir programando con tu editor favorito y probando tu progreso
+en el shell.
+
+        In [1]: %loadpy ejemplo.py
+
+[La página de iPython](http://ipython.org/) tiene una descripción más abundante y
+menciona otros usos interesantes, como python a través de la web con el poderoso
+[notebook](http://ipython.org/notebook.html).
