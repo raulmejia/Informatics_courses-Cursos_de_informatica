@@ -1,105 +1,104 @@
 
-Duracion de la sesion 2hrs 15 min (sabados? 11:00 a 13:15 hrs?)
-	MOtivos para el horario... Sabados (gente con disposicion de tiempo) jueves (mayor cobertura antes de que se regresen a 
-		su lugar de procedencia)
-	Si es en la UNAM tal vez casi todos vivan cerca... 	
+Duracion de la sesion: 2hrs 15 min
+
+# Primer acercamiento a GNU/Linux / software libre
+
+## Clase 0
+
+Definiciones rapidas de Propietary software, share ware, Open Source, Software Libre. (Con sus caracteristicas y ejemplos)
+
+Dejar en claro "No hay malvados son modelos economicos y de desarrollo diferentes", Cual conviene a Latinoamerica? / Mexico / la sociedad en general ... es otra cosa.	
 	
+Historia de Linux / GNU
+
+Diferencia entre ambos	
+
+Ejemplos:
+Distribuciones / Otros SO
+Debian, Slackware, Fedora, Ubuntu, BackTrack, Puppy, Biolinux, Edubuntu, crunchbang...   (imagen de filogenia familiar)
+
+Aplicaciones FOSS (free and open-source) para MAC, Windows [1]
+
+Probarlo:
+* Live CD
+* Maquina virtual
+* Ejemplos de software, links de videos y tutoriales
+
+Propiedades:
+* Ventajas / Desventajas
+
+Dentro de la flexibilidad menciona los tipos de escritorios.
+
+驴Como y quien lo desarrolla?
+
+驴Por que usar FOSS? [8] (Falta mas informaci贸n)
+
+驴Quien Usa Linux? Estadisticas, empresas, hogares, supercomputo. (Sin juicios morales, datos crudos uds saquen sus conclusiones).
+
+smart devices, Netbooks
 
 
-objetivos de  
+## "Install fest" (curso-taller)
 
-Sylabus  "Primer acercamiento a GNU/Linux / software libre" (Como el Proped閡tico, Duraci髇 de 1 clase)
-Clase 0
-	Definiciones rapidas de Propietary software, share ware, Open Source, Software Libre. (Con sus caracteristicas y ejemplos)
-		Dejar en claro "No hay malvados son modelos economicos y de desarrollo diferentes", Cual conviene a Latinoamerica?
-		/ Mexico / la sociedad en general ... es otra cosa.	
-	
-	Historia de Linux / GNU
-		Diferencia entre ambos	
+Porfavor respalden sus datos antes de particionar un HDD (llevar medios de respaldo)  [empiezan a respaldar desde media sesion]
 
-	Ejemplos:
-		Distribuciones / Otros SO
-			Debian, Slackware, Fedora, Ubuntu, BackTrack, Puppy, Biolinux, Edubuntu, crunchbang...   (imagen de filogenia familiar)
-		Aplicaciones FOSS (free and open-source) para MAC, Windows [1]
+Explicar como conseguir ".iso" y como hacer medios "booteables" (llevar usb/cd  con imagenes y otros virgenes). las pantallas que les apareceran. Intentenlo en casa...   Quien quiera instalarlo ahorita mismo pueden quedarse.
 
-	Probarlo:
-		Live CD
-		Maquina virtual
-			Ejemplos de software, links de videos y tutoriales
+(Creo que todo eso lo debemos hacer desde una maquina windows... 驴Donde la conseguimos?  驴O screen-shoots?)				
 
-	Propiedades:
-		Ventajas / Desventajas
-
-		Dentro de la flexibilidad menciona los tipos de escritorios.
-
-	緾omo y quien lo desarrolla?
-
-	縋or que usar FOSS? [8] (Falta mas informaci髇)
-
-	縌uien Usa Linux?
-		Estadisticas, empresas, hogares, supercomputo. (Sin juicios morales, datos crudos uds saquen sus conclusiones).
-		smart devices, Neetbooks
+# Explorando la GUI (Supervivencia basica en la GUI)
+Tipos de escritorios (KDE, Gnome, xfce, ...)
+Navegar por las carpetas
+Abrir aplicaciones (y ver que una vez abiertas el navegador es el mismo)
+Conseguir / Instalar / borrar aplicaciones
+3 formas de instalar: Ubuntusoftware center, Synaptic, apt-get install , descarga directa/descomprimir/instalar
+CONSEGUIR AYUDA en Debian / Ubuntu
 
 
-	"Install fest" (curso-taller)
-		Porfavor respalden sus datos antes de particionar un HDD (llevar medios de respaldo)  [empiezan a respaldar desde media sesion]
-		Explicar como conseguir ".iso" y como hacer medios "booteables" (llevar usb/cd  con imagenes y otros virgenes). las pantallas 
-		que les apareceran. Intentenlo en casa...   Quien quiera instalarlo ahorita mismo pueden quedarse.
-		(Creo que todo eso lo debemos hacer desde una maquina windows... 緿onde la conseguimos?  縊 screen-shoots?)				
 
-	Explorando la GUI (Supervivencia basica en la GUI)
-		Tipos de escritorios (KDE, Gnome, xfce, ...)
-		Navegar por las carpetas
-		Abrir aplicaciones (y ver que una vez abiertas el navegador es el mismo)
-		Conseguir / Instalar / borrar aplicaciones
-			3 formas de instalar: Ubuntusoftware center, Synaptic, apt-get install , descarga directa/descomprimir/instalar
-		CONSEGUIR AYUDA en Debian / Ubuntu
-
-Estimacion rendimiento final 30%
-	Entran 30 o 45, salen 10 o 15.
-
-
-Objetivos:
-	Aprender a Instalar un nuevo SO / particionar un Disco duro / coexistencia de SOs  (soluci髇 de problemas).
-	Hacer todo lo que hacian en Windows, de una manera eficiente en GNU/Linux.
-	Hacer mas cosas y de una manera legal.	
-	Conciencia de los terminos Legales (delitos, computacionales).
-	Conciencia de que la privacidad cuesta.
-	Capacidad para instalar programas sin importar su fuente, resolver depedencias (entrenalos bien para esto)
-		Traeles fregon de cada cosa para que los ense馿 bien.
-	Vision de negocios con software libre.
-	Contacto, empatia y apoyo a las ONGs.
-	Conciencia de "el poder de mi consumo" e impacto en mis elecciones.
-	Ir formando comunidad y llevar proyectos... Es como una plantita hay que regarse... y culta
+## Objetivos:
+* Aprender a Instalar un nuevo SO / particionar un Disco duro / coexistencia de SOs  (soluci贸n de problemas).
+* Hacer todo lo que hacian en Windows, de una manera eficiente en GNU/Linux.
+* Hacer mas cosas y de una manera legal.	
+* Conciencia de los terminos Legales (delitos, computacionales).
+* Conciencia de que la privacidad cuesta.
+* Capacidad para instalar programas sin importar su fuente, resolver depedencias (entrenalos bien para esto)
+* Traeles fregon de cada cosa para que los ense帽e bien.
+* Vision de negocios con software libre.
+* Contacto, empatia y apoyo a las ONGs.
+* Conciencia de "el poder de mi consumo" e impacto en mis elecciones.
+* Ir formando comunidad y llevar proyectos... Es como una plantita hay que regarse... y culta
 
 
 Objetivos por clase:
-Objetivos por pl醫ica:
+Objetivos por pl谩tica:
 	libertad de catedra pero atiende los objetivos.
 
 Objetivos de otras platicas: Seguridad computacional
 	Herramientas para la comunicacion privada (persona a persona y grupal)
-	Navegaci髇 privada
+	Navegaci贸n privada
 	Dilema en este mundo de privatizacion los datos colectivos les (no tenemos privacidad ante las grandes empresas/gobierno)
 
-Objetivos Skills carrera especifico:
+
+-----
 
 
-Sylabus  "Introducci髇 a GNU/Linux" (Ahora inicia el curso de introducci髇 a linux, Duraci髇 de 4 a 5 clases) [4]
-Clase 1
+# Introducci贸n a GNU/Linux
 
-	"Install fest" (respaldo y todo lo relacionado)
-	Si no han hecho la instalacion, al comenzar la segunda sesion un recordatorio de prerequisitos, como se instala y que 
-	lo instalen ahi mismo [iniciando la primera mitad de la segunda sesi髇]
+Duraci贸n de 4 a 5 clases) [4]
+
+## Clase 1
+
+* "Install fest" (respaldo y todo lo relacionado) Si no han hecho la instalacion, al comenzar la segunda sesion un recordatorio de prerequisitos, como se instala y que lo instalen ahi mismo [iniciando la primera mitad de la segunda sesi贸n]
 
 
 	
-	Explorando la GUI (Supervivencia basica en la GUI)
-		Tipos de escritorios (KDE, Gnome, xfce, ...)
-		Navegar por las carpetas
-		Abrir aplicaciones (y ver que una vez abiertas el navegador es el mismo)
-		Conseguir / Instalar / borrar aplicaciones
-			3 formas de instalar: Ubuntusoftware center, Synaptic, apt-get install , descarga directa/descomprimir/instalar
+Explorando la GUI (Supervivencia basica en la GUI)
+	Tipos de escritorios (KDE, Gnome, xfce, ...)
+	Navegar por las carpetas
+	Abrir aplicaciones (y ver que una vez abiertas el navegador es el mismo)
+	Conseguir / Instalar / borrar aplicaciones
+	3 formas de instalar: Ubuntusoftware center, Synaptic, apt-get install , descarga directa/descomprimir/instalar
 		Ejemplos de istalacion de cada una... (o algunas)
 		CONSEGUIR AYUDA en Debian / Ubuntu
 	
@@ -124,55 +123,61 @@ Clase 1
 
 
 	
-Clase 2
+## Clase 2
 
 	
-	Shell (repaso y continuacion) [6]
-	##En general los temas importantes / duros  (verlos al termino de una clase y al inicio de otra para  que sea necesario faltar doble para no haberlo visto, dejar tareas y eso)
+Shell (repaso y continuacion) [6]
+
+En general los temas importantes / duros  (verlos al termino de una clase y al inicio de otra para  que sea necesario faltar doble para no haberlo visto, dejar tareas y eso)
 	
-	Programas para Dise駉 Grafico (GIMP, INkscape, Blender ???)
+Programas para Dise帽o Grafico (GIMP, INkscape, Blender ???)
 
-	Licencias / Cultura/ libre (Crative Commons...) invitar a mas comunidades pero ahora no de softwarelibre si no de otras cosas
+Licencias / Cultura/ libre (Crative Commons...) invitar a mas comunidades pero ahora no de softwarelibre si no de otras cosas
 	
-	Editoresde texto plano
+Editoresde texto plano
 
-	Installing new software (Ahora si con repositorios y esas ondas)
+Installing new software (Ahora si con repositorios y esas ondas)
 
-	Modeos de negocios con FOSS [10][11]
-	
-
-Clase 3
-
-	M骴ulo-taller de Shell-3
-
-	Inicio a programacion modulo 1
-
-	Open Science
-		Definicion, Ejemplos, Tal vez invitados
-
-	Programas para edicion de Audio, video, Subtitulacion, streaming de radio y video
-	
-	Impresoras? [4]
-
+Modeos de negocios con FOSS [10][11]
 	
 
+## Clase 3
 
-Clase 4
-	Tecnicas de respaldo  fundamentales (rsync)	
+M贸dulo-taller de Shell-3
+
+Inicio a programacion modulo 1
+
+Open Science
+
+Definicion, Ejemplos, Tal vez invitados
+
+Programas para edicion de Audio, video, Subtitulacion, streaming de radio y video
 	
-	Seguridad... (Encriptaci髇)
+Impresoras? [4]
 
-	Inicio a Programacion modulo 2
-
-
-Clase 5
-	Como crear nuevos paquetes
-	Programacion modulo 3
-	git hub?
+	
 
 
+## Clase 4
 
-Bibliografia
+Tecnicas de respaldo  fundamentales (rsync)	
+	
+Seguridad... (Encriptaci贸n)
+
+Inicio a Programacion modulo 2
+
+
+## Clase 5
+
+Como crear nuevos paquetes
+
+Programacion modulo 3
+
+git hub?
+
+
+
+# Bibliografia
 
 [1]List of open source as alternative
 http://www.osalt.com/
@@ -227,7 +232,7 @@ Por ejmeplo en estas bibliografias http://en.wikipedia.org/wiki/Comparison_of_op
 1.- Comprar al menos dos HDD de 1TB para los "Install fest"
 2.- Pimpear los escritorios de las maquinas en los que proyectemos (o los shell).	
 3.-Prepara un tiempo de cada clase para la resolucion de dudas / problemas. 
-4.-siempre lleva mas staff del minimo necesario... (para soporte t閏nico y resoluci髇 de problemas).
+4.-siempre lleva mas staff del minimo necesario... (para soporte t茅cnico y resoluci贸n de problemas).
 5.- Consigue una sala y siempre un plan B
-6.- Ca駉n propio para no suspender clases por falta de material
-7.-BUENA conexi髇 a internet, con antenas... con lo que quieras (Que mejor que usar la infraestructura de la UNAM)	
+6.- Ca帽on propio para no suspender clases por falta de material
+7.-BUENA conexi贸n a internet, con antenas... con lo que quieras (Que mejor que usar la infraestructura de la UNAM)	
