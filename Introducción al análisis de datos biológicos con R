@@ -1,12 +1,21 @@
-Tipos de objetos en R y su manipulación básica.
 
-Funciones en R
+A) Tipos de objetos en R y su manipulación básica.
+
+B) Funciones en R
   Estructuras de control
   Construcción y evaluación de funciones
+  Scooping rules
+  "loop functions" 
 
-Ejemplo de uso de funciones en R
+C) Aplicación para análisis de expresión
+  Preprocesamiento (Correción de fondo, Normalización, Sumarización), Visualización (Heatmaps, volcano-plots)
 
-Datos "del mundo real"
+#Ejercicios:
+1.- Introducción a la simulación:
+  Generar números aleatorios
+  reproducibilidad
+
+
 
 Recursos web:
 NumFOCUS, Open Code, Better Science.
