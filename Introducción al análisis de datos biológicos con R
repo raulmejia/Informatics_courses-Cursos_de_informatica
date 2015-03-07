@@ -1,6 +1,9 @@
 
 A) Tipos de objetos en R y su manipulación básica.
-
+  Tipos de datos
+  "Subsetting"
+  Leer y escribir datos
+  Operaciones vectoriales
 B) Funciones en R
   Estructuras de control
   Construcción y evaluación de funciones
@@ -39,8 +42,10 @@ http://rbasicsworkshop.weebly.com/resources.html
 
 swirl
 
-
-
+Apéndice:
+#Depuración de código
+#Simulación.
+#Optimización
 
 
 
