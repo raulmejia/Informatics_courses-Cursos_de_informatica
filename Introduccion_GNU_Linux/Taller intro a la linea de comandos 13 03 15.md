@@ -26,3 +26,13 @@ https://www.youtube.com/watch?v=x_R_JSiupzo
 ***
 Notas:
 * Explicar mejor la diferencia entre Linux y Ubuntu *(clásica pregunta de examen)*
+* Comentar la documentación incluida en biolinux Desktop (creo que también ubuntu la trae)
+* Alias a los comandos http://lifehacker.com/5743814/become-a-command-line-ninja-with-these-time-saving-shortcuts
+***
+Ejercicios
+
+ls directory, ls .. , 
+   (para ver los archivos de directorios sin cambiarme te lugar)
+ls -m, ls -a, ls -l (formas de visualización)
+(los puedes combinar ls -l ..)
+
