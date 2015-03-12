@@ -18,3 +18,6 @@ http://en.flossmanuals.net/command-line/beginning-syntax/
 
 Video "The power of the linux find command " (by Nixie Pixel)
 https://www.youtube.com/watch?v=x_R_JSiupzo
+
+Notas:
+* Explicar mejor la diferencia entre Linux y Ubuntu 
