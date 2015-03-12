@@ -48,5 +48,6 @@ Importantísimo para el desarrollo de software colaborativo
 ***
 
 ¿Cómo elegir mi distribución de GNU/Linux?
+
 1. [http://www.techradar.com/news/software/operating-systems/best-linux-distro-five-we-recommend-1090058]
 2. [http://www.makeuseof.com/tag/best-linux-distributions/]
