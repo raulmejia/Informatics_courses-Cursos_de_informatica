@@ -3,7 +3,7 @@
 ***
 
 ## Introducción a la Línea de comandos de Linux (30 min)
->>(Mientras tanto acaban de respaldar sus archivos)
+>(Mientras tanto acaban de respaldar sus archivos)
 1. Ventajas de la línea de comandos
 2. Sistema de archivos en Linux
 3. Comandos conceptos y sintaxis
@@ -21,13 +21,13 @@
 ***
 
 ## ¿Cómo conseguir respuestas en este nuevo S.O.?
-* Buscar en la web, usar los foros
-* Inspección y experimentación
-* Preguntar a un amigo con mas experiencia
-* ¿Cómo preguntar? y ¿cómo NO preguntar?
-* Obtener la documentación "integrada"
-* Leer un manual
-* Ver el código fuente
+   * Buscar en la web, usar los foros
+   * Inspección y experimentación
+   * Preguntar a un amigo con mas experiencia
+   * ¿Cómo preguntar? y ¿cómo NO preguntar?
+   * Obtener la documentación "integrada"
+   * Leer un manual
+   * Ver el código fuente
 
 ***
 
@@ -38,7 +38,6 @@
 
 ## Introducción a Git y Github
 Importantísimo para el desarrollo de software colaborativo
-
-
+***
 >>_Nota 1:Hacernos un grupo de telegram._
 >>_Nota: En las sesiones subsecuentes aprender a usar Jupiter o ipython notebook para enseñar (R,python,etc)_
