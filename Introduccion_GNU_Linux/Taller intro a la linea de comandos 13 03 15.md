@@ -15,8 +15,11 @@
 Puedes revisar antes del taller la fuente:
 http://en.flossmanuals.net/command-line/beginning-syntax/
 
-Video "The power of the linux find command " (by Nixie Pixel)
+* Video básico 1 (Linux terminal and navigation for beginners) https://www.youtube.com/watch?v=AO0jzD1hpXc
+* Video básico 2 (by Nixie Pixel) https://www.youtube.com/watch?v=x73WTEltyHU
+* Video Complementario "The power of the linux find command " (by Nixie Pixel)
 https://www.youtube.com/watch?v=x_R_JSiupzo
+
 
 ***
 Notas:
