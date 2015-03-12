@@ -39,7 +39,8 @@
 
 ## Introducción a Git y Github
 Importantísimo para el desarrollo de software colaborativo
-***
->>_Nota 1:Hacernos un grupo de telegram._
 
->>_Nota: En las sesiones subsecuentes aprender a usar Jupiter o ipython notebook para enseñar (R,python,etc)_
+***
+>_Nota 1:Hacernos un grupo de telegram._
+
+>_Nota 2: En las sesiones subsecuentes aprender a usar Jupiter o ipython notebook para enseñar (R,python,etc)_
