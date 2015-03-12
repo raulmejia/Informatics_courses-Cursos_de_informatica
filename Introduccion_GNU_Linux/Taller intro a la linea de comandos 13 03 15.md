@@ -3,7 +3,6 @@
 ***
 
 ## Introducción a la Línea de comandos de Linux (30 min)
-> (Mientras tanto acaban de respaldar sus archivos)
 
 1. Ventajas de la línea de comandos
 2. Sistema de archivos en Linux
