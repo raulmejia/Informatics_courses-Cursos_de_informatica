@@ -3,7 +3,7 @@
 ***
 
 ## Introducción a la Línea de comandos de Linux (30 min)
->(Mientras tanto acaban de respaldar sus archivos)
+:Mientras tanto acaban de respaldar sus archivos
 1. Ventajas de la línea de comandos
 2. Sistema de archivos en Linux
 3. Comandos conceptos y sintaxis
@@ -40,4 +40,5 @@
 Importantísimo para el desarrollo de software colaborativo
 ***
 >>_Nota 1:Hacernos un grupo de telegram._
+
 >>_Nota: En las sesiones subsecuentes aprender a usar Jupiter o ipython notebook para enseñar (R,python,etc)_
