@@ -20,4 +20,4 @@ Video "The power of the linux find command " (by Nixie Pixel)
 https://www.youtube.com/watch?v=x_R_JSiupzo
 
 Notas:
-* Explicar mejor la diferencia entre Linux y Ubuntu *pregunta de examen*
+* Explicar mejor la diferencia entre Linux y Ubuntu *(clásica pregunta de examen)*
