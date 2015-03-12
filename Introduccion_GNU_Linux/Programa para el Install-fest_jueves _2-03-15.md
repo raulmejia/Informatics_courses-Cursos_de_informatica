@@ -14,6 +14,9 @@
     * Misceláneos
     * Mi primer script
 
+Puedes revisar antes del taller la fuente:
+http://en.flossmanuals.net/command-line/beginning-syntax/
+
 ***
 
 ## Fundamentos de instalación (20 min)
