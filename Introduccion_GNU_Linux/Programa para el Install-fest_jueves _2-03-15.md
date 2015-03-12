@@ -44,3 +44,9 @@ Importantísimo para el desarrollo de software colaborativo
 >_Nota 1:Hacernos un grupo de telegram._
 
 >_Nota 2: En las sesiones subsecuentes aprender a usar Jupiter o ipython notebook para enseñar (R,python,etc)_
+
+***
+
+¿Cómo elegir mi distribución de GNU/Linux?
+1. [http://www.techradar.com/news/software/operating-systems/best-linux-distro-five-we-recommend-1090058]
+2. [http://www.makeuseof.com/tag/best-linux-distributions/]
