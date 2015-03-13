@@ -1,5 +1,4 @@
 
-
 ##Sobre distribuciones
 
 * Lubuntu 14.04
@@ -8,11 +7,13 @@ https://www.youtube.com/watch?v=kAOxgN_xUyk
 * Ubuntu 14.04
 https://www.youtube.com/watch?v=fNbsMIToss4
 
-
 ##Linux tutorial series
+
+*Linux Tutorials
+https://www.youtube.com/watch?v=cjJvhQlNy1g
+
+*Linux tutorial series
 https://www.youtube.com/watch?v=Dpbp4ZgtE1g
-
-
 
 ##¿Qué hacer déspues de instalar Ubuntu?
 
