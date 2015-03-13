@@ -26,5 +26,8 @@ https://www.youtube.com/watch?v=E8eSog_bhsk
  
  ##¿Quién usa Open Source Software?
  
- *Linux IT Europe
+ *Why use Open Source software, the benefits?
  https://www.youtube.com/user/LinuxITEurope/videos
+ 
+ *What is Open Source explained in LEGO
+ https://www.youtube.com/watch?v=a8fHgx9mE5U
