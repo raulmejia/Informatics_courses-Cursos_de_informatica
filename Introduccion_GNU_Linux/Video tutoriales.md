@@ -8,7 +8,7 @@
 
 * https://zergiorubio.wordpress.com/2014/05/10/instalar-adobe-flash-player-plugin-en-ubuntu-14-04-probado/
 
-##Sobre distribuciones
+## Videos sobre distribuciones
 
 * Lubuntu 14.04
 https://www.youtube.com/watch?v=kAOxgN_xUyk
