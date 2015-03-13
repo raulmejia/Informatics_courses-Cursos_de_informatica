@@ -1,3 +1,12 @@
+>> Si no lo tienes, primero instala "Adobe Flash plug in"
+
+## Instalar Adobe flash plugin
+
+* http://itsfoss.com/things-to-do-after-installing-ubuntu-14-04/
+
+* https://help.ubuntu.com/community/RestrictedFormats/Flash
+
+* https://zergiorubio.wordpress.com/2014/05/10/instalar-adobe-flash-player-plugin-en-ubuntu-14-04-probado/
 
 ##Sobre distribuciones
 
