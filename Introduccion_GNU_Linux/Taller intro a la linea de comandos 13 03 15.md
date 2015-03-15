@@ -34,8 +34,8 @@ Notas:
 ***
 Ejercicios
 
-ls directory, ls .. , 
+1. ls directory, ls .. , 
    (para ver los archivos de directorios sin cambiarme te lugar)
-ls -m, ls -a, ls -l (formas de visualización)
+2. ls -m, ls -a, ls -l (formas de visualización)
 (los puedes combinar ls -l ..)
 
