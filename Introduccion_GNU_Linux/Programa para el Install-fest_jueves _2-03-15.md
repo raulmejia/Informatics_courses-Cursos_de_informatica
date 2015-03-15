@@ -41,9 +41,12 @@ http://en.flossmanuals.net/command-line/beginning-syntax/
 ***
 
 ## Introducción a Git y Github
-Importantísimo para el desarrollo de software colaborativo
+
 > Git book
 http://git-scm.com/book/en/v2
+
+> Popular tutorials
+https://www.atlassian.com/git/
 
 > A simple guide
 http://git.huit.harvard.edu/guide/
