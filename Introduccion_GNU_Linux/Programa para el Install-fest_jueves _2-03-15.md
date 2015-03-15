@@ -17,6 +17,8 @@
 Puedes revisar antes del taller la fuente:
 http://en.flossmanuals.net/command-line/beginning-syntax/
 
+> Diapositivas del taller:
+http://lugatgt.org/wp-content/uploads/2010/09/presentation1.pdf
 ***
 
 ## Fundamentos de instalación (20 min)
