@@ -1,4 +1,4 @@
-#Probar entornos de esscritorio:
+#Probar entornos de escritorio:
 
 ## Si usas lubuntu 14.04
 ### Instalar Unity
