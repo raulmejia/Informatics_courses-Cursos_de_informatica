@@ -15,6 +15,9 @@
 Puedes revisar antes del taller la fuente:
 http://en.flossmanuals.net/command-line/beginning-syntax/
 
+> Diapositivas para el taller:
+http://lugatgt.org/wp-content/uploads/2010/09/presentation1.pdf
+
 ***
 
 * Video básico 1 (Linux terminal and navigation for beginners) https://www.youtube.com/watch?v=AO0jzD1hpXc
