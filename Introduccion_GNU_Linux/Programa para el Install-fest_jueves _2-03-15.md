@@ -45,10 +45,11 @@ Importantísimo para el desarrollo de software colaborativo
 > Git book
 http://git-scm.com/book/en/v2
 
+> A simple guide
+http://git.huit.harvard.edu/guide/
+
 > cheat sheet
 http://git.huit.harvard.edu/guide/files/git_cheat_sheet.pdf
-
-> http://git.huit.harvard.edu/guide/
 
 ***
 >_Nota 1:Hacernos un grupo de telegram._
