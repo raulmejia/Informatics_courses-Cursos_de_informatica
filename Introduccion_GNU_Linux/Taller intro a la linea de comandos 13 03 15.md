@@ -39,3 +39,23 @@ Ejercicios
 2. ls -m, ls -a, ls -l (formas de visualización)
 (los puedes combinar ls -l ..)
 
+
+Ejercicios para el taller de Shell
+
+script de haga 
+
+Ejercicio 1
+grepear su history
+
+
+> Ejemplo 1 (Script ninja que haga):
+Crear carpeta
+crear un archivo dentro de la carpeta
+renombrarlo con mv
+copiarlo
+grepear algo
+ estaria chido que grepen su history
+
+> Ejemplo 2 (despertador) o time para sus actividades 
+
+
