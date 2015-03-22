@@ -53,3 +53,6 @@ Advertencias:
   Pedir en los foros que resuelvan tu tarea.
 
 #Cuando busques respuestas es importante comentar lo que has intentado
+
+Recursos:
+Posting guide de R: http://www.r-project.org/posting-guide.html
