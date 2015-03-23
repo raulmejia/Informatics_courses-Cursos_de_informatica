@@ -51,4 +51,4 @@ grepear algo
 
 5. (despertador) o time para sus actividades 
 
-
+> Existe wget
