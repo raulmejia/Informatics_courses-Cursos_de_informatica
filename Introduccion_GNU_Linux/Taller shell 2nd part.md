@@ -8,7 +8,7 @@ kill
 
 ###
 
-Edicion de texto
+Edición de texto
 
 nano HelloWorld
 
@@ -24,15 +24,16 @@ su
 
 sudo
 
---------------
-Ejercicio
-Cuantas veces haz escrito el comando cd? (en esta sesion) 
----------------
 Control de flujo 
 
 pipe | 
 cat  X.csv | less
 cat  X.csv | head -50 | tail -10
+
+>Ejercicio
+>¿Cuántas veces haz escrito el comando cd? (en esta sesión) 
+
+
 
 >
 
@@ -63,7 +64,7 @@ less X.csv | head -20 | grep '[8-9]*'
 
 ssh
 
-copiar archivos del servidor a mi maquina
+copiar archivos del servidor a mi máquina
 
 scp rmejia@192.168.105.78:/mnt/f/rmejia/TallerIntroLinux/Burkitt/X.csv .
 
