@@ -77,3 +77,14 @@ ls *GSE*/*CEL*   | wc
 
 find . -iname '*CEL.gz'
 '''
+-------------------
+(No por comandos si no por tareas)
+(Que te vaya dirigiendo la necesidad y el preguntar)
+
+ls 
+
+primero buscas ls /GSE  ; ls  /GSE/hj  ; luego te cambias con cd
+
+lo mismo con less, para mirar no ocupas cambiarte
+
+Short cuts (Inicio para el comienzo del comando) fin para el final
