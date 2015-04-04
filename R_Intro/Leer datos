@@ -1,0 +1,6 @@
+pw<-url("http://es.wikipedia.org/wiki/Gen")
+v<-readLines(pw)
+head(v)
+
+read.csv
+read.table

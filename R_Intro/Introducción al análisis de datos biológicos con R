@@ -1,0 +1,64 @@
+
+A) Tipos de objetos en R y su manipulación básica.
+  Tipos de datos
+  "Subsetting"
+  Leer y escribir datos
+  Operaciones vectoriales
+B) Funciones en R
+  Estructuras de control
+  Construcción y evaluación de funciones
+  Scooping rules
+  "loop functions" 
+
+C) Aplicación para análisis de expresión
+  Preprocesamiento (Correción de fondo, Normalización, Sumarización), Visualización (Heatmaps, volcano-plots)
+
+#Ejercicios:
+1.- Introducción a la simulación:
+  Generar números aleatorios
+  reproducibilidad
+
+
+
+Recursos web:
+NumFOCUS, Open Code, Better Science.
+  http://numfocus.org/
+ROpenSci
+  http://ropensci.org/
+Software Carpentry
+  http://software-carpentry.org/scf/index.html
+Manuales de R
+  http://cran.r-project.org/manuals.html
+R code school
+http://tryr.codeschool.com/
+https://www.codeschool.com/courses/try-r
+
+http://jsebastiantello.weebly.com/r-resources.html
+
+http://rbasicsworkshop.weebly.com/
+Presentaciones en txt con ejercicios Incluidos
+
+http://rbasicsworkshop.weebly.com/resources.html
+
+swirl
+
+Apéndice:
+#Depuración de código
+#Simulación.
+#Optimización
+
+***
+
+Comandos Utiles
+
+para el history
+http://www.statmethods.net/interface/workspace.html
+(Puede ser como ejercicio)
+
+
+Para las clases
+  > Puedes dividir tu terminal en 2 para ver help, y probar a un lado
+  > Como Rstudio
+
+
+##
