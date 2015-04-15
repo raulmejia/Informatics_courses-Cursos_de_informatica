@@ -2,11 +2,11 @@
 
 
 ##Fuera de EUA
->Free Software Foundation Europe
->https://www.mailoo.org/
->protonmail
+1. Free Software Foundation Europe
+2. https://www.mailoo.org/
+3. protonmail
 
 ##Alojados dentro de EUA
->Free Software Foundation
->Riseup
->Linux Foundation
+1. Free Software Foundation
+2. Riseup
+3. Linux Foundation
