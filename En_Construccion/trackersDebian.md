@@ -9,3 +9,7 @@ Para que sirve esa cosa https://wiki.ubuntu.com/IntegratedDesktopSearch
 
 
 Busca de Uncomplicated firewall
+  Como usarlo https://help.ubuntu.com/community/Gufw
+Cosas por hacer despues de instalar Debian 8
+  (Incluye instalacion y activacion de uncomplicated firewall)
+  http://www.dailylinuxnews.com/blog/2014/09/things-to-do-after-installing-debian-jessie/
