@@ -1,5 +1,5 @@
 # ¿Por qué usar R?
-* Ampliamente utilizado en ciencia biomédica / estadística
+* Ampliamente utilizado en el ámbito científico en particular en áreas biológicas / de la salud / ciencias de la tierra / ingeniería /estadística, entre otras...
 * Gran cantidad de software escrito en este lenguaje.
 * Software Libre
 
