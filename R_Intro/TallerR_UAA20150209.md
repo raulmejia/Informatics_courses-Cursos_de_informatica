@@ -3,6 +3,9 @@
 * Gran cantidad de software escrito en este lenguaje.
 * Software Libre
 
+### ¿Cómo obtener R?
+* https://cran.r-project.org/
+
 # Manos  a la obra!
 
   * Donde estoy?
@@ -58,3 +61,5 @@ class(miobjeto)
 ####
 #Referencias:
 * http://swcarpentry.github.io/r-novice-inflammation/
+* https://es.coursera.org/course/rprog
+* https://cran.r-project.org/
