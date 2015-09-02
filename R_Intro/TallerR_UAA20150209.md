@@ -33,7 +33,7 @@
 `a<-1:7`  
 `b<-1:9`
 `c<-matrix(b,ncol=3,nrow=3)`
-Construir una matriz cuadrada de lado 5
+Construir una matriz cuadrada de lado 5 con los numeros del 5 al 30
 
 
 #### Manual/documentaciòn preincluida:  `?comando`
@@ -52,6 +52,8 @@ Multiplicar
 Dividir
 `max(),min(),mean(),sd()`
 
+Construir una matriz cuadrada de 6x6 con los numeros del 1 al 36 y obtener el promedio de la 3ra columna
+
 ## Crear mis datos de trabajo
 * Datos a mano
 `0,0,1,3,1,2,4,7,8,3,3,3,10,5,7,4,7,7,12,18,6,13,11,11,7,7,4,6,8,8,4,4,5,7,3,4,2,3,0,0`
@@ -61,6 +63,10 @@ Dividir
 `0,1,1,3,3,1,3,5,2,4,4,7,6,5,3,10,8,10,6,17,9,14,9,7,13,9,12,6,7,7,9,6,3,2,2,4,2,0,1,1 `  
 `DatosInfla<-read.csv(file = "Practica_R_Inflamacion.csv", header = FALSE)`
 `DatosInfla`  
+`boxplot(as.numeric(MisDatos[1,]))`,`hist()`  
+Poner colores  
+Guardar pdf de la gráfica
+Guardar el objeto actual y cargarlo luego
 * Datos de prueba  
 * `data()`
 * `data(ChickWeigth)`, `data(Orange)`, `data(USAccDeaths)`
