@@ -1,11 +1,13 @@
 #Por que usar R
+*Ampliamente utilizado en ciencia biomédica / estadística
+*Gran cantidad de software escrito en este lenguaje.
+*Software Libre
 
+#Manos  a la obra!
 
-
-
--donde estoy? 
+*donde estoy? 
 `getwd`
--Cambiar de directorio de trabajo
+*Cambiar de directorio de trabajo
 `setwd`
 
 ##estructuras basicas:
