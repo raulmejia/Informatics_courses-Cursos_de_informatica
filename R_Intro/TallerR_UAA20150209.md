@@ -28,18 +28,17 @@
   4. Factors
   5. DataFrames  
 
+### Construir ejemplos de estas estructuras
+
+### Manual/documentaciòn preincluida:  `?comando`
+
 ###Reconociendo estructuras básicas
 `is.numeric(Mivariable)`  
 `as.numeric(Mivariable)`  
 `str()`  
 `class()`  
 
-### Manual/documentaciòn preincluida:  `?comando`
-### Construir ejemplos de estas estructuras
 
-Interrogar sobre el contenido
-str(miobjeto)
-class(miobjeto)
 
 ## Crear mis datos de trabajo
 * Datos de prueba  
