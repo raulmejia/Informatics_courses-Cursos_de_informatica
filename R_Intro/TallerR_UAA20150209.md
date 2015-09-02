@@ -54,3 +54,7 @@ class(miobjeto)
 * Googlear
 * Ver el código
 * Preguntar inteligentemente
+
+####
+#Referencias:
+* http://swcarpentry.github.io/r-novice-inflammation/
