@@ -10,7 +10,12 @@
   * Cambiar de directorio de trabajo
   `setwd()`
   * Informacion de la sesión
-  `sessionInfo()`
+`sessionInfo()`
+  * Cargar paquetes 
+  * Atributos
+  `attributes()`
+
+
 
 ##estructuras basicas:
   1. Variables (int,float,char)
@@ -28,7 +33,11 @@ str(miobjeto)
 class(miobjeto)
 
 ## Crear mis datos de trabajo
-Datos aleatorios
+* Datos de prubea
+* `data()`
+* `data(ChickWeigth)`, `data(Orange)`
+* Promedio del crecimiento del arbol 1 ¿Quien lo hace primero?, sdev, promedio de crecimiento en tal dia, boxplot, hacerles substring a esos datos, plotear.
+* Datos aleatorios
 ## Plotearlos con bloxplot, hist, 
 
 
