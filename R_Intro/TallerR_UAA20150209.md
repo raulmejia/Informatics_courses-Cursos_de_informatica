@@ -29,7 +29,7 @@
   5. DataFrames
 
 
-### ? me da 
+### Manual/documentaciòn preincluida:  `?comando`
 ### Construir ejemplos de estas estructuras
 
 Interrogar sobre el contenido
