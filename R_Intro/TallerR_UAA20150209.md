@@ -63,3 +63,8 @@ class(miobjeto)
 * http://swcarpentry.github.io/r-novice-inflammation/
 * https://es.coursera.org/course/rprog
 * https://cran.r-project.org/
+
+
+_1. List item__  
+__1.1 List item
+_2. List item
