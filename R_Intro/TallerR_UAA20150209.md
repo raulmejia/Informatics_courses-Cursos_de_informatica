@@ -27,7 +27,8 @@
   3. Listas
   4. Factors
   5. DataFrames  
-### Reconociendo estructuras básicas
+
+###Reconociendo estructuras básicas
 `is.numeric(Mivariable)`  
 `as.numeric(Mivariable)`  
 `str()`  
