@@ -41,7 +41,7 @@ class(miobjeto)
 `0,1,1,3,3,1,3,5,2,4,4,7,6,5,3,10,8,10,6,17,9,14,9,7,13,9,12,6,7,7,9,6,3,2,2,4,2,0,1,1 `
 * `data()`
 * `data(ChickWeigth)`, `data(Orange)`, `data(USAccDeaths)`
-* Promedio del crecimiento del arbol 1 ¿Quien lo hace primero?, sdev, promedio de crecimiento en tal dia, boxplot, hacerles substring a esos datos, plotear.
+* Promedio del crecimiento del arbol 1 ¿Quien lo hace primero? <br>, sdev, promedio de crecimiento en tal dia, boxplot, hacerles substring a esos datos, plotear.
 * Datos aleatorios
 * Cargar sus propios datos
 ## Plotearlos con bloxplot, hist, 
