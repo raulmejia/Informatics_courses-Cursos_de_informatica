@@ -1,12 +1,6 @@
-The TurtleGraphics package offers R users the so-called “turtle graphics” facilities known from
-the Logo programming language. The key idea behind the package is to encourage children to
-learn programming and demonstrate that working with computers can be fun and creative.  
+Aprende a programar en R con el paquete TurtleGraphics el cual ofrece a los usuarios de R facilidades: La idea principal es motivar a los niños a aprender a programar y demostrar que trabajar con computadoras puede ser divertido y creativo.
 
-
-Teniendo R instalado obviamente procedemos a  
-
-* Descarga  
-`install.packages ("TurtleGraphics")`
+Abrimos R y podemos instalar el paquete mediante el comando: `install.packages ("TurtleGraphics")`
 
 * Manual  
 https://cran.r-project.org/web/packages/TurtleGraphics/vignettes/TurtleGraphics.pdf
