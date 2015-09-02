@@ -9,6 +9,11 @@
 `getwd`
 *Cambiar de directorio de trabajo
 `setwd`
+Shopping list:
+
+  * apples
+  * oranges
+  * pears
 
 ##estructuras basicas:
 A. Variables (int, float, char)
