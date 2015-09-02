@@ -6,22 +6,33 @@
 #Manos  a la obra!
 
  *donde estoy? 
-`getwd`
-*Cambiar de directorio de trabajo
-`setwd`
-Shopping list:
 
-  * apples
-  * oranges
+*Cambiar de directorio de trabajo
+
+  * Donde estoy?
+ `getwd()`
+  * Cambiar de directorio de trabajo
+  `setwd()`
   * pears
 
 ##estructuras basicas:
-A. Variables (int, float, char)
-B. Vectores 
-C. Matrices
-D. Listas
-E. Factors
-F. Frameworks
+  1. Variables (int,float,char)
+  2. Vectores, Matrices
+  3. Listas
+  4. Factors
+  5. DataFrames
+
 
 ### ? me da 
 ### Construir ejemplos de estas estructuras
+
+Interrogar sobre el contenido
+str(miobjeto)
+class(miobjeto)
+
+## Crear mis datos de trabajo
+Datos aleatorios
+## Plotearlos con bloxplot, hist, 
+
+
+##Script ninja!
