@@ -35,9 +35,10 @@ class(miobjeto)
 ## Crear mis datos de trabajo
 * Datos de prubea
 * `data()`
-* `data(ChickWeigth)`, `data(Orange)`
+* `data(ChickWeigth)`, `data(Orange)`, `data(USAccDeaths)`
 * Promedio del crecimiento del arbol 1 ¿Quien lo hace primero?, sdev, promedio de crecimiento en tal dia, boxplot, hacerles substring a esos datos, plotear.
 * Datos aleatorios
+* Cargar sus propios datos
 ## Plotearlos con bloxplot, hist, 
 
 
