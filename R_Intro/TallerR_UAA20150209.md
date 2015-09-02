@@ -1,9 +1,9 @@
-#Por que usar R
+# ¿Por qué usar R?
 * Ampliamente utilizado en ciencia biomédica / estadística
 * Gran cantidad de software escrito en este lenguaje.
 * Software Libre
 
-#Manos  a la obra!
+# Manos  a la obra!
 
   * Donde estoy?
  `getwd()`
@@ -33,3 +33,9 @@ Datos aleatorios
 
 
 ##Script ninja!
+
+## ¿Cómo obtener ayuda?
+* Manual pre-incluido
+* Googlear
+* Ver el código
+* Preguntar inteligentemente
