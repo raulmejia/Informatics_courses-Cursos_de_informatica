@@ -5,10 +5,6 @@
 
 #Manos  a la obra!
 
- *donde estoy? 
-
-*Cambiar de directorio de trabajo
-
   * Donde estoy?
  `getwd()`
   * Cambiar de directorio de trabajo
