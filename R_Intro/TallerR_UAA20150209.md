@@ -1,7 +1,7 @@
 #Por que usar R
-*Ampliamente utilizado en ciencia biomédica / estadística
-*Gran cantidad de software escrito en este lenguaje.
-*Software Libre
+* Ampliamente utilizado en ciencia biomédica / estadística
+* Gran cantidad de software escrito en este lenguaje.
+* Software Libre
 
 #Manos  a la obra!
 
@@ -13,7 +13,8 @@
  `getwd()`
   * Cambiar de directorio de trabajo
   `setwd()`
-  * pears
+  * Informacion de la sesión
+  `sessionInfo()`
 
 ##estructuras basicas:
   1. Variables (int,float,char)
