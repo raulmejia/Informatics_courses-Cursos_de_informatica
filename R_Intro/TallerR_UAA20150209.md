@@ -22,13 +22,19 @@
 
 
 ##estructuras basicas:
-  1. Variables (numeric,float,char)
+  1. "modos"="mode" de Variables: (numeric,float,char)
   2. Vectores, Matrices
   3. Listas
   4. Factors
   5. DataFrames  
 
-### Construir ejemplos de estas estructuras
+### Construir y eliminar objetos de estas estructuras
+`a<-c(1,2,3,4,5,6,7)`  
+`a<-1:7`  
+`b<-1:9`
+`c<-matrix(b,ncol=3,nrow=3)`
+Construir una matriz cuadrada de lado 5
+
 
 #### Manual/documentaciòn preincluida:  `?comando`
 
@@ -36,9 +42,15 @@
 `is.numeric(Mivariable)`  
 `as.numeric(Mivariable)`  
 `str()`  
-`class()`  
+`class()`,`mode()`
+`length()`  
 
-
+###Operaciones Básicas
+Sumar
+Restar
+Multiplicar
+Dividir
+`max(),min(),mean(),sd()`
 
 ## Crear mis datos de trabajo
 * Datos a mano
