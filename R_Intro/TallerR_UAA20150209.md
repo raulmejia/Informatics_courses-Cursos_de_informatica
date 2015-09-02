@@ -5,7 +5,7 @@
 
 #Manos  a la obra!
 
-*donde estoy? 
+ *donde estoy? 
 `getwd`
 *Cambiar de directorio de trabajo
 `setwd`
