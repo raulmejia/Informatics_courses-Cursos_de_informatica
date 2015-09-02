@@ -15,6 +15,7 @@
   * Informacion de la sesión
 `sessionInfo()`
   * Cargar paquetes 
+  `data()`,`library()`
   * Atributos
   `attributes()`
 
