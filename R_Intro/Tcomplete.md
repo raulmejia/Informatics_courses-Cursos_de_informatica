@@ -98,3 +98,4 @@ Guardar el objeto actual y cargarlo luego
 * http://swcarpentry.github.io/r-novice-inflammation/
 * https://es.coursera.org/course/rprog
 * https://cran.r-project.org/
+http://stackoverflow.com/questions/6853204/plotting-multiple-curves-same-graph-and-same-scale
