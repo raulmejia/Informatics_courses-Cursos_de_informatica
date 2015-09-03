@@ -2,9 +2,9 @@
 * Ampliamente utilizado en el ámbito científico en particular en áreas biológicas / de la salud / ciencias de la tierra / ingeniería /estadística, entre otras...
    http://r4stats.com/articles/popularity/
 * Gran cantidad de software (paquetes) escrito en este lenguaje.
-* Software Libre
+* Software Libre.
 
-### ¿Cómo obtener R?
+### ¿Cómo obtener R? (página oficial)
 * https://cran.r-project.org/
 
 # Manos  a la obra!
@@ -20,7 +20,7 @@
   * Atributos
   `attributes()`
 
-
+#### Manual/documentaciòn preincluida:  `?comando`
 
 ##estructuras basicas:
   1. "modos"="mode" de Variables: (numeric,float,char)
@@ -28,16 +28,19 @@
   3. Listas
   4. Factors
   5. DataFrames  
+  6. ls(), 
 
 ### Construir y eliminar objetos de estas estructuras
 `a<-c(1,2,3,4,5,6,7)`  
 `a<-1:7`  
 `b<-1:9`
 `c<-matrix(b,ncol=3,nrow=3)`
-Construir una matriz cuadrada de lado 5 con los numeros del 5 al 30
+Construir una matriz cuadrada de lado 5 con los numeros del 5 al 30  
+Construir una secuencia de `seq()`
+seq() Construir una secuencia de 10 numeros de distancia dando pasos de .01 y hacerlo una matriz de 10X10
 
 
-#### Manual/documentaciòn preincluida:  `?comando`
+
 
 ###Reconociendo estructuras básicas
 `is.numeric(Mivariable)`  
