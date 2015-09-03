@@ -67,11 +67,11 @@ Construir una matriz cuadrada de 6x6 con los numeros del 1 al 36 y obtener el pr
 `0,1,1,3,3,1,3,5,2,4,4,7,6,5,3,10,8,10,6,17,9,14,9,7,13,9,12,6,7,7,9,6,3,2,2,4,2,0,1,1`  
 
 `DatosInfla<-read.csv(file = "Practica_R_Inflamacion.csv", header = FALSE)`  
-Hacerlos vector
-Crear una matriz de 5X20
-Obtener el promedio de inflamación del segundo paciente
-Graficarlo
-Desviacion éstandar
+Hacerlos vector  
+Crear una matriz de 5X20  
+Obtener el promedio de inflamación del segundo paciente  
+Graficarlo  
+Desviacion éstandar  
 `boxplot(as.numeric(MisDatos[1,]))`,`hist()`  
 Poner colores  
 Guardar pdf de la gráfica
