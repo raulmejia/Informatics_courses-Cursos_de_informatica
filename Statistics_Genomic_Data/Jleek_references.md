@@ -33,3 +33,11 @@
 1. Ayuda! no puedo hacer ni entender modelos lineales en R y los necesito para  mi trabajo de ma;ana.
 2. R version 3.1.2, limma() me produce un error cuando intento cargar mi base de datos la cual fue creada en excel.
 3. Debian GNU/Linux 7.8 (wheezy), R version 3.1.2, limma(),  Error: no se pudo encontrar la función "limma"
+
+#Datos crudos vs procesados
+* Datos crudos (no hay computo de por medio)
+* conjunto de datos "en orden".
+
+# Reproducibilidad
+Cuando la reproducibilidad es una cuestion etica?
+'http://www.birs.ca/events/2013/5-day-workshops/13w5083/videos/watch/201308141121-Baggerly.mp4'
