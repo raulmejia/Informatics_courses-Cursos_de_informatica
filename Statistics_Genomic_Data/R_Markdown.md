@@ -5,7 +5,7 @@ Abre R studio da clic en File -> New File -> R markdown... y solito te instalara
 ```
 sudo apt-get -y install libxml2-dev
 ```
-2. Abre una consola y teclea:
+2. Dentro de R teclea:
 ```
 install.packages("rversions")
 ```
