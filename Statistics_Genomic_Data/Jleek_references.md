@@ -1,6 +1,6 @@
 
-https://github.com/jtleek/genstats
-https://simplystatistics.org
+'https://github.com/jtleek/genstats'  
+'https://simplystatistics.org'
 
 * Confiabilidad de paquetes para R:  
   1. Pagina del Autor
