@@ -1,0 +1,24 @@
+Abre R studio da clic en File -> New File -> R markdown... y solito te instalara los paquetes para que comiences a usarlo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
