@@ -39,5 +39,14 @@
 * conjunto de datos "en orden".
 
 # Reproducibilidad
-Cuando la reproducibilidad es una cuestion etica?
+Cuando la reproducibilidad es una cuestion etica?  
 'http://www.birs.ca/events/2013/5-day-workshops/13w5083/videos/watch/201308141121-Baggerly.mp4'
+* Que necesito para la reproducibilidad
+1. Los DATOS, Como compartir los datos? 'https://github.com/jtleek/datasharing'
+  1. Datos crudos, "tal como tu los recibes".
+  2. Los datos ya organizados, listos para ser usados y compartidos.
+  3. El "code book" que explique las variables utilizadas, su nomenclatura, como se obtuvieron, unidades y cualquier peculiaridad del dise;o del estudio.
+  4. El "recipe" (receta) es un pipeline al cual le das los "datos crudos" y te devuelve tus "datos procesados". incluso si no tienes el script como tal, puedes hacer un texto que describa el algoritmo. (No puedes decir use el software "X" por que el software "X" cambia).
+2. Compartir el Software:
+  1.  Codigo "crudo" de R. (bien comentado por favor).
+  2.  "Literate programming" (in R markdown document http://rmarkdown.rstudio.com) in python (iphyton notebook)
