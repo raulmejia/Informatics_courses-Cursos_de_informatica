@@ -3,6 +3,7 @@
    http://r4stats.com/articles/popularity/
 * Gran cantidad de software (paquetes) escrito en este lenguaje.
 * Software Libre.
+* Herramientas para REPRODUCIBILIDAD (R MarkDown)
 
 ### ¿Cómo obtener R? (página oficial)
 * https://cran.r-project.org/
