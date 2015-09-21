@@ -23,3 +23,8 @@ Objetivo: Los asistentes aprenderán a leer y escribir archivos desde R
 
 ## Tema 8: Reportes dinámicos
 *Objetivo: El asistente conocerá la herramienta Knitr para la generación de reportes dinámicos.
+
+# Plan de lección:
+*1.5 hrs para la exposición de los temas 1,2,3,4.
+*1.5 hrs para la exposición de los temas 5,6,7,8.
+
