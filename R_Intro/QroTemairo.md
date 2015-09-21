@@ -18,7 +18,7 @@ Objetivo: Los asistentes aprenderán a leer y escribir archivos desde R
 ## Tema 6: Visualización
 *Objetivos: Los asistentes aprenderán a generar gráficas para analizar las propiedades estadisticas de un conjunto de datos.
 
-## Tema 7: Tópicos en el tratamiento estadìstico de datos
+## Tema 7: Tópicos en el tratamiento estadístico de datos
 * Objetivos: Los asistentes conocerán mecanismos que provee R para contrastes estadísticos, modelos de regresión y técnicas de muestreo.
 
 ## Tema 8: Reportes dinámicos
