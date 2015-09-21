@@ -1,7 +1,7 @@
 # Temario para el módulo de R
 
 ### Tema 1: ¿Por qué usar R?
-* Objetivo: Conocer las razones para usar R: Amplia adopción, Gran cantidad de paquetes, reproducibilidad, software libre.
+* Objetivo: Conocer las razones para usar R: Amplia adopción, gran cantidad de paquetes disponibles, reproducibilidad, software libre.
 
 ### Tema 2:  Obtención de R 
 * Objetivo: Los asistentes tendrán una instalación funcional del lenguaje R así como el ambiente de desarrollo integrado Rstudio en sus computadoras personales.
