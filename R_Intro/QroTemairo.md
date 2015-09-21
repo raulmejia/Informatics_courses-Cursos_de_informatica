@@ -10,7 +10,7 @@
 * Objetivo: Desde una sesión de R los asistentes sabrán obtener información sobre la misma, navegar por el sistema de archivos así como consultar ayuda y documentación.
 
 ### Tema 4: Estructuras y operaciones básicas
-* Objetivo: Esponer a los asistentes estructuras, operaciones básicas y tipos de datos en el lenguaje R.
+* Objetivo: Exponer a los asistentes estructuras, operaciones básicas y tipos de datos en el lenguaje R.
 
 ### Tema 5: Manejo de datos
 * Objetivo: Los asistentes aprenderán a leer y escribir archivos desde R
