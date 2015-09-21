@@ -12,6 +12,8 @@
 
   * Donde estoy?
  `getwd()`
+  * Que hay aqui?
+ `dir()`
   * Cambiar de directorio de trabajo
   `setwd()`
   * Informacion de la sesión
