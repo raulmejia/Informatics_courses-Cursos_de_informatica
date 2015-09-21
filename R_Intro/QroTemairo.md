@@ -1,6 +1,6 @@
 # Temario para el módulo de R
 
-### Tema 1: Por qué usar R
+### Tema 1: ¿Por qué usar R?
 * Objetivo: Conocer las razones para usar R: Amplia adopción, Gran cantidad de paquetes, reproducibilidad, software libre.
 
 ### Tema 2:  Obtención de R 
@@ -25,6 +25,6 @@
 * Objetivo: El asistente conocerá la herramienta Knitr para la generación de reportes dinámicos.
 
 # Plan de lección:
-* 1.5 hrs para la exposición de los temas 1,2,3,4.
-* 1.5 hrs para la exposición de los temas 5,6,7,8.
+* 1.5 hrs para la exposición de los temas 1, 2, 3, 4.
+* 1.5 hrs para la exposición de los temas 5, 6, 7, 8.
 
