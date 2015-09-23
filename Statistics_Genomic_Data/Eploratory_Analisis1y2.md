@@ -15,7 +15,7 @@ library(Biobase)
 library(RSkittleBrewer)
 library(org.Hs.eg.db)
 library(AnnotationDbi)
-
+library(dplyr)
 
 #########Si no los tienes instalados corre########
 library(gplots)
