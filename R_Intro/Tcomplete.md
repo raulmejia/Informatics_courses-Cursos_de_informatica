@@ -73,7 +73,7 @@ Construir una matriz cuadrada de 6x6 con los numeros del 1 al 36 y obtener el pr
 `0,1,1,3,3,1,3,5,2,4,4,7,6,5,3,10,8,10,6,17,9,14,9,7,13,9,12,6,7,7,9,6,3,2,2,4,2,0,1,1`  
 
 `DatosInfla<-read.csv(file = "Practica_R_Inflamacion.csv", header = FALSE)`
-`head()`,`tail()`,`table()`,`summary()`,`table(pdata$age,useNA="ifany")`,`is.na()`, ,`table()`,`summary()`
+`head()`,`tail()`,`table()`,`summary()`,`table(pdata$age,useNA="ifany")`,`is.na()`,`dim()` ,`table()`,`summary()`
 Obtener media por renglones rowMean(), colMean(), colSum()
 Creo que el row mean es un excelente ejemplo de como se aventaja en linea de comandos en comparacion a entorno grafico
 Hacerlos vector  
