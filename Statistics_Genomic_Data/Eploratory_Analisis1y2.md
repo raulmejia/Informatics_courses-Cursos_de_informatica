@@ -10,7 +10,7 @@ palette(tropical)
 par(pch=19)
 
 library(gplots)
-library(devtools)
+library(devtool)s
 library(Biobase)
 library(RSkittleBrewer)
 library(org.Hs.eg.db)
@@ -112,6 +112,7 @@ aeid = as.character(fdata[,1])
 chr = AnnotationDBi::select(org.Hs.eg.db,keys = aeid, keytype ="ENSEMBL",columns="CHR")
 head(chr)
 
+
 dim(chr)
 dim(edata)
 #remove all the duplicate
@@ -120,12 +121,33 @@ dim(edata)
 chr=chr[!duplicated(chr[,1]),]
 all(chr[,1]== rownames(edata))
 
-# Select the chromosome Y samples
+
+#Los cambiamos a data.frame porque es con lo que trabaja al función dplyr
+edata = as.data.frame(edata)
+# Select the chromosome Y samples 
 edatay = dplyr::filter(edata,chr$CHR=="Y")
 
 boxplot(colSums(edatay) ~ pdata$gender, col=2)
+#To overlay the points
 
+points(colSums(edatay)~ jitter(as.numeric(pdata$gender)),col=as.numeric(pdata$gender),pch=19)
 
+##--------
 
+ematrix = as.matrix(edata)[rowMeans(edata) > 10000,]
+heatmap(ematrix)
+
+##------------
+
+colramp = colorRampPalette(c(3,"white",2))(9)
+heatmap(ematrix,col=colramp)
+
+##------------
+####To remove the clustering diagrams
+heatmap(ematrix,col=colramp,Rowv=NA,Colv=NA)
+
+##-----
+
+heatmap.2(ematrix,col=colramp,Rowv=NA,Colv=NA,dendogram="none", scale="row", trace="none")
 
 
