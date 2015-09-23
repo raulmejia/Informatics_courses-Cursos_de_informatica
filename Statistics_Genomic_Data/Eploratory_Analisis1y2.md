@@ -101,3 +101,31 @@ edata = as.data.frame(edata)
 ¿Por que tuvo que convertirlo a Data frame?
 filt_edata= filter(edata, rowMeans(edata)>1)
 boxplot(as.matrix(log2(filt_edata+1)),col=2)
+
+
+##-------
+##-------------
+#Getting the ids
+
+aeid = as.character(fdata[,1])
+#Now extract the chromosome information
+chr = AnnotationDBi::select(org.Hs.eg.db,keys = aeid, keytype ="ENSEMBL",columns="CHR")
+head(chr)
+
+dim(chr)
+dim(edata)
+#remove all the duplicate
+# Primero por que me dio duplicados? acaso habia sondas con mas de un gen asociado?
+
+chr=chr[!duplicated(chr[,1]),]
+all(chr[,1]== rownames(edata))
+
+# Select the chromosome Y samples
+edatay = dplyr::filter(edata,chr$CHR=="Y")
+
+boxplot(colSums(edatay) ~ pdata$gender, col=2)
+
+
+
+
+
