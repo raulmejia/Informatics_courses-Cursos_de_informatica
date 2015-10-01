@@ -10,7 +10,7 @@ def mifuncion(input):
 
 ```
 def tabla(n):
-m=n+1
+    m=n+1
     for i in range(1,m):
         f=[]
         for j in range(1,11):
