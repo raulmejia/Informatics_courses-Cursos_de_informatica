@@ -1,5 +1,9 @@
 
 http://www.pnas.org/content/95/25/14863.full
+http://rafalab.jhsph.edu/688/lec/lecture-5-clustering.pdf
+https://github.com/DataScienceSpecialization/courses/blob/master/04_ExploratoryAnalysis/hierarchicalClustering/index.md
+##------
+
 http://jtleek.com/genstats_site/lecture_notes/01_12_Clustering.pdf
 https://en.wikipedia.org/wiki/Taxicab_geometry
 
