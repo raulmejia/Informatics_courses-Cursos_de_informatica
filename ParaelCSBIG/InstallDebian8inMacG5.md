@@ -5,14 +5,14 @@
 http://cdimage.debian.org/debian-cd/8.2.0/powerpc/iso-cd/
 
 ## Ingresar al OpenFirmware de Mac
-Mediante la siguiente combinacion de teclas
-	 Cmd + alt + o + f
+Mediante la siguiente combinacion de teclas:
+		Cmd+alt+o+f
 
 ## Una vez detro del OpenFirmware instalamos yaboot 
       boot cd:,\install\yaboot
 
 ## Ahora instalamos el sistema operativo Debian 8.1 de 64 bits mediante el comando:
-  install
+       install
 
 ### A continuación nos manda al menú de instalación de Debian 
 Procedemos con la selección de parámetros para la configuracióon de nuestro futuro S.O. (idioma, teclado, etc...) 
