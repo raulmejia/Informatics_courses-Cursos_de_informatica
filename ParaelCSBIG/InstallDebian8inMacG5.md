@@ -58,25 +58,32 @@ apt-get remove --purge  xserver-xorg-video-nouveau
 ~~~
 ##Nota: Nunca usar el startx desde root
 ## Desde nuestro usuario corremos el comando
+
 ~~~
-    startx 
+startx 
 ~~~
 
 ##Instalamos el programa arandr para configurar ambos monitores.
+
 ~~~
 apt-get install arandr
 ~~~
+
 ## Instalamos un display manager para tener entorno gráfico desde el "loggin"
+
 ~~~
 apt-cache search display manager
-	  grep manager
+apt-cache search display manager |  grep manager
 ~~~
-    Para ver la informacion de un paquete interesante.
+
+Para ver la informacion de un paquete interesante.
+
 ~~~    
 apt-cache show paquete_interesante 
 ~~~
 
 De todos los display manager elegimos alguno y lo instalamos, por ejemplo lightdm puede ser una opción.
+
 ~~~
 apt-get install lightdm
 ~~~
