@@ -41,23 +41,38 @@ deb-src tu_mirror_favorito/debian jessie main
 ~~~
 sudo apt-get update
 ~~~
+
 ~~~
 sudo apt-get install screen
 ~~~
+
+~~~
 sudo apt-get install apt-file 
+~~~
+~~~
 apt-file update
+~~~
+~~~
 apt-get install xinit xfce4
 ~~~
 Usalmente el antiguo controlador nouveau da problemas: 
+
 ~~~
 W: Posble missing firmware /lib/firmware/tigon/tg3-tso5.bin for module tg3
+~~~
+~~~
 W: Posble missing firmware /lib/firmware/tigon/tg3_tso.bin for module tg3
+~~~
+~~~
 W: Posble missing firmware /lib/firmware/tigon/tg3.bin for module tg3
 nouveau E[Xorg[21366]] failed to idle channel 0xcccc0001 [Xorg[21366]]
 ~~~
+
 ## Eliminamos la libreria nouveau (Controlador de NVIDIA GEFORCE )
 ~~~
 apt-cache search nouveau
+~~~
+~~~
 apt-get remove --purge  xserver-xorg-video-nouveau
 ~~~
 ##Nota: Nunca usar el startx desde root
@@ -77,6 +92,8 @@ apt-get install arandr
 
 ~~~
 apt-cache search display manager
+~~~
+~~~
 apt-cache search display manager |  grep manager
 ~~~
 
