@@ -75,8 +75,8 @@ apt-cache search nouveau
 ~~~
 apt-get remove --purge  xserver-xorg-video-nouveau
 ~~~
-##Nota: Nunca usar el startx desde root
-## Desde nuestro usuario corremos el comando
+Nota: Nunca usar el startx desde root
+Desde nuestro usuario corremos el comando
 
 ~~~
 startx 
