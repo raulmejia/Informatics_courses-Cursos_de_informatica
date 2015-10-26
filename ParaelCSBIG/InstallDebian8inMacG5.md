@@ -6,7 +6,9 @@ http://cdimage.debian.org/debian-cd/8.2.0/powerpc/iso-cd/
 
 ## Ingresar al OpenFirmware de Mac
 Mediante la siguiente combinacion de teclas:
+~~~
 		Cmd+alt+o+f
+~~~
 
 ## Una vez detro del OpenFirmware instalamos yaboot 
       boot cd:,\install\yaboot
@@ -28,41 +30,53 @@ Procedemos a revisar si tenemos conexión a internet, lo cual lo podemos hacer m
 Nota: (Revisar si el cable físicamente esta conectado al puerto 0 o 1)
 
 una vez teniendo conexión a internet, tal vez será necesario establecer un proxy, para ello podemos usar el comando:
+   ~~~
     export http_proxy=http://192.168.105.78:8888
-    
+    ~~~
 
-Revisa tus repositorios, y cerciorate que al menos incluya el manin contrib y man de tu distribución.
+Revisa tus repositorios, y cerciorate que al menos incluya el manin contrib y man de tu distribución:
 deb tu_mirror_favorito/debian jessie main contrib
 deb-src tu_mirror_favorito/debian jessie main
-
+~~~
 sudo apt-get update
 sudo apt-get install screen
 sudo apt-get install apt-file 
 apt-file update
 apt-get install xinit xfce4
-
+~~~
 Usalmente el antiguo controlador nouveau da problemas: 
+~~~
 W: Posble missing firmware /lib/firmware/tigon/tg3-tso5.bin for module tg3
 W: Posble missing firmware /lib/firmware/tigon/tg3_tso.bin for module tg3
 W: Posble missing firmware /lib/firmware/tigon/tg3.bin for module tg3
 nouveau E[Xorg[21366]] failed to idle channel 0xcccc0001 [Xorg[21366]]
-
+~~~
 ## Eliminamos la libreria nouveau (Controlador de NVIDIA GEFORCE )
+~~~
 apt-cache search nouveau
 apt-get remove --purge  xserver-xorg-video-nouveau
-
+~~~
 ##Nota: Nunca usar el startx desde root
 ## Desde nuestro usuario corremos el comando
+~~~
     startx 
+~~~
 
 ##Instalamos el programa arandr para configurar ambos monitores.
+~~~
 apt-get install arandr
-
+~~~
 ## Instalamos un display manager para tener entorno gráfico desde el "loggin"
-
+~~~
 apt-cache search display manager
 	  grep manager
+~~~
+    Para ver la informacion de un paquete interesante.
+~~~    
+apt-cache show paquete_interesante 
+~~~
 
-apt-cache show paquete_interesante     Para ver la informacion de un paquete.
-
+De todos los display manager elegimos alguno y lo instalamos, por ejemplo lightdm puede ser una opción.
+~~~
 apt-get install lightdm
+~~~
