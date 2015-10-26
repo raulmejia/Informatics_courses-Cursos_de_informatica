@@ -30,16 +30,20 @@ Procedemos a revisar si tenemos conexión a internet, lo cual lo podemos hacer m
 Nota: (Revisar si el cable físicamente esta conectado al puerto 0 o 1)
 
 una vez teniendo conexión a internet, tal vez será necesario establecer un proxy, para ello podemos usar el comando:
-   ~~~
-    export http_proxy=http://192.168.105.78:8888
-    ~~~
+~~~
+export http_proxy=http://192.168.105.78:8888
+~~~
 
 Revisa tus repositorios, y cerciorate que al menos incluya el manin contrib y man de tu distribución:
 deb tu_mirror_favorito/debian jessie main contrib
 deb-src tu_mirror_favorito/debian jessie main
+
 ~~~
 sudo apt-get update
+~~~
+~~~
 sudo apt-get install screen
+~~~
 sudo apt-get install apt-file 
 apt-file update
 apt-get install xinit xfce4
