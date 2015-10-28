@@ -108,3 +108,13 @@ De todos los display manager elegimos alguno y lo instalamos, por ejemplo lightd
 ~~~
 apt-get install lightdm
 ~~~
+
+
+archivos de configuracion para la red /etc/resolvconf.d  (ahi resolvimos el domain/host)
+
+/etc/network/interfaces
+ifup eth0
+ifdown eth1
+ifconfig
+ping
+
