@@ -6,4 +6,4 @@ www.genomebiology.com/2015/16/1/117
 Ref de RNA seq
 http://www.rna-seqblog.com/category/technology/methods/data-analysis/data-normalization/
 ~~~
-
+k
