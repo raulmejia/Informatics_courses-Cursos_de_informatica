@@ -53,6 +53,21 @@ grepear algo
 
 > Existe wget
 
+***
 
 Para probar la terminal desde via web:
 http://www.taringa.net/posts/linux/18560023/Aprende-en-linea-todo-sobre-comandos-para-la-terminal-Linux.html
+***
+Comandos filtros para la consola
+http://www.taringa.net/posts/linux/8990024/Comandos-filtros-para-la-consola-Sort-Grep-find-tr-dd.html
+
+***
+
+Organizacion para generar maquinaria maquinaria industrial con acceso universal
+http://opensourceecology.org/about-overview/
+
+***
+
+Messenger
+
+http://www.taringa.net/post/linux/19060494/Mensajeria-anonima-con-Tor-Messenger.html
