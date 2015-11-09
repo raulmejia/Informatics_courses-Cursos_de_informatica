@@ -52,3 +52,7 @@ grepear algo
 5. (despertador) o time para sus actividades 
 
 > Existe wget
+
+
+Para probar la terminal desde via web:
+http://www.taringa.net/posts/linux/18560023/Aprende-en-linea-todo-sobre-comandos-para-la-terminal-Linux.html
