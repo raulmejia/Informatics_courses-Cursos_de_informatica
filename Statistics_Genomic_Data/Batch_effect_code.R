@@ -1,3 +1,5 @@
+##NOTES no se que hace lmfit
+
 ## ----global_palette, results = 'asis'------------------------------------
 rm(list=ls())
 tropical=  c('darkorange', 'dodgerblue', 'hotpink', 'limegreen', 'yellow')
