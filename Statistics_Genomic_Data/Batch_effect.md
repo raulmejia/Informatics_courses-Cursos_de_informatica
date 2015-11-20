@@ -13,3 +13,4 @@
 
 [Surrogate variable analysis](http://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.0030161)
 
+nose que hace #lmfit
