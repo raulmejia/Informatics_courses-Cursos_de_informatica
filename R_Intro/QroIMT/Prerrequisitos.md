@@ -6,7 +6,7 @@
 
 ### Zotero 
 
-Este gestor de referencias Bibliográficas 
+Breve [vídeo-guía](https://www.youtube.com/watch?v=BrepEdOA33I) para éste gestor de referencias Bibliográficas. Notar que aunque el vídeo usa como ejemplo el navegador Firefox, puedes aplicarlo en navegadores como chrome, safari; procesdores de texto como Microsoft Word, o cómo aplicación independiente.  
 
 ### Obtener R y Rstudio 
 
