@@ -4,7 +4,7 @@
 
 ### ¿Cómo obtener R y Rsutdio? 
 
-1. Una opción es ir la página oficial https://cran.r-project.org/ buscarlo y descargarlo de acuerdo a nuestro sistema operativo(GNU/Linux, Mac OS o Windows ).  O puedes dar clic [aquí](https://cran.r-project.org/bin/windows/base/R-3.2.2-win.exe) para descargarlo directamente si tu sistema operativo es Windows).
+1. En la página oficial https://cran.r-project.org/ podemos buscarlo y descargarlo de acuerdo a nuestro sistema operativo(GNU/Linux, Mac OS o Windows ).  Otra opción es dar clic [aquí](https://cran.r-project.org/bin/windows/base/R-3.2.2-win.exe) para descargarlo directamente si tu sistema operativo es Windows).
 
 2. Rstudio es un IDE (Integrated Development Enviroment), en español un "Ambiente de desarrollo integrado" esto nos proporciona una interface "más gráfica" para trabajar con el lenguaje R. La página oficial para su descarga es https://www.rstudio.com/ Si tu sistema es Windows puedes usar [éste enlace](https://download1.rstudio.org/RStudio-0.99.489.exe) directo para su descarga.    
 
