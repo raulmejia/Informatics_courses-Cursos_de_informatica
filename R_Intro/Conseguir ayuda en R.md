@@ -23,6 +23,8 @@
   3. `str(miobjeto)`
   4. `summary(miobjeto)`
   [Funciones útiles](http://cran.r-project.org/doc/contrib/Short-refcard.pdf)  
+
+
 ###"Postear" a la lista de correos de R (R-help NO R-devel) o Stackoverflow
 ###Por inspección / experimentación
   Por ejemplo: cambiando las entradas si se trata de una función.
