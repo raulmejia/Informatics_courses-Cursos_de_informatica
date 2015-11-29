@@ -31,18 +31,22 @@
 #### Definir algunas estructuras básicas:
   1. "mode" de objetos: (numeric,logical,character)
   2. Vectores 
+     * Deben tener el "mismo mode" `mode(a)`
      * `a<-c(11,12,13,14)` 
-     * ;  `d<-11:19` , `b<-seq(0,10,3)` ; `c<-c("naranja","sandia","uva","tuna")` ; `e<-c("3","2","1")`
-     * Deben tener el "mismo mode" `mode(a)` 
+     * `d<-11:19`
+     * `b<-seq(0,10,3)`
+     * `c<-c("naranja","sandia","uva","tuna")`
+     * `e<-c("3","2","1")`
+    
   3. Matrices `m1<-matrix(11:26,nrow=4,ncol=4)`
     * *Ejercicio* usando la ayuda ? hacer que la matriz se construya según la secuencia de renglones.
   4. DataFrame `d.f<-data.frame(c,a,b)`
     
   5. Listas `milista<-list(c,d,m1,d.f)`
-`class()`
-`mode()`
-`length()`
-`str()`
+* `class()`
+* `mode()`
+* `length()`
+* `str()`
 
 ### Operaciones aritméticas básicas con objetos
 * Primero ¿Qué objetos tengo?`ls()`
