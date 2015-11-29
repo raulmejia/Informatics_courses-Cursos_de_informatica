@@ -8,7 +8,7 @@
 
 ### ¿Cómo obtener R? 
 * (página oficial) https://cran.r-project.org/
-* Seguir las instrucciones de la página llamada Prerrequisitos.md detro de ésta misma carpeta "QroIMT".
+* Seguir las instrucciones de la página llamada README.md detro de ésta misma carpeta "QroIMT".
 
 # Manos  a la obra!
 
