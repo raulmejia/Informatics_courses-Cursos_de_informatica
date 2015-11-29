@@ -34,17 +34,16 @@
 
 #### Manual/documentaciòn preincluida:  `?comando`
 
-##estructuras basicas:
+## Definir algunas estructuras basicas:
   1. "mode" de objetos: (numeric,logical,character)
-  2. Vectores `a<-c(11,12,13,14)` ;  `c<-11:19` , `d<-seq(0,10,3)` ; `b<-c("naranja","sandia","uva","tuna")` ; 
+  2. Vectores `a<-c(11,12,13,14)` ;  `d<-11:19` , `b<-seq(0,10,3)` ; `c<-c("naranja","sandia","uva","tuna")` ; 
      * Deben tener el "mismo mode" `mode(a)` 
-  3. Matrices `matrix(11:19,nrow=2,ncol=2)`
+  3. Matrices `m1<-matrix(11:19,nrow=2,ncol=2)`
     * *Ejercicio* usando la ayuda ? hacer que la matriz se construya según la secuencia de renglones.
-  4. DataFrame `data.frame(a,d,b)`
+  4. DataFrame `d.f<-data.frame(c,a,b)`
     
-  5. Listas
-  5. Factors
-  6. 
+  5. Listas `milista<-list(c,d,m1,d.f)`
+
   ls()
 
 ### Construir y eliminar, subscript, operar.  objetos de estas estructuras
