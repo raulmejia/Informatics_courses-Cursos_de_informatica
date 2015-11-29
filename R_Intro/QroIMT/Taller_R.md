@@ -117,4 +117,4 @@ Guardar el objeto actual y cargarlo luego
 http://stackoverflow.com/questions/6853204/plotting-multiple-curves-same-graph-and-same-scale
 
 
-# Nota cargar los datos de un .dbf que es lo que usan ellos foxpro
+Nota cargar los datos de un .dbf que es lo que usan ellos foxpro
