@@ -56,7 +56,7 @@
   * No Pedir en los foros que (literalmente) resuelvan tu tarea de la escuela.
   * Cuando busques respuestas es importante comentar lo que has intentado.
 
-Recomentaciones basadas en:
+# Este documento esta basado en:
 * Posting guide de R: http://www.r-project.org/posting-guide.html
 * Eric Raymond ("How to  ask questions the smart way")
 
