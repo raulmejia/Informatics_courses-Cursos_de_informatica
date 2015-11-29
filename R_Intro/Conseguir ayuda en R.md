@@ -31,7 +31,8 @@
   *  ¿Cuál es el resultado esperado y que es lo que obtienes en cambio?
   *  Versión del paquete y versión de R 
   *  ¿Qué Sistema operativo?
-  *  Comentar lo que has intentado previamente
+  *  Comentar las cosas que has intentado previamente.
+
 
     Ej.1 "Ayuda, no puedo cargar mis datos en R y son para mi trabajo de mañana".
     EJ.2  R 3.1.1, error al cargar mis datos con lumi() , Debian 3.2.65 x86_64 GNU/Linux
