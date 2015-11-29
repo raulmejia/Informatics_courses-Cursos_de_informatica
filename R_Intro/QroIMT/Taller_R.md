@@ -73,7 +73,7 @@
 
 ## Manejo de datos
 
-#### Cargando conjuntos de datos preincluidos para prueba.
+#### Cargando conjuntos de [datos preincluidos](https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/00Index.html) para prueba.
 * `data(Seatbelts)` Accidentes automovil'isticos en Reino Unido [1969-1984](https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/UKDriverDeaths.html)
 * Orange  Para regresion lineal simple, cars more lineal regresion,  mtcars mas de carros
 
@@ -88,13 +88,19 @@
 * `dev.off()` para concluir y guardar la imagen.
  
 
+## Crear mis datos de trabajo
+
+
+#### An'alisis exploratorio
+
+
+#### Topicos de analisis estadistico y visualizacion
 
 
 `max(),min(),mean(),sd()`  
 
 
 
-## Crear mis datos de trabajo
 * Datos a mano
 `0,0,1,3,1,2,4,7,8,3,3,3,10,5,7,4,7,7,12,18,6,13,11,11,7,7,4,6,8,8,4,4,5,7,3,4,2,3,0,0,`
 
