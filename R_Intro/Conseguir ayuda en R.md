@@ -38,19 +38,19 @@
     Ej.3  R 3.1.1, función lumi() en Debian 3.2.65 x86_64 GNU/Linux,  $Error: there is no package called ‘lumi’
 
 #### Recomendaciones:
-  describe el objetivo último (Así podrán explicarte distintas soluciones).
-  Se explicito.
-  Se conciso
-  Se cortés (Nunca duele)
-  Sigue el post (sus respuestas y soluciones) 
-  Usa los foros en lugar del correo
-  Eric Raymond ("How to  ask questions the smart way")
+  * Describe el objetivo último (Así podrán explicarte distintas soluciones).
+  * Se explicito.
+  * Se conciso
+  * Se cortés (Nunca duele)
+  * Sigue el post (sus respuestas y soluciones) 
+  * Usa los foros en lugar del correo
 
 #### Advertencias:
-  Gritar que has encontrado un "error" en el software (99% de las veces no lo es).
-  Pedir en los foros que resuelvan tu tarea.
+  * Gritar que has encontrado un "error" en el software (99% de las veces no lo es).
+  * No Pedir en los foros que (literalmente) resuelvan tu tarea de la escuela.
 
 ##Cuando busques respuestas es importante comentar lo que has intentado
 
 Recursos:
-Posting guide de R: http://www.r-project.org/posting-guide.html
+* Posting guide de R: http://www.r-project.org/posting-guide.html
+* Eric Raymond ("How to  ask questions the smart way")
