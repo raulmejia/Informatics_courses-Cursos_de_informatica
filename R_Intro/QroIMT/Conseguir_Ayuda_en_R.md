@@ -64,7 +64,7 @@ Recomentaciones basadas en:
 ### Sitios recomendados para aprender mas sobre R:
 * https://es.coursera.org/course/rprog
 * https://cran.r-project.org/
-* * http://swcarpentry.github.io/r-novice-inflammation/
+* http://swcarpentry.github.io/r-novice-inflammation/
 * http://stackoverflow.com/questions/6853204/plotting-multiple-curves-same-graph-and-same-scale
 
 
