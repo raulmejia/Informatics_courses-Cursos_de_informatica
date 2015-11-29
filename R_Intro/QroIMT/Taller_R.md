@@ -1,13 +1,14 @@
 # ¿Por qué usar R?
 1. Software de alta calidad, libre y gratuito en el que colaboran expertos internacionales.
-2. Amplia adopción en el [ámbito científico](http://r4stats.com/articles/popularity/)
+2. Amplia adopción en el [ámbito científico](http://r4stats.com/articles/popularity/).
 3. Gran cantidad de software (paquetes) ya escritos en este lenguaje, y por lo tanto extensas funcionalidades.
 4. Como se ha convertido en un estádar, fácilmente se consiguen libros y documetación.
 5. Procedimientos repetitivos pueden ser fácilmente automatizados.
 6. Herramientas que propician la para reproducibilidad. 
 
-### ¿Cómo obtener R? (página oficial)
-* https://cran.r-project.org/
+### ¿Cómo obtener R? 
+* (página oficial) https://cran.r-project.org/
+* Seguir las instrucciones de la página llamada Prerrequisitos.md detro de ésta misma carpeta "QroIMT".
 
 # Manos  a la obra!
 
