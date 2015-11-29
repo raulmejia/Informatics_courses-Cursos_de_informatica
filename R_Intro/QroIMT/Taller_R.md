@@ -10,17 +10,21 @@
 * (página oficial) https://cran.r-project.org/
 * Seguir las instrucciones de la página llamada README.md detro de ésta misma carpeta "QroIMT".
 
+### Interface de Rstudio
+#### Navegar por el sistema de archivos.
+ * ¿Dónde estoy?
+ `getwd()`
+  * ¿Qué hay aqui?
+ `dir()`
+  * Cambiar de directorio de trabajo (si usas Windows, al indicar la ruta debes usar slash "/" en lugar de backslash "\" )
+  `setwd()`
+  * Información de la sesión
+`sessionInfo()`
+
+
 # Manos  a la obra!
 
-  * Donde estoy?
- `getwd()`
-  * Que hay aqui?
- `dir()`
-  * Cambiar de directorio de trabajo
-  `setwd()`
-  * Informacion de la sesión
-`sessionInfo()`
-  * Cargar paquetes 
+   * Cargar paquetes 
   `data()`,`library()`
   * Atributos
   `attributes()`
