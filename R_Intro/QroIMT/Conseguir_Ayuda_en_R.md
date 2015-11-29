@@ -54,8 +54,7 @@
 #### Advertencias:
   * Gritar que has encontrado un "error" en el software (99% de las veces no lo es).
   * No Pedir en los foros que (literalmente) resuelvan tu tarea de la escuela.
-
-##Cuando busques respuestas es importante comentar lo que has intentado
+  * Cuando busques respuestas es importante comentar lo que has intentado.
 
 Recomentaciones basadas en:
 * Posting guide de R: http://www.r-project.org/posting-guide.html
