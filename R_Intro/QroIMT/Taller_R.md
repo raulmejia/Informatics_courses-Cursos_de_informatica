@@ -58,11 +58,11 @@
 * `milista[[4]]$d == d.f$d` 
 
 #### otras operaciones b'asicas
-`c(a,e)`
-`is.numeric(e)`  
-`as.numeric(e)` 
-`rm(e)`
-
+* `c(a,e)`
+* `is.numeric(e)`  
+* `as.numeric(e)` 
+* `f<-append(e,NA)`,`is.na(f)`
+* `rm(e)`
 
 `max(),min(),mean(),sd()`  
 
