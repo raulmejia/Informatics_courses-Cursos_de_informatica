@@ -57,6 +57,14 @@
 
 ##Cuando busques respuestas es importante comentar lo que has intentado
 
-Recursos:
+Recomentaciones basadas en:
 * Posting guide de R: http://www.r-project.org/posting-guide.html
 * Eric Raymond ("How to  ask questions the smart way")
+
+### Sitios recomendados para aprender mas sobre R:
+* https://es.coursera.org/course/rprog
+* https://cran.r-project.org/
+* * http://swcarpentry.github.io/r-novice-inflammation/
+* http://stackoverflow.com/questions/6853204/plotting-multiple-curves-same-graph-and-same-scale
+
+
