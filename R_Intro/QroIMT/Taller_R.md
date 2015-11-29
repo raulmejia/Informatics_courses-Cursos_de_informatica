@@ -30,7 +30,9 @@
 
 #### Definir algunas estructuras básicas:
   1. "mode" de objetos: (numeric,logical,character)
-  2. Vectores `a<-c(11,12,13,14)` ;  `d<-11:19` , `b<-seq(0,10,3)` ; `c<-c("naranja","sandia","uva","tuna")` ; `e<-c("3","2","1")`
+  2. Vectores 
+     * `a<-c(11,12,13,14)` 
+     * ;  `d<-11:19` , `b<-seq(0,10,3)` ; `c<-c("naranja","sandia","uva","tuna")` ; `e<-c("3","2","1")`
      * Deben tener el "mismo mode" `mode(a)` 
   3. Matrices `m1<-matrix(11:26,nrow=4,ncol=4)`
     * *Ejercicio* usando la ayuda ? hacer que la matriz se construya según la secuencia de renglones.
