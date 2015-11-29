@@ -12,14 +12,16 @@
 
 ### Interface de Rstudio
 #### Navegar por el sistema de archivos.
- * ¿Dónde estoy?
- `getwd()`
-  * ¿Qué hay aqui?
- `dir()`
-  * Cambiar de directorio de trabajo 
-  `setwd()`(si usas Windows, al indicar la ruta debes usar slash "/" en lugar de backslash "\" )
-  * Información de la sesión
-`sessionInfo()`
+
+ * `getwd()` ¿Dónde estoy?
+ * `dir()` ¿Qué hay aqui?
+ * `setwd()` Para cambiar de directorio de trabajo (si usas Windows, al indicar la ruta debes usar slash "/" en lugar de backslash "\" )
+ * `sessionInfo()` Información de la sesión
+ 
+
+#### Consultar ayuda
+* Accesamos a esta ayuda anteponiendo el signo "?" a nuestro comando, por ejemplo para el comando "dir()"
+  `?dir `
 
 
 # Manos  a la obra!
