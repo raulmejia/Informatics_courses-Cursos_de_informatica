@@ -11,7 +11,7 @@
 * Seguir las instrucciones de la página llamada README.md detro de ésta misma carpeta "QroIMT".
 
 ### Interface de Rstudio
-#### Navegar por el sistema de archivos.
+##### Navegar por el sistema de archivos.
 
  * `getwd()` ¿Dónde estoy?
  * `dir()` ¿Qué hay aqui?
@@ -19,7 +19,7 @@
  * `sessionInfo()` Información de la sesión
  
 
-#### Consultar ayuda
+##### Consultar ayuda
 * Accesamos a esta ayuda anteponiendo el signo "?" a nuestro comando, por ejemplo para el comando "dir()"
   `?dir `
 
@@ -34,14 +34,18 @@
 #### Manual/documentaciòn preincluida:  `?comando`
 
 ##estructuras basicas:
-  1. "modos"="mode" de Variables: (numeric,float,char)
-  2. Vectores, Matrices
-  3. Listas
-  4. Factors
-  5. DataFrames  
-  6. ls(), 
+  1. "mode" de objetos: (numeric,logical,character)
+  2. Vectores `a<-c(11,12,13)` ;  `c<-11:19` , `d<-seq(0,10,3)` ; `b<-c("hola","mundo")` ; 
+     * Deben tener el "mismo mode" `mode(a)` 
+  3. Matrices `matrix(11:19,nrow=2,ncol=2)`
+    * Ejercicio usando la ayuda ? hacer que al matriz se construya segun la secuencia de renglones.
+  4. DataFrames
+  5. Listas
+  5. Factors
+  6. 
+  ls()
 
-### Construir y eliminar objetos de estas estructuras
+### Construir y eliminar, subscript, operar.  objetos de estas estructuras
 `a<-c(1,2,3,4,5,6,7)`  
 `a<-1:7`  
 `b<-1:9`
