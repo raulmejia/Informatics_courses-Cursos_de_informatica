@@ -16,8 +16,8 @@
  `getwd()`
   * ¿Qué hay aqui?
  `dir()`
-  * Cambiar de directorio de trabajo (si usas Windows, al indicar la ruta debes usar slash "/" en lugar de backslash "\" )
-  `setwd()`
+  * Cambiar de directorio de trabajo 
+  `setwd()`(si usas Windows, al indicar la ruta debes usar slash "/" en lugar de backslash "\" )
   * Información de la sesión
 `sessionInfo()`
 
