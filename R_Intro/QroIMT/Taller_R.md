@@ -92,7 +92,7 @@
 
 
 #### An'alisis exploratorio
-
+* `str()`
 
 #### Topicos de analisis estadistico y visualizacion
 
