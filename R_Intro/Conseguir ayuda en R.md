@@ -1,9 +1,9 @@
 ##Encontrar respuestas:
 
-###Buscar en la web
-  "Googlea" el mensaje de error
-    Buscar en los Foros (stackoverflow, stackexchange, etc...)
-    Leyendo un FAQ
+###Buscar en la web:
+* "Googlea" el mensaje de error
+* Buscar en los Foros (stackoverflow, stackexchange, etc...)
+* Leyendo un FAQ
 ###Leyendo manuales / documentación
 ###Leer los archivos de ayuda
   Access help File
