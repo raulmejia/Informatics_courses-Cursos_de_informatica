@@ -28,7 +28,7 @@
 # Manos  a la obra!
 
 
-## Definir algunas estructuras basicas:
+#### Definir algunas estructuras básicas:
   1. "mode" de objetos: (numeric,logical,character)
   2. Vectores `a<-c(11,12,13,14)` ;  `d<-11:19` , `b<-seq(0,10,3)` ; `c<-c("naranja","sandia","uva","tuna")` ; `e<-c("3","2","1")`
      * Deben tener el "mismo mode" `mode(a)` 
@@ -42,8 +42,8 @@
 `length()`
 `str()`
 
-### Operaciones aritm'eticas b'asicas con objetos
-`ls()`
+### Operaciones aritméticas básicas con objetos
+* Primero ¿Qué objetos tengo?`ls()`
 * vector por un escalar`d2<-d*2`
 * multiplicación, suma, división entrada a entrada `a*b` ; `m1+m1`;
 * multiplicación estandar de matrices  `m1 %*% m1`
@@ -52,26 +52,45 @@
 #### Substring
 * `a[2]`
 * `m1[3,3]`;`m1[3,]`; `rownames(m1)<-c`;`m1["uva",]`
-* *Ejercicio* multiplicar la columa tres de nuestra matriz m1 con un vector numerico de igual longitud
+* *Ejercicio* multiplicar la columa tres de nuestra matriz m1 con un vector númerico de igual longitud
 * `d.f$d`;`d.f["1","d"]`;`d.f[2,3]`
 * `class(milista[4])`;`class(milista[[4]])`;`class(d.f[1])`,`d.f[[1]]` 
 * `milista[[4]]$d == d.f$d` 
 
-#### otras operaciones b'asicas
+#### otras operaciones básicas
 * `c(a,e)`
 * `is.numeric(e)`  
 * `as.numeric(e)` 
 * `f<-append(e,NA)`,`is.na(f)`
 * `rm(e)`
 
+
+## Manejo de datos
+
+#### Cargando conjuntos de datos preincluidos para prueba.
+* `data(Seatbelts)` Accidentes automovil'isticos en Reino Unido [1969-1984](https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/UKDriverDeaths.html)
+* Orange  Para regresion lineal simple, cars more lineal regresion,  mtcars mas de carros
+
+#### Cargar datos de un archivo .csv , .txt  , base foxpro.
+
+####  Guardar
+1. salvar sesi'on `save.image(file="nombredeseado.RData")`
+2. salvar objetos especificos `save(x,y,file="nombredeseado.RData")`
+3. `write.table(x,file="mitabla.txt") / write.csv`
+4. `pdf(file="nombredemiarchivo.pdf")`
+* `codigo para graficar`
+* `dev.off()` para concluir y guardar la imagen.
+ 
+
+
+
 `max(),min(),mean(),sd()`  
 
-Subtring  
 
 
 ## Crear mis datos de trabajo
 * Datos a mano
-`0,0,1,3,1,2,4,7,8,3,3,3,10,5,7,4,7,7,12,18,6,13,11,11,7,7,4,6,8,8,4,4,5,7,3,4,2,3,0,0`
+`0,0,1,3,1,2,4,7,8,3,3,3,10,5,7,4,7,7,12,18,6,13,11,11,7,7,4,6,8,8,4,4,5,7,3,4,2,3,0,0,`
 
 `0,1,2,1,2,1,3,2,2,6,10,11,5,9,4,4,7,16,8,6,18,4,12,5,12,7,11,5,11,3,3,5,4,4,5,5,1,1,0,1,`
 
