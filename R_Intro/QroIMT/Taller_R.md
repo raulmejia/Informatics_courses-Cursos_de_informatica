@@ -99,16 +99,18 @@
 
 `max(),min(),mean(),sd()`  
 
-"a" "d" "b"
+`"a" "d" "b"`
 
+`"1" 11 0 "naranja"`
 
-"1" 11 0 "naranja"
-"2" 12 3 "sandia"
+`"2" 12 3 "sandia"`
 
 `"3" 13 6 "uva"`
 
 `"4" 14 9 "tuna"`
 
+
+Recuerda eliminar los espacios en blanco en tu archivo en texto plano
 
 * Datos a mano
 
