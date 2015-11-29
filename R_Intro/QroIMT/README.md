@@ -1,3 +1,4 @@
+#Prerrequisitos
 
 ### Obtener R y Rstudio 
 
