@@ -27,12 +27,6 @@
 
 # Manos  a la obra!
 
-   * Cargar paquetes 
-  `data()`,`library()`
-  * Atributos
-  `attributes()`
-
-
 
 ## Definir algunas estructuras basicas:
   1. "mode" de objetos: (numeric,logical,character)
