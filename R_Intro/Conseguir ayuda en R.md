@@ -5,21 +5,23 @@
 * Buscar en los Foros (stackoverflow, stackexchange, etc...)
 * Leyendo un FAQ
 
-### Leyendo manuales / documentación
-###Leer los archivos de ayuda
-* Access help File
-  ` > ?rnorm `
-* Search help files: (No es necesario tener el nombre EXACTO entre comillas)
-    `> help.search("rnorm")`
-* Get arguments
-  `> args("rnorm")`
-* Para ver el código
-  `> rnorm`
+### Leer un libro, manuales, documentos.
+### Leer los archivos de ayuda pre-incluidos en nuestra version de R.
+* Accesamos a esta ayuda anteponiendo el signo "?" a nuestro comando, por ejemplo para el comando "rnorm"
+  `?rnorm `
+* Buscar archivos de ayuda: (No es necesario tener el nombre EXACTO entre comillas)
+    `help.search("rnorm")`
+* Conocer los argumetos del commando:
+  `args("rnorm")`
+* Para ver el código fuente:  (tecleamos el nombre del comando omitiendo los paréntesis "()" al final)
+  `rnorm`
 * Conocer un poco más acerta de "miobjeto" en R:
-    `str(miobjeto)`
-    `summary(miobjeto)`
-    `ls()`
-    `ls.str()`
+  1. Cual es su "mode":
+  `mode(miobjeto)`  
+  2. cual es su clase "class"
+  `class(miobjeto)` 
+  3. `str(miobjeto)`
+  4. `summary(miobjeto)`
   [Funciones útiles](http://cran.r-project.org/doc/contrib/Short-refcard.pdf)  
 ###"Postear" a la lista de correos de R (R-help NO R-devel) o Stackoverflow
 ###Por inspección / experimentación
