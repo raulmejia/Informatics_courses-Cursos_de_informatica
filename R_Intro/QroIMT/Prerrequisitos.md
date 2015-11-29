@@ -4,7 +4,11 @@
 1. [Aquí](https://www.youtube.com/watch?v=bt4W0hjgFEY) un vídeo para guiarnos en la instalación ya sea si nuestro sistema operativo es GNU/Linux, Mac Os o Windows.
 
 
-### ¿Cómo obtener R y Rstudio? 
+### Zotero 
+
+Este gestor de referencias Bibliográficas 
+
+### Obtener R y Rstudio 
 
 1. En la página oficial https://cran.r-project.org/ podemos buscarlo y descargarlo de acuerdo a nuestro sistema operativo(GNU/Linux, Mac OS o Windows ).  Otra opción es dar clic [aquí](https://cran.r-project.org/bin/windows/base/R-3.2.2-win.exe) para descargarlo directamente si tu sistema operativo es Windows).
 
