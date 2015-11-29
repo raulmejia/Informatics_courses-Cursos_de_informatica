@@ -36,7 +36,7 @@
 
 ## Definir algunas estructuras basicas:
   1. "mode" de objetos: (numeric,logical,character)
-  2. Vectores `a<-c(11,12,13,14)` ;  `d<-11:19` , `b<-seq(0,10,3)` ; `c<-c("naranja","sandia","uva","tuna")` ; 
+  2. Vectores `a<-c(11,12,13,14)` ;  `d<-11:19` , `b<-seq(0,10,3)` ; `c<-c("naranja","sandia","uva","tuna")` ; `e<-c("3","2","1")`
      * Deben tener el "mismo mode" `mode(a)` 
   3. Matrices `m1<-matrix(11:26,nrow=4,ncol=4)`
     * *Ejercicio* usando la ayuda ? hacer que la matriz se construya según la secuencia de renglones.
@@ -48,47 +48,32 @@
 `length()`
 `str()`
 
-### Operaciones basicas con objetos, elementales, substring, eliminar.  objetos de estas estructuras
+### Operaciones aritm'eticas b'asicas con objetos
 `ls()`
 * vector por un escalar`d2<-d*2`
 * multiplicación, suma, división entrada a entrada `a*b` ; `m1+m1`;
-* multiplicación standar de matrices  `m1 %*% m1`
+* multiplicación estandar de matrices  `m1 %*% m1`
  
 
 #### Substring
 * `a[2]`
 * `m1[3,3]`;`m1[3,]`; `rownames(m1)<-c`;`m1["uva",]`
 * *Ejercicio* multiplicar la columa tres de nuestra matriz m1 con un vector numerico de igual longitud
-* 
+* `d.f$d`;`d.f["1","d"]`;`d.f[2,3]`
+* `class(milista[4])`;`class(milista[[4]])`;`class(d.f[1])`,`d.f[[1]]` 
+* `milista[[4]]$d == d.f$d` 
 
-`a<-1:7`  
-`b<-1:9`
-`c<-matrix(b,ncol=3,nrow=3)`
-Construir una matriz cuadrada de lado 5 con los numeros del 5 al 30  
-Construir una secuencia de `seq()`
-seq() Construir una secuencia de 10 numeros de distancia dando pasos de .01 y hacerlo una matriz de 10X10
+#### otras operaciones b'asicas
+`c(a,e)`
+`is.numeric(e)`  
+`as.numeric(e)` 
+`rm(e)`
 
 
-
-
-### Reconociendo estructuras básicas
-`is.numeric(Mivariable)`  
-`as.numeric(Mivariable)`  
-`str()`  
-`class()`,`mode()`
-`length()`  
-
-### Operaciones Básicas
-Sumar
-Restar
-Multiplicar
-Dividir
 `max(),min(),mean(),sd()`  
 
 Subtring  
-Corchetes, $, 
 
-Construir una matriz cuadrada de 6x6 con los numeros del 1 al 36 y obtener el promedio de la 3ra columna
 
 ## Crear mis datos de trabajo
 * Datos a mano
