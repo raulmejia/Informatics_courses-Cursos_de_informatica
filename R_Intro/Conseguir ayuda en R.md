@@ -34,9 +34,9 @@
   *  Comentar las cosas que has intentado previamente.
 
 
-    Ej.1 "Ayuda, no puedo cargar mis datos en R y son para mi trabajo de mañana".
-    EJ.2  R 3.1.1, error al cargar mis datos con lumi() , Debian 3.2.65 x86_64 GNU/Linux
-    Ej.3  R 3.1.1, función lumi() en Debian 3.2.65 x86_64 GNU/Linux,  $Error: there is no package called ‘lumi’
+  1. Ej.1 "Ayuda, no puedo cargar mis datos en R y son para mi trabajo de mañana".
+  2. EJ.2  R 3.1.1, error al cargar mis datos con lumi() , Debian 3.2.65 x86_64 GNU/Linux
+  3. Ej.3  R 3.1.1, función lumi() en Debian 3.2.65 x86_64 GNU/Linux,  $Error: there is no package called ‘lumi’
 
 #### Recomendaciones:
   * Describe el objetivo último (Así podrán explicarte distintas soluciones).
