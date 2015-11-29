@@ -19,10 +19,10 @@
  * `sessionInfo()` Información de la sesión
  
 
-##### Consultar ayuda
-* Accesamos a esta ayuda anteponiendo el signo "?" a nuestro comando, por ejemplo para el comando "dir()"
+##### Consultar ayuda "preincluida"
+* Accesamos a esta ayuda anteponiendo el signo "?" a nuestro comando `?comando`, por ejemplo para el comando "dir()"
   `?dir `
-   comandos y argumentos `quit()`; `q()` ; `q("no")`  
+* Comandos y argumentos `quit()`; `q()` ; `q("no")`  
 
 
 # Manos  a la obra!
@@ -32,22 +32,35 @@
   * Atributos
   `attributes()`
 
-#### Manual/documentaciòn preincluida:  `?comando`
+
 
 ## Definir algunas estructuras basicas:
   1. "mode" de objetos: (numeric,logical,character)
   2. Vectores `a<-c(11,12,13,14)` ;  `d<-11:19` , `b<-seq(0,10,3)` ; `c<-c("naranja","sandia","uva","tuna")` ; 
      * Deben tener el "mismo mode" `mode(a)` 
-  3. Matrices `m1<-matrix(11:19,nrow=2,ncol=2)`
+  3. Matrices `m1<-matrix(11:26,nrow=4,ncol=4)`
     * *Ejercicio* usando la ayuda ? hacer que la matriz se construya según la secuencia de renglones.
   4. DataFrame `d.f<-data.frame(c,a,b)`
     
   5. Listas `milista<-list(c,d,m1,d.f)`
+`class()`
+`mode()`
+`length()`
+`str()`
 
-  ls()
+### Operaciones basicas con objetos, elementales, substring, eliminar.  objetos de estas estructuras
+`ls()`
+* vector por un escalar`d2<-d*2`
+* multiplicación, suma, división entrada a entrada `a*b` ; `m1+m1`;
+* multiplicación standar de matrices  `m1 %*% m1`
+ 
 
-### Construir y eliminar, subscript, operar.  objetos de estas estructuras
-`a<-c(1,2,3,4,5,6,7)`  
+#### Substring
+* `a[2]`
+* `m1[3,3]`;`m1[3,]`; `rownames(m1)<-c`;`m1["uva",]`
+* *Ejercicio* multiplicar la columa tres de nuestra matriz m1 con un vector numerico de igual longitud
+* 
+
 `a<-1:7`  
 `b<-1:9`
 `c<-matrix(b,ncol=3,nrow=3)`
