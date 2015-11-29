@@ -168,3 +168,4 @@ http://stackoverflow.com/questions/6853204/plotting-multiple-curves-same-graph-a
 
 Nota agregar ejercicio donde se cargen los datos de un .dbf que es lo que usan ellos foxpro
 Hablarles de como pasar comandos de shell desde la teminal de R
+HAcer a mano los datos de USAccDeaths  y los datos de cars... para tener redundancia a la hora de cargarlos
