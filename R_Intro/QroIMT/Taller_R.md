@@ -22,6 +22,7 @@
 ##### Consultar ayuda
 * Accesamos a esta ayuda anteponiendo el signo "?" a nuestro comando, por ejemplo para el comando "dir()"
   `?dir `
+   comandos y argumentos `quit()`; `q()` ; `q("no")`  
 
 
 # Manos  a la obra!
@@ -35,11 +36,12 @@
 
 ##estructuras basicas:
   1. "mode" de objetos: (numeric,logical,character)
-  2. Vectores `a<-c(11,12,13)` ;  `c<-11:19` , `d<-seq(0,10,3)` ; `b<-c("hola","mundo")` ; 
+  2. Vectores `a<-c(11,12,13,14)` ;  `c<-11:19` , `d<-seq(0,10,3)` ; `b<-c("naranja","sandia","uva","tuna")` ; 
      * Deben tener el "mismo mode" `mode(a)` 
   3. Matrices `matrix(11:19,nrow=2,ncol=2)`
-    * Ejercicio usando la ayuda ? hacer que al matriz se construya segun la secuencia de renglones.
-  4. DataFrames
+    * *Ejercicio* usando la ayuda ? hacer que la matriz se construya según la secuencia de renglones.
+  4. DataFrame `data.frame(a,d,b)`
+    
   5. Listas
   5. Factors
   6. 
