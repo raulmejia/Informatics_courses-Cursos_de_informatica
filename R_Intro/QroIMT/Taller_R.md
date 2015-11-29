@@ -123,8 +123,8 @@
 
 `0,1,1,3,3,1,3,5,2,4,4,7,6,5,3,10,8,10,6,17,9,14,9,7,13,9,12,6,7,7,9,6,3,2,2,4,2,0,1,1`  
 
-Recuerda que si usas windows debes guardar el archivo en texto plano con la extension .csv y terminar el archivo con enter
-Usar "slash" sencillo (/) en las rutas de tus archivos windows.
+Recuerda que si usas windows debes guardar el archivo en texto plano con la extension .csv y terminar el archivo con enter.
+Y a cuando deses leerlo Usar "slash" sencillo (/) para especificar la ruta.
 
 `DatosInfla<-read.csv(file = "Practica_R_Inflamacion.csv", header = FALSE)`
 `head()`,`tail()`,`table()`,`summary()`,`table(pdata$age,useNA="ifany")`,`is.na()`,`dim()` ,`table()`,`summary()`
