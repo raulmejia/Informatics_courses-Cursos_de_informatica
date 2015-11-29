@@ -1,11 +1,11 @@
-Encontrar respuestas:
+##Encontrar respuestas:
 
-A)Buscar en la web
+###Buscar en la web
   "Googlea" el mensaje de error
-    Buscar en los Foros
+    Buscar en los Foros (stackoverflow, stackexchange, etc...)
     Leyendo un FAQ
-B)Leyendo el manual / documentación
-B)Leer los archivos de ayuda
+###Leyendo manuales / documentación
+###Leer los archivos de ayuda
   Access help File
     $?rnorm
   Search help files:
@@ -23,11 +23,11 @@ B)Leer los archivos de ayuda
     $ls.str()
   Funciones útiles
   http://cran.r-project.org/doc/contrib/Short-refcard.pdf  
-B)"Postear" a la lista de correos de R (R-help NO R-devel) o Stackoverflow
-C)Por inspección / experimentación
+###"Postear" a la lista de correos de R (R-help NO R-devel) o Stackoverflow
+###Por inspección / experimentación
   Por ejemplo: cambiando las entradas si se trata de una función.
-D)Leyendo el código fuente.
-E)Pregutarle a un amigo con más experiencia:
+###Leyendo el código fuente.
+###Pregutarle a un amigo con más experiencia:
   ¿Cómo preguntar?  / ¿cómo NO preguntar?
     ¿Qué pasos reproducen el problema?
     ¿Cuál es el resultado esperado y que es lo que obtienes en cambio?
@@ -52,7 +52,7 @@ Advertencias:
   Gritar que has encontrado un "error" en el software (99% de las veces no lo es).
   Pedir en los foros que resuelvan tu tarea.
 
-#Cuando busques respuestas es importante comentar lo que has intentado
+##Cuando busques respuestas es importante comentar lo que has intentado
 
 Recursos:
 Posting guide de R: http://www.r-project.org/posting-guide.html
