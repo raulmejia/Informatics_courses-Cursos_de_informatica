@@ -99,9 +99,10 @@
 
 `max(),min(),mean(),sd()`  
 
-`"a" "d" "b"`
+"a" "d" "b"
 
-`"1" 11 0 "naranja"`
+
+"1" 11 0 "naranja"
 
 `"2" 12 3 "sandia"`
 
