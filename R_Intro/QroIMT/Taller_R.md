@@ -1,9 +1,10 @@
 # ¿Por qué usar R?
-* Ampliamente utilizado en el ámbito científico en particular en áreas biológicas / de la salud / ciencias de la tierra / ingeniería /estadística, entre otras...
-   http://r4stats.com/articles/popularity/
-* Gran cantidad de software (paquetes) escrito en este lenguaje.
-* Software Libre.
-* Herramientas para REPRODUCIBILIDAD (R MarkDown)
+* Software de alta calidad, libre y gratuito en el que colaboran expertos internacionales.
+* Amplia adopción en el [ámbito científico](http://r4stats.com/articles/popularity/)
+* Gran cantidad de software (paquetes) ya escritos en este lenguaje, y por lo tanto extensas funcionalidades.
+* Como se ha convertido en un estádar, fácilmente se consiguen libros y documetación.
+* Procedimientos repetitivos pueden ser fácilmente automatizados.
+* Herramientas que propician la para REPRODUCIBILIDAD. 
 
 ### ¿Cómo obtener R? (página oficial)
 * https://cran.r-project.org/
