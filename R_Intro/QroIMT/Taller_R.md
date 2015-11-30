@@ -4,7 +4,7 @@
 3. Gran cantidad de software (paquetes) ya escritos en este lenguaje, y por lo tanto extensas funcionalidades.
 4. Como se ha convertido en un estádar, fácilmente se consiguen libros y documetación.
 5. Procedimientos repetitivos pueden ser fácilmente automatizados.
-6. Herramientas que propician la para reproducibilidad. 
+6. Herramientas que propician la reproducibilidad. 
 
 ### ¿Cómo obtener R? 
 * (página oficial) https://cran.r-project.org/
