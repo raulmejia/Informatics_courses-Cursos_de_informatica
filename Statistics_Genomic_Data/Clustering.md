@@ -4,7 +4,7 @@
 [Lecturas acerca de clustering en el gith hub de jleek](https://github.com/DataScienceSpecialization/courses/blob/master/04_ExploratoryAnalysis/hierarchicalClustering/index.md)
 incluye este ultimo hierarchical clustering y k-means
 
-Cosas para tener en mente cuando hacemos hierarchical clustering: (revisar que tanto aplica para el PAM50)
+## Cosas para tener en mente cuando hacemos hierarchical clustering: (revisar que tanto aplica para el PAM50)
   * Scaling (Se refiere a diferentes escalas en los datos?  la normalizacion en nuestro caso lo resuelve?  y el efecto de lote no?)
   * Outliers
   * Starting values (k-means) 
