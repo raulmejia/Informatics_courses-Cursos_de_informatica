@@ -1,6 +1,10 @@
 
 [highly cited article](http://www.pnas.org/content/95/25/14863.full)
+
+
 [Rafa](http://rafalab.jhsph.edu/688/lec/lecture-5-clustering.pdf)
+
+
 [Lecturas acerca de clustering en el gith hub de jleek](https://github.com/DataScienceSpecialization/courses/blob/master/04_ExploratoryAnalysis/hierarchicalClustering/index.md)
 incluye este ultimo hierarchical clustering y k-means
 
