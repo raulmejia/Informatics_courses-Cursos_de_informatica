@@ -1,0 +1,69 @@
+---
+title: "Pagina prueba markdown"
+author: "Raul Mejia"
+output:
+  rmarkdown::pdf_document:
+    toc: true
+  vignette: >
+    %\VignetteIndexEntry{R markdown}
+    %\VignetteEngine{knitr::rmarkdown}
+    \usepackage[utf8]{inputenc}
+    
+---
+
+``` {r}
+library(devtools)
+```
+
+## Personalizando los colores 
+
+```{r}
+##Esquema de colores inspirado en el paquete RSkittleBrewer
+## https://github.com/alyssafraze/RSkittleBrewer
+tropical = c('darkorange','dodgerblue','hotpink','limegreen','yellow')
+palette(tropical)
+par(pch=19)
+```
+
+
+```{r global_options, warning=FALSE, message=FALSE}
+#Leer el capítulo 10, Hook of Xle's knitr book
+library(knitr)
+knit_hooks$set(setPch=function(before,options,envir){
+  if(before)par(pch=19)
+})
+opts_chunk$set(setPch=TRUE)
+```
+
+
+```{r global-plot, warning=FALSE, message=FALSE}
+knitr::opts_chunk$set(fig.width=5,fig.height=5,size="footnotesize",
+  waring=FALSE,message=FALSE)
+knitr::knit_hooks$set(small.mar=function(before,options,envir){
+  if(before) graphics::par(mar=c(5,5,1,1))
+})
+```
+
+Esto muestra como elegir el ancho y largo de las imágenes, así como los márgenes.
+
+
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+
+```{r}
+summary(cars)
+```
+
+You can also embed plots, for example:
+
+```{r, echo=TRUE}
+plot(cars)
+```
+
+```{r}
+library(devtools)
+```
+
