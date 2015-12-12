@@ -84,16 +84,18 @@
 
 #### Cargar datos de un archivo .csv , .txt  , base foxpro.
 
-`"Sepal.Length" "Sepal.Width" "Petal.Length" "Petal.Width" "Species"`  
-`"1" 5.1 3.5 1.4 0.2 "setosa"`  
-`"2" 4.9 3 1.4 0.2 "setosa"`  
-`"3" 4.7 3.2 1.3 0.2 "setosa"`  
+
+Podemos usar los datos dentro de esta misma carpeta de github llamados " Datos_para_ensayar.md "
+los guardamos como texto plano (un ".txt")  y para leerlos en R podemos y usar:    
+* `read.table(file="Como_se_llame_mi_archivo.txt")`
+
 
 ####  Guardar
 1. salvar sesi'on `save.image(file="nombredeseado.RData")`
 2. salvar objetos especificos `save(x,y,file="nombredeseado.RData")`
 3. `write.table(x,file="mitabla.txt") / write.csv`
 4. `pdf(file="nombredemiarchivo.pdf")`
+5. Le indicamos donde se cierra el pdf  con: `dev.off()`
 * `codigo para graficar`
 * `dev.off()` para concluir y guardar la imagen.
  
