@@ -40,12 +40,15 @@
     
   3. Matrices `m1<-matrix(11:26,nrow=4,ncol=4)`
     * *Ejercicio* usando la ayuda ? hacer que la matriz se construya según la secuencia de renglones.
+    * `colnames(m1)<-c`
+    * `rownames(m1)<-c`
   4. DataFrame `d.f<-data.frame(c,a,b)`
-    
+    * *Ejercicio*  Convertir la matriz anterior en un data frame
   5. Listas `milista<-list(c,d,m1,d.f)`
 * `class()`
 * `mode()`
 * `length()`
+* `dim`
 * `str()`
 
 ### Operaciones aritméticas básicas con objetos
@@ -69,6 +72,8 @@
 * `as.numeric(e)` 
 * `f<-append(e,NA)`,`is.na(f)`
 * `rm(e)`
+* `append(c,"maracuya")`
+* `c[6]<-"frambuesa"`
 
 
 ## Manejo de datos
@@ -78,6 +83,11 @@
 * Orange  Para regresion lineal simple, cars more lineal regresion,  mtcars mas de carros
 
 #### Cargar datos de un archivo .csv , .txt  , base foxpro.
+
+"Sepal.Length" "Sepal.Width" "Petal.Length" "Petal.Width" "Species"
+"1" 5.1 3.5 1.4 0.2 "setosa"
+"2" 4.9 3 1.4 0.2 "setosa"
+"3" 4.7 3.2 1.3 0.2 "setosa"
 
 ####  Guardar
 1. salvar sesi'on `save.image(file="nombredeseado.RData")`
