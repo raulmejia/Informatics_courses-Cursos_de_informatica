@@ -100,6 +100,10 @@ los guardamos como texto plano (un ".txt")  y para leerlos en R podemos y usar:
 * `dev.off()` para concluir y guardar la imagen.
  
 
+#### Comunicacion con el shell
+
+`system("ls")`
+
 ## Crear mis datos de trabajo
 
 
@@ -160,6 +164,17 @@ Guardar el objeto actual y cargarlo luego
 * Datos aleatorios
 * Cargar sus propios datos
 ## Plotearlos con bloxplot, hist, 
+
+
+### Mi primer funcion.
+
+
+
+### Heatmap
+
+`heatmap(t(iris[,1:4]),Colv=NA,Rowv=NA)`
+
+
 
 
 ##Script ninja!
