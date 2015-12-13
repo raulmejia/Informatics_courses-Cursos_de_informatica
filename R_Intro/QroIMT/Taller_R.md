@@ -174,24 +174,24 @@ Guardar el objeto actual y cargarlo luego
 
 Personalizar los colores
 
-`tropical=  c('darkorange', 'dodgerblue', 'hotpink', 'limegreen', 'yellow')`
-`palette(tropical)`
+`tropical=  c('darkorange', 'dodgerblue', 'hotpink', 'limegreen', 'yellow')`  
+`palette(tropical)`  
 
 Librerias 
 
-  `library(devtools)`
-  `library(Biobase)`
-  `library(dendextend)`
+  `library(devtools)`  
+  `library(Biobase)`  
+  `library(dendextend)`  
 
-`colramp = colorRampPalette(c(3,"white",2))(9)`
-`heatmap(t(iris[,1:4]),col=colramp,Colv=NA,Rowv=NA)`
-`heatmap(t(iris[,1:4]),Colv=NA,Rowv=NA)`
+`colramp = colorRampPalette(c(3,"white",2))(9)`  
+`heatmap(t(iris[,1:4]),col=colramp,Colv=NA,Rowv=NA)`  
+`heatmap(t(iris[,1:4]),Colv=NA,Rowv=NA)`  
 
 #### clustering
 
-`dist1=dist(m1)`
-`mihclust=hclust(dist1)`
-`plot(mihclust)`
+`dist1=dist(m1)`  
+`mihclust=hclust(dist1)`  
+`plot(mihclust)`  
 
 
 
