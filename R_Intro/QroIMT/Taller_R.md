@@ -153,7 +153,8 @@ Crear una matriz de 5X20
 Obtener el promedio de inflamación del segundo paciente  
 Graficarlo  
 Desviacion éstandar  
-`boxplot(as.numeric(MisDatos[1,]))`,`hist()`  
+`apply(iris[,1:4],2,mean)`
+`boxplot(iris[,1:4],col=rainbow(4))`
 Poner colores  
 Guardar pdf de la gráfica
 Guardar el objeto actual y cargarlo luego
