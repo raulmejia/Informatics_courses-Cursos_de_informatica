@@ -16,7 +16,7 @@ incluye este ultimo hierarchical clustering y k-means
   
 ##------
 
-* [O estas eran las notas?](http://jtleek.com/genstats_site/lecture_notes/01_12_Clustering.pdf)
+* [Notas del video](http://jtleek.com/genstats_site/lecture_notes/01_12_Clustering.pdf)
 https://en.wikipedia.org/wiki/Taxicab_geometry
 
 * [I particularly recomend hector corrada bravo lectures](http://stat.ethz.ch/education/semesters/SS_2006/CompStat/sk-ch2.pdf)
