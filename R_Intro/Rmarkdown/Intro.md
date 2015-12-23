@@ -2,11 +2,11 @@ Para instalar R en ubuntu 14.04 recomiendo que uses este repositorio (para estar
 ```
 sudo nano /etc/apt/sources.list
 ```
-  Add a cran mirror (i.e. 
+  Añade un "mirror" por ejemplo: 
 ```
 deb http://cran.rstudio.com/bin/linux/ubuntu trusty/
 ```
-  Add an APT-key 
+  Agrega una "APT-key" (llave APT) 
 ```
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E084DAB9 (see cran)
 ```
@@ -14,8 +14,12 @@ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E084DAB9 (see cran
 ```
 sudo apt-get update
 ```
-  Now update R 
+  Instala R 
 ```
 sudo apt-get install r-base
+```
 
+Dentro de R podemos instalar la librería "devtools"
+```
+install.packages("devtools")
 ```
