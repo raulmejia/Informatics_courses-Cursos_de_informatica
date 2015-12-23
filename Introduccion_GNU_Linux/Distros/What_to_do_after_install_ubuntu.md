@@ -30,3 +30,9 @@ Si quieres escuchar musica en formatos privativos
 ```
 sudo apt-get install ubuntu-restricted-extras
 ```
+
+### Visor y editor de pdf
+```
+sudo apt-get install okular
+sudo apr-get install evince
+```
