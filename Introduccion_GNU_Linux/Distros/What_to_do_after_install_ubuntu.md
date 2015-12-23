@@ -22,3 +22,7 @@ el geogebra
 
 [Para instalar google chrome](http://askubuntu.com/questions/510056/how-to-install-google-chrome) 
 
+Si quieres escuchar musica en formatos privativos
+```
+sudo apt-get install ubuntu-restricted-extras
+```
