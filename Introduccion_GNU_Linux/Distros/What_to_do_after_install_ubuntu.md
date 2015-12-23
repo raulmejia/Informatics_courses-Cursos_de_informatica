@@ -10,3 +10,13 @@ Para instalar un entorno ligero (XFCE)
 ```
 sudo apt-get install -y xfce4 xfce4-goodies
 ```
+
+Si deseas el pol'emico Adobe Flash player
+```
+
+```
+
+el k3d surf
+
+el geogebra
+
