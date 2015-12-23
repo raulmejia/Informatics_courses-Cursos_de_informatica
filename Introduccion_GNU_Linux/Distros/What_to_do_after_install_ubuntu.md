@@ -10,7 +10,12 @@ sudo apt-get install ubuntu-gnome-desktop
 Para instalar un entorno ligero (XFCE)
 
 ```
-sudo apt-get install -y xfce4 xfce4-goodies
+sudo apt-get install xfce4
+```
+###Instalar el gdebi para instalar los.deb de un sólo clic
+
+```
+sudo apt-get install gdebi
 ```
 
 ### Si deseas el polémico Adobe Flash player
