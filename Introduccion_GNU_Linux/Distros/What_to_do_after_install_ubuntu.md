@@ -20,3 +20,5 @@ el k3d surf
 
 el geogebra
 
+[Para instalar google chrome](http://askubuntu.com/questions/510056/how-to-install-google-chrome) 
+
