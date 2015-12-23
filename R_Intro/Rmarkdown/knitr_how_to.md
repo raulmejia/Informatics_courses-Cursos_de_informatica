@@ -1,5 +1,5 @@
 
-Después de instalar R, [sugiero usar el siguiente respositorio en Ubuntu](https://github.com/raulmejia/Cursos/blob/master/R_Intro/Rmarkdown/Intro.md)
+Después de instalar R [sugiero usar el siguiente respositorio en Ubuntu](https://github.com/raulmejia/Cursos/blob/master/R_Intro/Rmarkdown/Intro.md)
 
 Dentro de R podemos instalar la librería "devtools"
 ```
