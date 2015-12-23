@@ -20,10 +20,15 @@ neo@nabuco:~$ umount /dev/sdb
 '''
 Lo formateamos...
 '''
-
+sudo mkfs.vfat -I -F 32 -n Ubuntu14.04_iso /dev/sdb
 '''
 
 
 
 
 mkfs.vfat -n data /dev/sdc1
+
+
+Otro comando para verlo... sudo fdisk -l
+
+install dosfstools
