@@ -1,6 +1,7 @@
 Abre R studio da clic en File -> New File -> R markdown... y solito te instalara los paquetes para que comiences a usarlo.  Recuerda guardar tu documento con la terminacion ".Rmd" para que puedas correrlo sin problemas.
 
-## Para instalar devtools (Si usas Debian o derivados)
+## Para instalar devtools (Si usas Debia puedes usar los siguientes comandos) , si usas ubuntu ve la [sección](https://github.com/raulmejia/Cursos/edit/master/R_Intro/Rmarkdown/Intro.md)
+
 1. Abre una terminal y ejecuta
 ```
 sudo apt-get -y install libxml2-dev
