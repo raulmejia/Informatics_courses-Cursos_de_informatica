@@ -13,14 +13,14 @@ Para instalar un entorno ligero (XFCE)
 sudo apt-get install -y xfce4 xfce4-goodies
 ```
 
-### Si deseas el pol'emico Adobe Flash player
+### Si deseas el polémico Adobe Flash player
 ```
 
 ```
-### Algunos programa s para graficas 
+### Algunos programas para gráficas 
 el k3d surf
-
 el geogebra
+(Puedes encontrarlos en el ubuntu software center o en el synaptic)
 
 ### Navegadores
 [Para instalar google chrome](http://askubuntu.com/questions/510056/how-to-install-google-chrome) 
