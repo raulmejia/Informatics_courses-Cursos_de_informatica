@@ -36,3 +36,9 @@ sudo apt-get install ubuntu-restricted-extras
 sudo apt-get install okular
 sudo apr-get install evince
 ```
+
+### Editor de texto plano decentillo 
+```
+apt-get install kate
+```
+
