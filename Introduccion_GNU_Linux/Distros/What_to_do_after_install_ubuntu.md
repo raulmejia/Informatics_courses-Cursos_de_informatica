@@ -17,6 +17,7 @@ sudo apt-get install xfce4
 ```
 sudo apt-get install gdebi
 ```
+Posteriormente puedes clic secundario sobre el ícono de tu archivo ".deb" , luego en la pestaña "abrir con"  y finalmente en elegir como aplicación predeterminada.
 
 ### Si deseas el polémico Adobe Flash player
 ```
