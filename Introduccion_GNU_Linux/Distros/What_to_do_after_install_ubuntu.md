@@ -36,7 +36,11 @@ Si quieres escuchar musica en formatos privativos
 ```
 sudo apt-get install ubuntu-restricted-extras
 ```
-
+### Más cosas privativas
+Las fuentes Arial, Verdana, etc... de Microsoft
+```
+sudo apt-get install ttf-mscorefonts-installer
+```
 ### Visor y editor de pdf
 ```
 sudo apt-get install okular
