@@ -10,6 +10,7 @@ library(reshape2)
 library(GGally)
 data(HairEyeColor)
 P=t(HairEyeColor[,,2])
+Pm=melt(P)
 
 ggfluctuation2(Pm,type="heatmap")+
   geom_text(aes(label=Pm$value),colour="white")+
