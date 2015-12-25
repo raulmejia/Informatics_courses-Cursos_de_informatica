@@ -41,11 +41,12 @@ sudo mkfs.vfat -I -F 32 -n NOMBRE_PARA_MIUSB/dev/sdb
 
 Después de el argumento -n escribe el nombre que desees para tu usb, recuerda que a Windows no le gustan las minúsculas en estos casos así que escribe con mayúsculas para que no tengas este problema.
 
-```
-mkfs.vfat -n data /dev/sdc1
-```
+-F 32 es el tipo de formato.
+  
+Y listo! hemos terminado
 
-Otro comando para verlo... 
+
+Posdata otro cpmando para ver los montajes en tu sistema de arvhivos es:
 ```
 sudo fdisk -l
 ```
