@@ -25,18 +25,21 @@ tmpfs             398656         8    398648   1% /run/user/121
 tmpfs             398656        12    398644   1% /run/user/1000
 /dev/sdb        15249856   1425696  13824160  10% /media/neo/MIUSB
 ```
+En este ejemplo formatearemos el dispositvo "MIUSB"  podemos ver que esta montado en /media/neo/MIUSB y en el sistema de archivos es /dev/sdb
 
-Desmontamos el dispositivo
+Así Desmontamos el dispositivo en /dev/sdb deberás cambiarlo para tu caso particular.
+
 ```
 neo@nabuco:~$ umount /dev/sdb
 ```
 
-Lo formateamos...
+Lo formateamos... recuerda escribir correctamente la ruta (en ejemplo /dev/sdb) pero cambiará en cada caso.
+
 ```
-sudo mkfs.vfat -I -F 32 -n Ubuntu14.04_iso /dev/sdb
+sudo mkfs.vfat -I -F 32 -n NOMBRE_PARA_MIUSB/dev/sdb
 ```
 
-
+Después de el argumento -n escribe el nombre que desees para tu usb, recuerda que a Windows no le gustan las minúsculas en estos casos así que escribe con mayúsculas para que no tengas este problema.
 
 ```
 mkfs.vfat -n data /dev/sdc1
