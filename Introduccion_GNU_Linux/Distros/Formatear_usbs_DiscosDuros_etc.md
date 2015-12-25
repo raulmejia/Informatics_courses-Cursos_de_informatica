@@ -43,10 +43,4 @@ Después de el argumento -n escribe el nombre que desees para tu usb, recuerda q
 
 -F 32 es el tipo de formato.
   
-Y listo! hemos terminado
-
-
-Posdata otro cpmando para ver los montajes en tu sistema de arvhivos es:
-```
-sudo fdisk -l
-```
+Y listo! hemos terminado.
