@@ -36,7 +36,7 @@ neo@nabuco:~$ umount /dev/sdb
 Lo formateamos... recuerda escribir correctamente la ruta (en ejemplo /dev/sdb) pero cambiará en cada caso.
 
 ```
-sudo mkfs.vfat -I -F 32 -n NOMBRE_PARA_MIUSB/dev/sdb
+sudo mkfs.vfat -I -F 32 -n NOMBRE_PARA_MIUSB /dev/sdb
 ```
 
 Después de el argumento -n escribe el nombre que desees para tu usb, recuerda que a Windows no le gustan las minúsculas en estos casos así que escribe con mayúsculas para que no tengas este problema.
