@@ -21,7 +21,7 @@
         * apropos
     * Manipulación de archivos y directorios
         * ¿QUé acciones puedo hacer a un archivo/directorio?.
-        * 
+    *Editar textos
     * Manejo de Procesos
     * Misceláneos
     * Mi primer script
