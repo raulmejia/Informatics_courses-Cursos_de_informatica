@@ -4,6 +4,10 @@
 ## Introducción a la Línea de comandos de Linux (45 min)
 
 1. Ventajas de la línea de comandos
+   * Flexibilidad.
+   * Confiabilidad.
+   * Velocidad (Automatización, Instrínsecamente consumen menos recursos, ).
+   * Experiencia / conociemiento más profundo.
 2. Sistema de archivos en Linux
 3. Comandos conceptos y sintaxis
 4. Práctica de comandos útiles básicos
