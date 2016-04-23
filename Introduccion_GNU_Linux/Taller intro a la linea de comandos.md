@@ -11,7 +11,17 @@
 2. Sistema de archivos en Linux
 3. Comandos conceptos y sintaxis
 4. Práctica de comandos útiles básicos
-    * Manipulación de archivos
+    * Primer abordaje
+        * pwd
+        * whoami
+        * who
+        * cd  (paths absolutos y relativos)  
+        * ls
+        * man ls
+        * apropos
+    * Manipulación de archivos y directorios
+        * ¿QUé acciones puedo hacer a un archivo/directorio?.
+        * 
     * Manejo de Procesos
     * Misceláneos
     * Mi primer script
