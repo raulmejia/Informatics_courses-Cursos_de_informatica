@@ -85,3 +85,9 @@ http://opensourceecology.org/about-overview/
 Messenger
 
 http://www.taringa.net/post/linux/19060494/Mensajeria-anonima-con-Tor-Messenger.html
+
+***
+
+Shell script
+
+http://etxea.net/docu/taller_bash/bash.html
