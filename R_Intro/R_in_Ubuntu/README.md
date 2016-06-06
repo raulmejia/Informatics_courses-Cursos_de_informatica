@@ -1,6 +1,6 @@
 Para instalar la versión más reciente de R y dispobibilidad de sus actualizaciones.
 
-* Por favor sigue las instrucciones en:  [este link para ubuntu](https://cran.r-project.org/bin/linux/ubuntu/README)
+Por favor sigue las instrucciones en:  [este link para ubuntu](https://cran.r-project.org/bin/linux/ubuntu/README)
 
 A continuación un breve resumen en español:
 
@@ -9,7 +9,7 @@ A continuación un breve resumen en español:
 3. Sustituye ```https://<my.favorite.cran.mirror>```  por tu dirección favorita de la lista de [mirrors](https://cran.r-project.org/mirrors.html)
 
 
-* Por ejemplo en mi caso  (México)  el repositorio que elegí fue 
+Por ejemplo en mi caso  (México)  el repositorio que elegí fue 
 ``` deb https://cran.itam.mx/bin/linux/ubuntu xenial/```
 
 4. Añade esa línea a tu archivo /etc/apt/sources.list
