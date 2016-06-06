@@ -1,8 +1,9 @@
 ## Para instalar la versión más reciente de R y dispobibilidad de sus actualizaciones.
 
-Por favor sigue las instrucciones en:  [este link para ubuntu](https://cran.r-project.org/bin/linux/ubuntu/README)
+
 
 A continuación un breve resumen en español:
+Puedes encontrar las referencias completas en:  [este link para ubuntu](https://cran.r-project.org/bin/linux/ubuntu/README)
 
 1. Abre el archivo donde tienes los repositorios de tu sistema, mediante el comando ``` sudo nano /etc/apt/sources.list  ```
 2. Si tu sistema es Ubuntu 16.04 (Xenial Xerus) Entonces la línea para tu repositorio de R puede verse como:  ```deb https://<my.favorite.cran.mirror>/bin/linux/ubuntu xenial/```
