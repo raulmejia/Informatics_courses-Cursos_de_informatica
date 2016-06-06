@@ -1,4 +1,4 @@
-Para instalar la versión más reciente de R y dispobibilidad de sus actualizaciones.
+## Para instalar la versión más reciente de R y dispobibilidad de sus actualizaciones.
 
 Por favor sigue las instrucciones en:  [este link para ubuntu](https://cran.r-project.org/bin/linux/ubuntu/README)
 
