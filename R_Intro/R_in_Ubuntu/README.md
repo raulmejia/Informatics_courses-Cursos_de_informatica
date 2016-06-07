@@ -38,7 +38,7 @@ En la [liga inicial](https://cran.r-project.org/bin/linux/ubuntu/README) viene i
 1. Abre una terminal y teclea: ```sudo apt-get install libcurl4-openssl-dev libxml2-dev ```
 2. Ahora puedes instalar dentro de R XML y RCurl mediante: ``` install.packages("XML") ``` y ``` install.packages("RCurl") ```
 3. Listo!
-[Referencias](https://stackoverflow.com/questions/10965755/genomicfeatures-package-installation-trouble)
+[Referencias de esto último](https://stackoverflow.com/questions/10965755/genomicfeatures-package-installation-trouble)
 
 
 
