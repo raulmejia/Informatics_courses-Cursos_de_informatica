@@ -29,3 +29,14 @@ Listo!
 
 En la liga inicial viene información adicional sobre el mantenimiento del software (actualizaciones).
 
+
+##### Por último: te sugiero que instales las siguientes dependencias, las cuales son necesarias para muchos paquetes de R. 
+
+
+1. Abre una terminal y teclea: ```sudo apt-get install libcurl4-openssl-dev libxml2-dev ```
+2. Ahora puedes instalar dentro de R XML y RCurl mediante: ``` install.packages("XML") ``` y ``` install.packages("RCurl") ```
+3. Listo!
+[Referencias](https://stackoverflow.com/questions/10965755/genomicfeatures-package-installation-trouble)
+
+
+
