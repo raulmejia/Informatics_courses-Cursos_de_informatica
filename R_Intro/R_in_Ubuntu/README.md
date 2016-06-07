@@ -30,7 +30,9 @@ Listo!
 En la liga inicial viene información adicional sobre el mantenimiento del software (actualizaciones).
 
 
-##### Por último: te sugiero que instales las siguientes dependencias, las cuales son necesarias para muchos paquetes de R. 
+---
+
+#### Por último: te sugiero que instales las siguientes dependencias, las cuales son necesarias para muchos paquetes de R. 
 
 
 1. Abre una terminal y teclea: ```sudo apt-get install libcurl4-openssl-dev libxml2-dev ```
