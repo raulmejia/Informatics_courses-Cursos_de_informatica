@@ -27,7 +27,7 @@ Por ejemplo en mi caso  (México)  el repositorio que elegí fue
 Listo!
 
 
-En la liga inicial viene información adicional sobre el mantenimiento del software (actualizaciones).
+En la [liga inicial](https://cran.r-project.org/bin/linux/ubuntu/README) viene información adicional sobre el mantenimiento del software (actualizaciones).
 
 
 ---
