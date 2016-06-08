@@ -18,20 +18,20 @@
 
 6. Algunos comandos básicos
     * Primer abordaje
-        * pwd
-        * whoami
-        * who
-        * cd  (paths absolutos y relativos) 
-        * touch 
-          * Crear un archivo de prueba.   
-        * ls
-        * man ls
-          * Ej: ver los archivos ocultos (hidden files)
-        * apropos
-          * Ej: ¿Cómo borrar archivos? ¿y directorios?   
+      * pwd
+      * whoami
+      * who
+      * cd  (paths absolutos y relativos) 
+      * touch 
+        * Crear un archivo de prueba.   
+      * ls , info
+      * man ls
+        * Ej: ver los archivos ocultos (hidden files)
+      * apropos
+        * Ej: ¿Cómo borrar archivos? ¿y directorios?   
     * Manipulación de archivos y directorios
-        * ¿QUé acciones puedo hacer a un archivo/directorio?.
-        * borrar, crear, renombrar, mover de ubicación.
+      * ¿QUé acciones puedo hacer a un archivo/directorio?.
+      * borrar, crear, renombrar, mover de ubicación.
     *Editar textos
       * Nano, gedit, Emacs, vi.
     * Manejo de Procesos
