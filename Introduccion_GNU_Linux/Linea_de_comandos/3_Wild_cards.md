@@ -10,7 +10,7 @@ Creamos algunos archivos para practicar:
 
 ``` touch otros_Documentos/fotos_Enero ```  
 
-* Ahora comencemos:
+* Ahora comencemos:  
 ``` ls *.txt ```  
 ``` ls *Documentos ```  
 ``` ls *Documentos/*Enero```  
