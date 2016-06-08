@@ -3,7 +3,9 @@
 * Comencemos creando un archivo con el siguiente contenido:
 
 ```Carroll, Lewis:Through the Looking-Glass```
+
 ```Shakespeare, William:Hamlet```
+
 ```Bartlett, John:Familiar Quotations```
 
 ```Mill, John Stuart:On Nature```
