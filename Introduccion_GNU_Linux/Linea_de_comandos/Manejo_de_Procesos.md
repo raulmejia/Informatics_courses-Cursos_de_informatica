@@ -1,9 +1,7 @@
 ### Redirección
 
-* **Sobreescribir una salida**
-
-``` ls *.txt > lista_de_mis_.txt ```  
-
+* **Sobreescribir una salida**  
+``` ls *.txt > lista_de_mis_.txt ```   
 ``` echo no más por no dejar > lista_de_mis_.txt  ```
 
 * **Anexar:**  
