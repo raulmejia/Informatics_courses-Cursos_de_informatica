@@ -1,5 +1,7 @@
 
+### Un poco sobre procesamiento de texto
 
+* Comencemos creando un archivo con el siguiente contenido:
 
 ```Carroll, Lewis:Through the Looking-Glass```
 
