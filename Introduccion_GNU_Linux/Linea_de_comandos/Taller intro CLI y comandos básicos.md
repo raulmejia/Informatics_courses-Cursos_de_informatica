@@ -31,8 +31,10 @@
         * Ej: ¿Cómo borrar archivos? ¿y directorios?   
     * Manipulación de archivos y directorios
       * ¿QUé acciones puedo hacer a un archivo/directorio?.
-      * borrar, crear, renombrar, mover de ubicación.
+      * borrar, crear, renombrar, mover de ubicación, copiar archivos y carpetas.
     *Editar textos
+      * ¿Para que texto plano?
+      * less, cat
       * Nano, gedit, Emacs, vi.
     * Manejo de Procesos
     * Misceláneos
