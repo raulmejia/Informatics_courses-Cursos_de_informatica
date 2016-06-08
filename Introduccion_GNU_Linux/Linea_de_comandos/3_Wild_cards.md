@@ -29,7 +29,8 @@
 
 ``` ls '*?****[a-b]' ``` 
 
-### Buscando archivos
+### Buscando archivos  
 
-``` find . -name mundo -print  ```
-``` find . -name *_Enero -print  ```
+``` find . -name mundo -print  ```  
+
+``` find . -name *_Enero -print  ```  
