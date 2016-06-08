@@ -33,4 +33,4 @@
 ordernar ``` sort libros```  
 Cortar en columnas por un carácter dado, en este caso ":"  ``` cut -d: -f1 libros ```  
 Ambas cosas ``` sort libros | cut -d: -f1 ```
-
+Busquemos la palabra "John" ``` cut -d: -f1 books | sort | grep "John" ```
