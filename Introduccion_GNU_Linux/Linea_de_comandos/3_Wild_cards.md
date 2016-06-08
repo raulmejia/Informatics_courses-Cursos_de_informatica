@@ -1,6 +1,6 @@
 
 Creamos algunos archivos para practicar:
-```touch texto1.txt texto3.txt texto10.txt textoa.txt  hola.txt mundo```  
+```touch texto1.txt texto3.txt texto10.txt textoa.txt textoc.txt hola.txt mundo```  
 
 ``` mkdir mis_Documentos ```  
 
@@ -14,6 +14,9 @@ Creamos algunos archivos para practicar:
 ``` ls *.txt ```  
 ``` ls *Documentos ```  
 ``` ls *Documentos/*Enero```  
-
-
-
+``` ls texto??.txt```
+``` ls texto[13a].txt```  
+``` ls texto[1-3].txt```  
+``` ls texto[a-c].txt```
+``` ls texto[a-c13].txt```  
+``` ls texto[^a-c13].txt ```
