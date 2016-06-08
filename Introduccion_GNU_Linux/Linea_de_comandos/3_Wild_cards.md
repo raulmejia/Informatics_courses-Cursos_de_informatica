@@ -22,6 +22,9 @@
 ``` ls texto[^a-c13].txt ```
 
 *Desabilitando una wild card:  
+
 ``` touch te*to ```
+
 ``` ls te\*to ```
+
 ``` ls '*?****[a-b]' ``` 
