@@ -6,7 +6,7 @@
 
 ``` echo no más por no dejar > lista_de_mis_.txt  ```
 
-**Anexar:**
+**Anexar:**  
 ``` echo no más por no dejar >> lista_de_mis_.txt ```
 
 **Pipe:**
@@ -22,8 +22,12 @@
 * stderr = 2
 
 Ejemplo:  
-``` ls YaSeQueEsteArchivoNoExiste ````    
-``` ls YaSeQueEsteArchivoNoExiste > Quepaso````   
+``` ls YaSeQueEsteArchivoNoExiste ````     
+
+
+``` ls YaSeQueEsteArchivoNoExiste > Quepaso````    
+
+
 ``` ls YaSeQueEsteArchivoNoExiste 2> Quepaso````   
 
 ---
