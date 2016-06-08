@@ -1,4 +1,3 @@
-
 ### Un poco sobre procesamiento de texto
 
 * Comencemos creando un archivo con el siguiente contenido:
@@ -28,3 +27,10 @@
 ```Mill, John Stuart:On Liberty```
 
 ```Bunyan, John:Saved by Grace```
+
+* Si el archivo se llama "libros", podemos hacer lo siguiente: 
+
+ordernar ``` sort libros```  
+Cortar en columnas por un carácter dado, en este caso ":"  ``` cut -d: -f1 libros ```  
+Ambas cosas ``` sort books | cut -d: -f1 ```
+
