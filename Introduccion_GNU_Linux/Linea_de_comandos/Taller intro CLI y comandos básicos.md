@@ -8,20 +8,32 @@
    * Confiabilidad.
    * Velocidad (Automatización, Instrínsecamente consumen menos recursos, ).
    * Experiencia / conociemiento más profundo.
-2. Sistema de archivos en Linux
-3. Comandos conceptos y sintaxis
-4. Práctica de comandos útiles básicos
+   * Control remoto a través de la red.
+2. Ejemplo:
+    * Cambiar el formato a "n"  imágenes.  pasos GUI vs pasos CLI
+3. Incluso los programas gráficos son comandos.
+    * Ejemplo: nautilus vs ls
+4. Comandos conceptos y síntaxis.
+5. Sistema de archivos en Linux
+
+6. Algunos comandos básicos
     * Primer abordaje
         * pwd
         * whoami
         * who
-        * cd  (paths absolutos y relativos)  
+        * cd  (paths absolutos y relativos) 
+        * touch 
+          * Crear un archivo de prueba.   
         * ls
         * man ls
+          * Ej: ver los archivos ocultos (hidden files)
         * apropos
+          * Ej: ¿Cómo borrar archivos? ¿y directorios?   
     * Manipulación de archivos y directorios
         * ¿QUé acciones puedo hacer a un archivo/directorio?.
+        * borrar, crear, renombrar, mover de ubicación.
     *Editar textos
+      * Nano, gedit, Emacs, vi.
     * Manejo de Procesos
     * Misceláneos
     * Mi primer script
