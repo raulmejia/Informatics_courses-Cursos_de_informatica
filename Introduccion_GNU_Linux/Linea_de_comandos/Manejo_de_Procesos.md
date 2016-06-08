@@ -18,7 +18,7 @@
 * stdout = 1
 * stderr = 2
 
-A. Ejemplo:  
+ Ejemplo:  
 ``` ls YaSeQueEsteArchivoNoExiste ````     
 
 ``` ls YaSeQueEsteArchivoNoExiste > Quepaso````    
