@@ -27,7 +27,8 @@
         * Crear un archivo de prueba.   
       * ls , info
       * man ls
-        * Ej: ver los archivos ocultos (hidden files)
+        * Ej: ver los archivos ocultos (hidden files), 
+        * Que los muestre seguidos de manera horizontal, Es decir:  archivo1, arhivo2, arhivo3,...
       * apropos
         * Ej: ¿Cómo borrar archivos? ¿y directorios?   
     * Manipulación de archivos y directorios
