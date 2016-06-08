@@ -1,5 +1,5 @@
 
-*Creamos algunos archivos para practicar:   
+* Creamos algunos archivos para practicar:   
 ```touch texto1.txt texto3.txt texto10.txt textoa.txt textoc.txt hola.txt mundo```  
 
 ``` mkdir mis_Documentos ```  
@@ -21,7 +21,7 @@
 ``` ls texto[a-c13].txt```  
 ``` ls texto[^a-c13].txt ```
 
-*Desabilitando una wild card:  
+* Desabilitando una wild card:  
 
 ``` touch te*to ```
 
@@ -37,7 +37,7 @@
 
 ``` find directory_to_backup  -mtime +30  -size +500k  -print ```
 
-Usar find para correr un comando en multiples archivos
+* Usar find para correr un comando en multiples archivos
 
 ``` find . -name 'text*' -exec cp {} {}.backup \; ```
 
