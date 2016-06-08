@@ -33,4 +33,13 @@
 
 ``` find . -name mundo -print  ```  
 
-``` find . -name *_Enero -print  ```  
+``` find . -name *_Enero -print  ```    
+
+``` find directory_to_backup  -mtime +30  -size +500k  -print ```
+
+Usar find para correr un comando en multiples archivos
+
+``` find . -name 'text*' -exec cp {} {}.backup \; ```
+
+
+
