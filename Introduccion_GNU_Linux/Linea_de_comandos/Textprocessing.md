@@ -35,4 +35,4 @@ Cortar en columnas por un carácter dado, en este caso ":"  ``` cut -d: -f1 libr
 Ambas cosas ``` sort libros | cut -d: -f1 ```  
 Busquemos la palabra "John" ``` cut -d: -f1 libros | sort | grep "John" ```  
 Colapsar los repetidos y contar las ocurrencias: ``` cut -d: -f1 libros | sort | grep ", John" | uniq -c  ```  
-Ordenar lo anterior por ocurrencias ``` cut -d: -f1 books | sort | grep ", John" | uniq -c | sort -nr ```
+Ordenar lo anterior por ocurrencias ``` cut -d: -f1 libros | sort | grep ", John" | uniq -c | sort -nr ```
