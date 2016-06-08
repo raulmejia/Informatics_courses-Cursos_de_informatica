@@ -3,9 +3,7 @@
 * Comencemos creando un archivo con el siguiente contenido:
 
 ```Carroll, Lewis:Through the Looking-Glass```
-
 ```Shakespeare, William:Hamlet```
-
 ```Bartlett, John:Familiar Quotations```
 
 ```Mill, John Stuart:On Nature```
@@ -32,5 +30,5 @@
 
 ordernar ``` sort libros```  
 Cortar en columnas por un carácter dado, en este caso ":"  ``` cut -d: -f1 libros ```  
-Ambas cosas ``` sort books | cut -d: -f1 ```
+Ambas cosas ``` sort libros | cut -d: -f1 ```
 
