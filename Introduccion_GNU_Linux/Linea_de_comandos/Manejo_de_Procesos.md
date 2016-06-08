@@ -27,4 +27,21 @@ A.Ejemplo:
 
 ---
 
+### Procesos
+
+* Para interrumpir un proceso presionar "Ctrl" + "c"
+* Ver procesos con ``` ps ``` , ``` top ``` o ```htop ```  este ùltimo lo podemos instalar con ``` sudo apt-get install htop ```
+*  kill PID
+*  
+
+### Processes and jobs (background)
+
+
+* Para poner un proceso en el "background" y seguir con el control de la terminal podemos hacer:    
+``` firefox & ```
+* Para ver los "jobs" en el background:
+``` job ```
+* Y para traerlos de regreso podemos escribir:
+``` fg PID ``` o ``` fg %1 ```
+
 
