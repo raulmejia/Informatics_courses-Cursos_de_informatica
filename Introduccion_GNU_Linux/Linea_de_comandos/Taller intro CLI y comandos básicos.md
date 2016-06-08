@@ -14,6 +14,7 @@
 3. Incluso los programas gráficos son comandos.
     * Ejemplo: nautilus vs ls
 4. Comandos conceptos y síntaxis.
+    * echo algo otracosa
 5. Sistema de archivos en Linux
 
 6. Algunos comandos básicos
