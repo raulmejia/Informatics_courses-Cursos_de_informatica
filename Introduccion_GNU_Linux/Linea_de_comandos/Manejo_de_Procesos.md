@@ -1,6 +1,6 @@
 ### Redirección
 
 
-``` ls .*txt > lista_de_mis_.txt ```
+``` ls *.txt > lista_de_mis_.txt ```
 
 ---
