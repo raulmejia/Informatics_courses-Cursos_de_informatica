@@ -1,17 +1,17 @@
 ### Redirección
 
-Sobreescribir:
+**Sobreescribir una salida**
 
-``` ls *.txt > lista_de_mis_.txt ```
+``` ls *.txt > lista_de_mis_.txt ```  
 
 ``` echo no más por no dejar > lista_de_mis_.txt  ```
 
-Anexar:
+**Anexar:**
 ``` echo no más por no dejar >> lista_de_mis_.txt ```
 
-Pipe:
+**Pipe:**
 
-``` wc texto1.txt```
+``` wc texto1.txt```     
 ``` ls * | wc```
 
 
@@ -21,9 +21,10 @@ Pipe:
 * stdout = 1
 * stderr = 2
 
-Ejemplo: ``` ls YaSeQueEsteArchivoNoExiste ````   
-``` ls YaSeQueEsteArchivoNoExiste > Quepaso````
-``` ls YaSeQueEsteArchivoNoExiste 2> Quepaso```` 
+Ejemplo:  
+``` ls YaSeQueEsteArchivoNoExiste ````    
+``` ls YaSeQueEsteArchivoNoExiste > Quepaso````   
+``` ls YaSeQueEsteArchivoNoExiste 2> Quepaso````   
 
 ---
 
