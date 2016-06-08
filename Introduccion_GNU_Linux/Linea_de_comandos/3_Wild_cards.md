@@ -28,3 +28,8 @@
 ``` ls te\*to ```
 
 ``` ls '*?****[a-b]' ``` 
+
+### Buscando archivos
+
+``` find . -name mundo -print  ```
+``` find . -name *_Enero -print  ```
