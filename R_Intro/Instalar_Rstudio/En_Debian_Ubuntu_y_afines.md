@@ -1,4 +1,4 @@
-#### Como instalar Rstudio en Debian, Ubuntu, Bunsen Labs y afines:
+#### Como instalar Rstudio en Debian, Ubuntu, Bunsen Labs (y afines):
 
 Descarga la versión de escritorio de Rstudio apropiada para tu sistema operativo en la [siguiente página](https://www.rstudio.com/products/rstudio/download/).   
 
