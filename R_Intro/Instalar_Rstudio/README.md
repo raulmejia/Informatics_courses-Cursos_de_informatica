@@ -1,3 +1,3 @@
 Por favor selecciona la opción de acuerdo a tu sistema operativo.
 
-Nota: Para instalar Rstudio previamente tienes que instalar **R**.
+_Nota: Para instalar Rstudio previamente tienes que instalar_ **R**.
