@@ -35,7 +35,7 @@
       * ¿QUé acciones puedo hacer a un archivo/directorio?.
       * borrar, crear, renombrar, mover de ubicación, copiar archivos y carpetas.
         * Ejercicio> Crear una estructura arborea de directorios (Pueden ser Carrera/Semestres/materias) y podemos verificarlo con tree o find 
-    *Editar textos
+    * Editar textos
       * ¿Para que texto plano?
       * less, cat
       * Nano, gedit, Emacs, vi.
