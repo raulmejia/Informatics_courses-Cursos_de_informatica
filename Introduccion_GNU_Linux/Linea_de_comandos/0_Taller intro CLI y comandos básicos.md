@@ -34,7 +34,7 @@
     * Manipulación de archivos y directorios
       * ¿QUé acciones puedo hacer a un archivo/directorio?.
       * borrar, crear, renombrar, mover de ubicación, copiar archivos y carpetas.
-        *Ejercicio> Crear una estructura arborea de directorios (Pueden ser Carrera/Semestres/materias) y podemos verificarlo con tree o find 
+        * Ejercicio> Crear una estructura arborea de directorios (Pueden ser Carrera/Semestres/materias) y podemos verificarlo con tree o find 
     *Editar textos
       * ¿Para que texto plano?
       * less, cat
