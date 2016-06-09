@@ -3,7 +3,7 @@
 * **Sobreescribir una salida**  
 ``` ls *.txt > lista_de_mis_.txt ```   
 ``` echo no más por no dejar > lista_de_mis_.txt  ```
-    * Ejercucio guardar la estructura de directorios de la clase anterior en un archivo
+    * Ejercucio guardar la estructura de directorios de la clase anterior en un archivo (pista find)
 
 * **Anexar:**  
 ``` echo no más por no dejar >> lista_de_mis_.txt ```
