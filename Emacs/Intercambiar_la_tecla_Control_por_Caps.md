@@ -3,8 +3,9 @@ Tal como lo describe la [siguiente página](https://www.emacswiki.org/emacs/Movi
 
 1. Edita el archivo /etc/default/keyboard cambia la línea que dice:   
 ```  XKBOPTIONS="" ```
-2. Por  
+2. Por:  
 ```XKBOPTIONS="ctrl:swapcaps"```  
+
 3. Luego ejecuta el comando
 ```sudo dpkg-reconfigure -phigh console-setup```
 4. reinicia la computadora y listo!
