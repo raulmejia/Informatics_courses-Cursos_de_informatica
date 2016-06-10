@@ -2,4 +2,4 @@
 
 Creo que valdría la pena mencionar a Okular, lo puedes instalar por ejemplo abriendo una terminal y ejecutando el siguiente comando:  
 ``` sudo apt-get install okular```  
-Okular te permite subrrayar, rayonear y poner notas sobre el PDF.
+Okular te permite subrrayar renglones, rayonear libremente y poner notas sobre el PDF.
