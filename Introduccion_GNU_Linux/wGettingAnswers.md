@@ -16,11 +16,16 @@ If you can, before reporting the bug, retest using latest version of beamer with
 This can help isolate bugs from other packages that might affect beamer.
 5. As a last resort you can try emailing authors. We do not mind getting emails, we simply get way too
 many of them. Because of this, we cannot guarantee that your emails will be answered timely or even at
-all. Reporting an issue is usually a better approach as they don’t get lost.
+all. Reporting an issue is usually a better approach as they don’t get lost.  
 
->Agrupar las opciones:
-A. Manual, En la web, experimentacion
-B. Preguntar en un foro (Como seleccionarlo, como preguntar...), Preguntar a un amigo, mailinglist
+Agrupar las opciones:  
+
+1. Manual.
+2. En la web.
+3. Experimentaciòn
+4. Preguntar en un foro (Como seleccionarlo, como preguntar...)
+5. Preguntar a un amigo.
+6. Mailinglist.
 
 
 
