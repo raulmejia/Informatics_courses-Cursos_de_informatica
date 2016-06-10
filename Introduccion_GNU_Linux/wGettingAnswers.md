@@ -1,7 +1,8 @@
 
 # Getting Help
 ## (From beamer)
-When you need help with beamer, please do the following:
+When you need help with beamer, please do the following:  
+
 1. Read the user guide, at least the part that has to do with your problem.
 2. If that does not solve the problem, try searching TeX-sx (tex.stackexchange.com). Perhaps someone
 has already reported a similar problem and someone has found a solution.
