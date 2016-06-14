@@ -37,7 +37,8 @@ En la [liga inicial](https://cran.r-project.org/bin/linux/ubuntu/README) viene i
 
 1. Abre una terminal y teclea: ```sudo apt-get install libcurl4-openssl-dev libxml2-dev ```
 2. Ahora puedes instalar dentro de R XML y RCurl mediante: ``` install.packages("XML") ``` y ``` install.packages("RCurl") ```
-3. Listo!
+3.  Este ``` sudo apt-get install libssl-dev ``` para que puedas instalar ``` source("http://bioconductor.org/biocLite.R")```   ``` biocLite("devtools") ```
+4. Listo!
 [Referencias](https://stackoverflow.com/questions/10965755/genomicfeatures-package-installation-trouble)
 
 
