@@ -1,3 +1,5 @@
+###Solución a la conectividad a internet con controladores wifi Intel® Centrino® Wireless-N 130
+
 No podía usar el internet en una nueva instalación de Ubuntu 16.04 sobre una Samsung NP300V4A me detectaba redes pero no podía conectarme
 la solución fue ver mi tipo de tarjeta wifi
 mediante el comando en la terminal:  
