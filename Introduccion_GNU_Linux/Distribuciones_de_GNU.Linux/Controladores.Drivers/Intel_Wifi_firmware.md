@@ -12,7 +12,7 @@ correspondiente a mi sistema operativo, esto último lo ví con el comando:
 
 
 
-Una vez descargado el archivo apropiado, lo descomprimí y lo copie a la carpeta /lib/firmware
+Una vez descargado el archivo apropiado, lo descomprimí y lo copie a la carpeta ```/lib/firmware```
 
 reinicíe la máquina y listo!
 
