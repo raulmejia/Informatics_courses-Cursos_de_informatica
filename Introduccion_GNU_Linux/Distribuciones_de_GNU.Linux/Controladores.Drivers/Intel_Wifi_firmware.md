@@ -7,12 +7,12 @@ mediante el comando en la terminal:
 Note que mi controlador era:  
 ```Intel® Centrino® Wireless-N 130```  
 Así que busqué en la página de [Intel el firmware](https://www-ssl.intel.com/content/www/us/en/support/network-and-i-o/wireless-networking/000005511.html)
-correspondiente a mi sistema operativo, eso lo ví con el comando:  
+correspondiente a mi sistema operativo, esto último lo ví con el comando:  
 ```uname -a ```
 
 
 
-lo descomprimí y lo copie a la carpeta /lib/firmware
+Una vez descargado el archivo apropiado, lo descomprimí y lo copie a la carpeta /lib/firmware
 
 reinicíe la máquina y listo!
 
