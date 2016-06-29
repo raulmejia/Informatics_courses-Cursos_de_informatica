@@ -6,7 +6,7 @@ mediante el comando en la terminal:
 ```lspci -knn | grep Net -A2 ```  
 Note que mi controlador era:  
 ```Intel® Centrino® Wireless-N 130```  
-Así que busqué en la página de (Intel el firmware)[https://www-ssl.intel.com/content/www/us/en/support/network-and-i-o/wireless-networking/000005511.html]
+Así que busqué en la página de [Intel el firmware](https://www-ssl.intel.com/content/www/us/en/support/network-and-i-o/wireless-networking/000005511.html)
 correspondiente a mi sistema operativo, eso lo ví con el comando:  
 ```uname -a ```
 
