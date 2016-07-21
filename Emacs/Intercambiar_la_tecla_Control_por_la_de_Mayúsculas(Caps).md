@@ -9,3 +9,5 @@ Tal como lo describe la [siguiente página](https://www.emacswiki.org/emacs/Movi
 3. Luego ejecuta el comando
 ```sudo dpkg-reconfigure -phigh console-setup```
 4. reinicia la computadora y listo!
+
+Pd: He notado que esta soluciòn no funciona en el entorno de escritorio XFCE pero si en GNOME.
