@@ -17,7 +17,7 @@ Puedes encontrar las referencias completas en:  [este link para ubuntu](https://
 Por ejemplo en mi caso  (México)  el repositorio que elegí fue 
 ``` deb https://cran.itam.mx/bin/linux/ubuntu xenial/```
 
-4. Añade esa línea a tu archivo /etc/apt/sources.list y salva los cambios (para eso fue que usamos sudo en el punto 1).
+4. Añade esa línea a tu archivo /etc/apt/sources.list y salva los cambios.
 
 5. Añade tu la llave GPG del repositorio, una opción es usar el comando ```  sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E084DAB9```
 
