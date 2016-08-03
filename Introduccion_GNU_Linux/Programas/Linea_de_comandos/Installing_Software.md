@@ -15,11 +15,11 @@ Cada versión (o mejor dicho familia) de GNU/Linux tiene su propia manera, dos m
 
 ### Actualizando
 
-Para leer el índice actual de repositorios, y actualizar la base de datos de software disponible en base a ella:
+Para leer el índice actual de repositorios, y actualizar la base de datos de software disponible en base a ella:  
 ```sudo apt-get update```
 ```sudo yum update```
 
-Para actualizar a las versiones más recientes del software que ya tienes instalado:
+Para actualizar a las versiones más recientes del software que ya tienes instalado:  
 ```sudo apt-get upgrade```
 
 Continuará...
