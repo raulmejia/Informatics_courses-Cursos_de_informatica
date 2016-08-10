@@ -41,11 +41,10 @@ Ejercicio:
 Para eliminar líneas en blanco podemos utilizar:  
 ```sed "/^$/d" Notas.txt > Notascorregidas.txt ```  
 
-```cat Diomio ```  
-``` Dr.Hernández```  
-``` Doctor. Hertz ```  
-``` Doctor. Lee```  
-``` Fernando```  
+```Dr.Hernández```  
+```Doctor. Hertz```  
+```Doctor. Lee```  
+```Fernando```  
 
 ```sed -n "s/Doctor\./Dr/p" testfile ```  
 
