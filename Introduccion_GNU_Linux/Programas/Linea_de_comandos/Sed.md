@@ -64,5 +64,5 @@ Por favor crea un archivo con el siguiente contenido:
 ```two: number```   
 
 ```sed "/one/ s/number/1/" hs > hsc ;  cat hsc ```  
-```sed -e "/one/ s/number/1/" -e "/two/ s/number/2/" -e "/three/ s/number/3/" -e "/four/ s/number/4/" \ < hs > hsc ```
+```sed -e "/one/ s/number/hello/" -e "/two/ s/number/good/" -e "/three/ s/number/bye/" -e "/four/ s/number/my/" \ < hs > hsc ```
 
