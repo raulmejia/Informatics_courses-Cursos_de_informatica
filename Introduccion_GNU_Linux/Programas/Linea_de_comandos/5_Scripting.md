@@ -20,7 +20,7 @@ Ejercicio:
 *  $ final de la línea.
 *  ^ inicio de la línea.
 *  * (asterisco) cero o más ocurrencias del carácter inmediatamente anterior.
-* [ ] Cualquier carácter único, dentro de los corchetes será encontrado.  
+* "[ ]" Cualquier carácter único, dentro de los corchetes será encontrado.  
  
 Ejericicio, nombralo "Notas" o con el título que tu prefieras y contenga lo siguiente: 
 ``` Rodriguez Rodrigues Rodríguec```  
