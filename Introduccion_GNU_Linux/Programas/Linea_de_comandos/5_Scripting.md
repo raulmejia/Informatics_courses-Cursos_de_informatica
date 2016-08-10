@@ -25,8 +25,10 @@ Ejercicio:
 ```cat  Notas.txt```  
 ``` Rodriguez Rodrigues Rodríguec```  
 ``` Jicama Xicama Gicama ```  
-
 ``` Mexico 1 Alemania 1, Mejico 5 Fiji 1 ```  
+``` Ciudad de Mx ```
+``` TzintzunTzan, Michoacán, Mx```
+
 ```sed "s/Me[xj]ico/Mexico/g" Notas.txt > Notascorregidas ```  
 ```sed "s/Rodr[ií]gue[szc]/Rodríguez/g" Notas.txt > Notascorregidas ```  
 * La siguiente expresión requiere la presencia de almenos un díto (por ello la presencia del primer [0-9]) para la sustitución  
@@ -35,16 +37,16 @@ Ejercicio:
 ``` echo pumas águilas pumas y águilas| sed "s/águilas$/pájaritos/"```  
 ``` echo pumas águilas pumas y águilas| sed "s/^pumas/león/"```  
 
-* Borrar  
+#### Borrar  
 ```cat Notas.txt ```
 ``` sed "/e/d" Notas.txt > Notascorregidas.txt```  
 Para eliminar líneas en blanco podemos utilizar:  
 ```sed "/^$/d" Notas.txt > Notascorregidas.txt ```   
 
+#### Control de la impresión
 
+```sed -n "s/Mx/México/p" Notas.txt ```  
 
-``` Dr Hernández```  
-``` Doctor Hertz```  
-``` Doctor Lee```  
-``` Fernando```  
-```sed -n "s/Doctor/Dr/p" testfile ```  
+#### Múltiples patrones
+
+```sed -e "s/Me[xj]ico/Mexico/g" -e "s/Rodr[ií]gue[szc]/Rodríguez/g" -e "s/[XG]/J/g" Notas.txt > Notascorregidas ```  
