@@ -47,9 +47,3 @@ Para eliminar líneas en blanco podemos utilizar:
 ```Fernando```  
 
 ```sed -n "s/Doctor\./Dr/p" testfile ```  
-
-Mrs. Jones
-Mrs. Lee                                                                        Mr. Lee
-
-
-
