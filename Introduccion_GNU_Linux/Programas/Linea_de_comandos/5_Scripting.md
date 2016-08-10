@@ -7,8 +7,8 @@
 
 
 ``` cat frutas.txt ```  
-``` lima luego sandia ahora lima luego sandia mas lima por ultimo sandia```  
-``` sandia luego lima ahora sandia luego lima mas sandia por ultimo lima```  
+``` lima luego sandia ahora lima luego sandia ahora lima luego sandia```  
+``` sandia luego lima ahora sandia luego lima ahora sandia luego lima```  
 ``` sed "s/lima/guanabana/g" frutas.txt > frutasconguanabanas ```  
 ``` sed "s/lima/guanabana/" frutas.txt > frutasconguanabana ```  
 
