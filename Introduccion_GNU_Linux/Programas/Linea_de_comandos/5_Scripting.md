@@ -22,9 +22,9 @@ Ejercicio:
 *  * (asterisco) cero o más ocurrencias del carácter inmediatamente anterior.
 * [] Cualquier carácter único, dentro de los corchetes será encontrado.  
  
-```cat  Notas.txt```
-``` Rodriguez Rodrigues Rodríguec```
-``` Jicama Xicama Gicama ```
+```cat  Notas.txt```  
+``` Rodriguez Rodrigues Rodríguec```  
+``` Jicama Xicama Gicama ```  
 ``` Mexico 1 Alemania 1, Mejico 5 Fiji 1 ```  
 ```sed "s/Me[xj]ico/Mexico/g" Notas.txt > Notascorregidas ```
 
