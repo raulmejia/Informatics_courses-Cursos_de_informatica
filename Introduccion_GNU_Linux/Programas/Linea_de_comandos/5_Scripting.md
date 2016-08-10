@@ -2,11 +2,15 @@
 
 ``` sed "s/algo/otra cosa/g" elnombredemiarchivo > comoquieroquesellameelresultado ```
 * s = substitute  
-* g = global  
+* g = global   
+¿Qué pasa si omitimos la "g" ?  
+
 
 ``` cat frutas.txt ```  
-``` lima luego sandia ahora lima luego sandia```  
-``` luego lima ahora sandia luego lima ahora sandia```  
+``` lima luego sandia ahora lima luego sandia mas lima por ultimo sandia```  
+``` sandia luego lima ahora sandia luego lima mas sandia por ultimo lima```  
 ``` sed "s/lima/guanabana/g" frutas.txt > frutasconguanabanas ```  
-¿Qué pasa si omitimos la "g" ?  
-``` sed "s/lima/guanabana/" frutas.txt > frutasconguanabana ```
+``` sed "s/lima/guanabana/" frutas.txt > frutasconguanabana ```  
+
+``` sed "s/lima/guanabana/2" frutas.txt > outputfile ```
+``` sed "s/lima/guanabana/2g" frutas.txt > outputfile ```
