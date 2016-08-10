@@ -53,6 +53,15 @@ Para eliminar líneas en blanco podemos utilizar:
 
 #### Control de ediciones mediante patrones:
 
-``` ```
-``` ```
+Por favor crea un archivo con el siguiente contenido:
+```one: number```  
+```two: number```` 
+```three: number```  
+```four: number```  
+```one: number```  
+```three: number```  
+```two: number```  
+
+```sed "/one/ s/number/1/" hs > hsc ;  cat hsc ```
+```sed -e "/one/ s/number/1/" -e "/two/ s/number/2/" -e "/three/ s/number/3/" -e "/four/ s/number/4/" \ < hs > hsc ```
 
