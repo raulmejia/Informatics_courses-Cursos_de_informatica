@@ -39,7 +39,9 @@ Ejercicio:
 ```cat Notas.txt ```
 ``` sed "/e/d" Notas.txt > Notascorregidas.txt```  
 Para eliminar líneas en blanco podemos utilizar:  
-```sed "/^$/d" Notas.txt > Notascorregidas.txt ```  
+```sed "/^$/d" Notas.txt > Notascorregidas.txt ```   
+
+* Control de impresión
 
 ```Dr.Hernández```  
 ```Doctor. Hertz```  
