@@ -25,7 +25,6 @@ Ejercicio:
 ```cat  Notas.txt```  
 ``` Rodriguez Rodrigues Rodríguec```  
 ``` Jicama Xicama Gicama ```  
-``` ```
 
 ``` Mexico 1 Alemania 1, Mejico 5 Fiji 1 ```  
 ```sed "s/Me[xj]ico/Mexico/g" Notas.txt > Notascorregidas ```
