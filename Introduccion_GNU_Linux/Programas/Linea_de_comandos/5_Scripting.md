@@ -1,11 +1,11 @@
 ## Sed (Stream editor)
 
+Ejemplo general de uso:  
 ``` sed "s/algo/otra cosa/g" elnombredemiarchivo > comoquieroquesellameelresultado ```
-* s = substitute  
-* g = global   
+* Donde s = substitute  , g = global   
 ¿Qué pasa si omitimos la "g" ?  
 
-
+Ejercicio:  
 ``` cat frutas.txt ```  
 ``` lima luego sandia ahora lima luego sandia ahora lima luego sandia```  
 ``` sandia luego lima ahora sandia luego lima ahora sandia luego lima```  
