@@ -70,14 +70,6 @@ Por favor crea un archivo con el siguiente contenido:
 #### Escripteando commandos de Sed
 
 Usando el argumento -f podemos alimentar a el programa "sed" con una lista de comandos:  
-
-```cat comandosdelsed```   
-
-```"s/Me[xj]ico/Mexico/g"```  
-
-```"s/Rodr[ií]gue[szc]/Rodríguez/g"```  
-
-```"s/[0-9][0-9]*//g"```  
-
-
+Ejercicio: Crea un archivo "comandosdelsed" con los comandos de sed previamente utilizados para el archivo Notas.txt  correlo bajo el siguiente esquema:
+```sed -f comandosdelsed < Notas.txt > queshow ```
 
