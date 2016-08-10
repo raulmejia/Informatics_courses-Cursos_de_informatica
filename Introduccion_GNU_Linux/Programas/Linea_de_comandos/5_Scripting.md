@@ -25,6 +25,7 @@ Ejercicio:
 ```cat  Notas.txt```  
 ``` Rodriguez Rodrigues Rodríguec```  
 ``` Jicama Xicama Gicama ```  
+``` ```
 
 ``` Mexico 1 Alemania 1, Mejico 5 Fiji 1 ```  
 ```sed "s/Me[xj]ico/Mexico/g" Notas.txt > Notascorregidas ```
@@ -41,11 +42,11 @@ Ejercicio:
 Para eliminar líneas en blanco podemos utilizar:  
 ```sed "/^$/d" Notas.txt > Notascorregidas.txt ```   
 
-* Control de impresión
 
-```Dr.Hernández```  
-```Doctor. Hertz```  
-```Doctor. Lee```  
-```Fernando```  
+
+``` Dr. Hernández```  
+``` Doctor. Hertz```  
+``` Doctor. Lee```  
+``` Fernando```  
 
 ```sed -n "s/Doctor\./Dr/p" testfile ```  
