@@ -43,9 +43,8 @@ Para eliminar líneas en blanco podemos utilizar:
 
 
 
-``` Dr. Hernández```  
-``` Doctor. Hertz```  
-``` Doctor. Lee```  
+``` Dr Hernández```  
+``` Doctor Hertz```  
+``` Doctor Lee```  
 ``` Fernando```  
-
-``` sed -n "s/Doctor/Dr/p" testfile ```  
+```sed -n "s/Doctor/Dr/p" testfile ```  
