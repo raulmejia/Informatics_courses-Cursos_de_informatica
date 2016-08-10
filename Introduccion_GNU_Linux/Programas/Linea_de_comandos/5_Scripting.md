@@ -25,6 +25,21 @@ Ejercicio:
 ```cat  Notas.txt```  
 ``` Rodriguez Rodrigues Rodríguec```  
 ``` Jicama Xicama Gicama ```  
+``````  
 ``` Mexico 1 Alemania 1, Mejico 5 Fiji 1 ```  
 ```sed "s/Me[xj]ico/Mexico/g" Notas.txt > Notascorregidas ```
+```sed "s/Rodr[ií]gue[szc]/Rodríguez/g" Notas.txt > Notascorregidas ```
+* La siguiente expresión requiere la presencia de almenos un díto (por ello la presencia del primer [0-9]) para la sustitución
+``` sed "s/[0-9][0-9]*//g" Notas.txt > Notascorregidas; less Notascorregidas```
+ 
+``` echo pumas águilas pumas y águilas| sed "s/águilas$/pájaritos/"```  
+``` echo pumas águilas pumas y águilas| sed "s/^pumas/león/"```
+
+* Borrar  
+```cat Notas.txt ```
+``` sed "/e/d" Notas.txt > Notascorregidas.txt```  
+Para eliminar líneas en blanco podemos utilizar
+
+
+
 
