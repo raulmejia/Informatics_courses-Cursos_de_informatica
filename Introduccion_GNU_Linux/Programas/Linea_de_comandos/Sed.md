@@ -64,4 +64,16 @@ Por favor crea un archivo con el siguiente contenido:
 ```two: number```   
 
 ```sed "/one/ s/number/1/" hs > hsc ;  cat hsc ```  
-```sed -e "/one/ s/number/hello/" -e "/two/ s/number/good/" -e "/three/ s/number/bye/" -e "/four/ s/number/my/"  < hs > hsc ```
+```sed -e "/one/ s/number/hello/" -e "/two/ s/number/good/" -e "/three/ s/number/bye/" -e "/four/ s/number/my/"  < hs > hsc ```  
+```sed "2,3 s/number/you have been/" < hs > hsc```
+
+#### Escripteando commandos de Sed
+
+Usando el argumento -f podemos alimentar a el programa "sed" con una lista de comandos:
+```cat comandosdelsed```  
+```"s/Me[xj]ico/Mexico/g"```  
+```"s/Rodr[ií]gue[szc]/Rodríguez/g"```  
+```"s/[0-9][0-9]*//g"```  
+
+
+
