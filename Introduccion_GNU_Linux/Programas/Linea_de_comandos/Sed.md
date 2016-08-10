@@ -22,7 +22,7 @@ Ejercicio:
 *  * (asterisco) cero o más ocurrencias del carácter inmediatamente anterior.
 * "[ ]" Cualquier carácter único, dentro de los corchetes será encontrado.  
  
-Ejericicio, nombralo "Notas" o con el título que tu prefieras y contenga lo siguiente:   
+Ejericicio, nombralo "Notas" o con el título que tu prefieras y contenga lo siguiente:    
 ``` Rodriguez Rodrigues Rodríguec```  
 ``` Jicama Xicama Gicama ```  
 ``` Mexico 1 Alemania 1, Mejico 5 Fiji 1 ```  
@@ -69,10 +69,14 @@ Por favor crea un archivo con el siguiente contenido:
 
 #### Escripteando commandos de Sed
 
-Usando el argumento -f podemos alimentar a el programa "sed" con una lista de comandos:
-```cat comandosdelsed```  
+Usando el argumento -f podemos alimentar a el programa "sed" con una lista de comandos:  
+
+```cat comandosdelsed```   
+
 ```"s/Me[xj]ico/Mexico/g"```  
+
 ```"s/Rodr[ií]gue[szc]/Rodríguez/g"```  
+
 ```"s/[0-9][0-9]*//g"```  
 
 
