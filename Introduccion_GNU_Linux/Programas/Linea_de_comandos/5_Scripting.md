@@ -26,7 +26,7 @@ Ejericicio, nombralo "Notas" o con el título que tu prefieras y contenga lo sig
 ``` Rodriguez Rodrigues Rodríguec```  
 ``` Jicama Xicama Gicama ```  
 ``` Mexico 1 Alemania 1, Mejico 5 Fiji 1 ```  
-``` Ciudad de Mx ```
+``` Ciudad de Mx ```  
 ``` TzintzunTzan, Michoacán, Mx```
 
 ```sed "s/Me[xj]ico/Mexico/g" Notas.txt > Notascorregidas ```  
