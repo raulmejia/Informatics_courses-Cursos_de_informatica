@@ -56,7 +56,7 @@ Para eliminar líneas en blanco podemos utilizar:
 Por favor crea un archivo con el siguiente contenido:  
 
 ```one: number```   
-```two: number````  
+```two: number```  
 ```three: number```   
 ```four: number```   
 ```one: number```   
