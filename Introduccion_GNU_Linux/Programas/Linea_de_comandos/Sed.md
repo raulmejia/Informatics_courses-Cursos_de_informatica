@@ -5,15 +5,18 @@ Ejemplo general de uso:
 * Donde s = substitute  , g = global   
 ¿Qué pasa si omitimos la "g" ?  
 
-Ejercicio:  
-``` cat frutas.txt ```  
-``` lima luego sandia ahora lima luego sandia ahora lima luego sandia```  
-``` sandia luego lima ahora sandia luego lima ahora sandia luego lima```  
-``` sed "s/lima/guanabana/g" frutas.txt > frutasconguanabanas ```  
-``` sed "s/lima/guanabana/" frutas.txt > frutasconguanabana ```  
+Ejercicio:  crea un archivo con el siguiente contenido, yo lo nombre "Datos.txt" pero tu puedes nombrarlo como gustes:
+``` cat Datos.txt ```  
+``` Eduardo Rodriguez Aguas Termales 201, Eduardo Rodrigues 449789265, Eduardo Rodríguez 25 años, Eduardo Rodriguec H```  
+``` Lalo Rodrigues  Aguas Termales 201, Lalo Rodrigues 4497892654, Lalo Rodrigues 25 años, Lalo Rodrigues Hombre```  
+``` Belen Cazorla San Telmo 956, Belem Casorla 5566698457, Velen Kazorla 29 años, Velem Kasorla M```  
+``` Marisol Muñoz Convención 1914 3805, MM 4496586538, Marisol Muñoz 27 años, Marisol Muñoz Mujer```  
 
-``` sed "s/lima/guanabana/2" frutas.txt > outputfile ```
-``` sed "s/lima/guanabana/2g" frutas.txt > outputfile ```
+Sustitucón general, única y por ocurrencia de palabra:  
+``` sed "s/Rodr[ií]gue[szc]/Rodríguez/g" Datos.txt > NuevosDatos.txt ```  
+``` sed "s/Lalo/Eduardo/" Datos.txt > NuevosDatos.tsv ```  
+``` sed "s/[BV]ele[nm]/Belen/2" Datos.txt > NuevosDatos.loquesea ```
+``` sed "s/[BV]ele[nm]/Belen/2g" frutas.txt > OMG ```
 
 
 #### Expresiones regulares en Sed
@@ -23,11 +26,11 @@ Ejercicio:
 * "[ ]" Cualquier carácter único, dentro de los corchetes será encontrado.  
  
 Ejericicio, nombralo "Notas" o con el título que tu prefieras y contenga lo siguiente:    
-``` Rodriguez Rodrigues Rodríguec```  
-``` Jicama Xicama Gicama ```  
-``` Mexico 1 Alemania 1, Mejico 5 Fiji 1 ```  
-``` Ciudad de Mx ```  
-``` TzintzunTzan, Michoacán, Mx```
+``` Eduardo Rodriguez Aguas Termales 201, Eduardo Rodriguez 449789265, Eduardo Rodriguez 25 años, Eduardo Rodriguez H```  
+``` Lalo Rodrigues  Aguas Termales 201, Lalo Rodrigues 4497892654, Lalo Rodrigues 25 años, Lalo Rodrigues Hombre```  
+``` Belen Cazorla San Telmo 956, Belem Casorla 5566698457, Velen Kazorla 29 años, Velem Kasorla M```  
+``` Marisol Muñoz Convención 1914 3805, MM 4496586538, Marisol Muñoz 27 años, Marisol Muñoz Mujer```  
+
 
 ```sed "s/Me[xj]ico/Mexico/g" Notas.txt > Notascorregidas ```  
 ```sed "s/Rodr[ií]gue[szc]/Rodríguez/g" Notas.txt > Notascorregidas ```  
