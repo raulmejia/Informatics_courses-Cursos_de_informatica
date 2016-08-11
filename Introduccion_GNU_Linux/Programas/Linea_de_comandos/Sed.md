@@ -5,7 +5,7 @@ Ejemplo general de uso:
 * Donde s = substitute  , g = global   
 ¿Qué pasa si omitimos la "g" ?  
 
-Ejercicio:  crea un archivo con el siguiente contenido, yo lo nombre "Datos.txt" pero tu puedes nombrarlo como gustes:  
+Ejercicio:  crea un archivo con el siguiente contenido (puedes copiarlo y pegarlo), yo lo nombre "Datos.txt" pero tu puedes nombrarlo como gustes:  
 ``` Eduardo Rodriguez Aguas Termales 201, Eduardo Rodrigues 449789265, Eduardo Rodríguez 25 años, Eduardo Rodriguec H```  
 ``` Lalo Rodrigues  Aguas Termales 201, Lalo Rodrigues 4497892654, Lalo Rodrigues 25 años, Lalo Rodrigues Hombre```  
 ``` Belen Cazorla San Telmo 956, Belem Casorla 5566698457, Velen Kazorla 29 años, Velem Kasorla M```  
