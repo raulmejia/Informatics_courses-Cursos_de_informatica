@@ -7,15 +7,18 @@ Ejemplo general de uso:
 
 Ejercicio:  crea un archivo con el siguiente contenido (puedes copiarlo y pegarlo), yo lo nombre "Datos.txt" pero tu puedes nombrarlo como gustes:  
 ``` Eduardo Rodriguez Aguas Termales 201, Eduardo Rodrigues 449789265, Eduardo Rodríguez 25 años, Eduardo Rodriguec H```  
-``` Lalo Rodrigues  Aguas Termales 201, Lalo Rodrigues 4497892654, Lalo Rodrigues 25 años, Lalo Rodrigues Hombre```  
+``` Lalo Rodrigues  Aguas Termales 201, Lalo Rodrigues 5589636987, Lalo Rodrigues 25 años, Lalo Rodrigues Hombre```  
+
+
 ``` Belen Cazorla San Telmo 956, Belem Casorla 5566698457, Velen Kazorla 29 años, Velem Kasorla M```  
+
 ``` Marisol Muñoz Convención 1914 3805, MM 4496586538, Marisol Muñoz 27 años, Marisol Muñoz Mujer```  
 
 Sustitucón general, única y por ocurrencia de palabra:  
 ``` sed "s/Rodr[ií]gue[szc]/Rodríguez/g" Datos.txt > NuevosDatos.txt ```  
 ``` sed "s/Lalo/Eduardo/" Datos.txt > NuevosDatos.tsv ```  
-``` sed "s/[BV]ele[nm]/Belen/2" Datos.txt > NuevosDatos.loquesea ```
-``` sed "s/[BV]ele[nm]/Belen/2g" frutas.txt > OMG ```
+``` sed "s/[BV]ele[nm]/Belen/2" Datos.txt > NuevosDatos.loquesea ```  
+``` sed "s/[BV]ele[nm]/Belen/2g" Datos.txt > OMG ```
 
 
 #### Expresiones regulares en Sed
@@ -23,31 +26,28 @@ Sustitucón general, única y por ocurrencia de palabra:
 *  ^ inicio de la línea.
 *  * (asterisco) cero o más ocurrencias del carácter inmediatamente anterior.
 * "[ ]" Cualquier carácter único, dentro de los corchetes será encontrado.  
- 
-Ejericicio, nombralo "Notas" o con el título que tu prefieras y contenga lo siguiente:    
-``` Eduardo Rodriguez Aguas Termales 201, Eduardo Rodriguez 449789265, Eduardo Rodriguez 25 años, Eduardo Rodriguez H```  
-``` Lalo Rodrigues  Aguas Termales 201, Lalo Rodrigues 4497892654, Lalo Rodrigues 25 años, Lalo Rodrigues Hombre```  
-``` Belen Cazorla San Telmo 956, Belem Casorla 5566698457, Velen Kazorla 29 años, Velem Kasorla M```  
-``` Marisol Muñoz Convención 1914 3805, MM 4496586538, Marisol Muñoz 27 años, Marisol Muñoz Mujer```  
+  
+```sed "s/Rodr[ií]gue[szc]/Rodríguez/g" Datos.txt > Datos_Rdz ```  
+* La siguiente expresión requiere la presencia de _almenos_ un dígito (por ello la presencia del primer [0-9]) para ejecutar la sustitución indicada:
+``` sed "s/[0-9][0-9]*/HolaSed/g" Datos.txt > NuevosDatos; less NuevosDatos```  
+ ¿Qué pasa si sólo dejamos un [0-9]? Es decir:  
+``` sed "s/[0-9]*/HolaSed/g" Datos.txt > NuevosDatos; less NuevosDatos```   
+¿Puedes explicar que sucedió?
 
 
-```sed "s/Me[xj]ico/Mexico/g" Notas.txt > Notascorregidas ```  
-```sed "s/Rodr[ií]gue[szc]/Rodríguez/g" Notas.txt > Notascorregidas ```  
-* La siguiente expresión requiere la presencia de almenos un díto (por ello la presencia del primer [0-9]) para la sustitución  
-``` sed "s/[0-9][0-9]*//g" Notas.txt > Notascorregidas; less Notascorregidas```  
- 
-``` echo pumas águilas pumas y águilas| sed "s/águilas$/pájaritos/"```  
-``` echo pumas águilas pumas y águilas| sed "s/^pumas/león/"```  
+``` sed "s/Mujer$/Dama/" Datos.txt > NuevosDatos```  
+``` echo pumas águilas pumas y águilas| sed "s/^pumas/león/" > animales.txt``` 
+``` echo pumas águilas pumas y águilas| sed "s/[^pumas]/ave/" >> animales.txt``` 
 
 #### Borrar  
 ```cat Notas.txt ```
-``` sed "/e/d" Notas.txt > Notascorregidas.txt```  
+``` sed "/449/d" Datos.txt > Datos_cdmx.txt```  
 Para eliminar líneas en blanco podemos utilizar:  
-```sed "/^$/d" Notas.txt > Notascorregidas.txt ```   
+```sed "/^$/d" Datos.txt > NuevosDatos ```   
 
 #### Control de la impresión
 
-```sed -n "s/Mx/México/p" Notas.txt ```  
+```sed -n "s/55/CiudadDeLaEsperanza/p" Datos.txt ```  
 
 #### Múltiples patrones
 
