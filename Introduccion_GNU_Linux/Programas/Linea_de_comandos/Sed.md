@@ -37,7 +37,7 @@ Sustitucón general, única y por ocurrencia de palabra:
 
 
 ``` sed "s/Mujer$/Dama/" Datos.txt > NuevosDatos```  
-``` echo pumas águilas pumas y águilas| sed "s/^pumas/león/" > animales.txt``` 
+``` echo pumas águilas pumas y águilas| sed "s/^pumas/león/" > animales.txt```   
 ``` echo pumas águilas pumas y águilas| sed "s/[^pumas]/ave/" >> animales.txt``` 
 
 #### Borrar  
@@ -76,3 +76,5 @@ Usando el argumento -f podemos alimentar a el programa "sed" con una lista de co
 Ejercicio: Crea un archivo "comandosdelsed" con los comandos de sed previamente utilizados para el archivo Notas.txt  correlo bajo el siguiente esquema:
 ```sed -f comandosdelsed < Notas.txt > queshow ```
 
+Bibliogafía:
+1. [Introduction to Command Line, Free Software Foundation](https://flossmanuals.net/command-line/)
