@@ -15,10 +15,10 @@ Ejercicio:  crea un archivo con el siguiente contenido (puedes copiarlo y pegarl
 ``` Marisol Muñoz Convención 1914 3805, MM 4496586538, Marisol Muñoz 27 años, Marisol Muñoz Mujer```  
 
 Sustitucón general, única y por ocurrencia de palabra:  
-``` sed "s/Rodr[ií]gue[szc]/Rodríguez/g" Datos.txt > NuevosDatos.txt ```  
-``` sed "s/Lalo/Eduardo/" Datos.txt > NuevosDatos.tsv ```  
-``` sed "s/[BV]ele[nm]/Belen/2" Datos.txt > NuevosDatos.loquesea ```  
-``` sed "s/[BV]ele[nm]/Belen/2g" Datos.txt > OMG ```
+``` sed "s/Rodrigues/Rodríguez/g" Datos.txt > NuevosDatos.txt ```  
+``` sed "s/Lalo/Eduardo/" Datos.txt > NuevosDatos.txt; less NuevosDatos.txt ```  
+``` sed "s/Lalo/Eduardo/2" Datos.txt > NuevosDatos.loquesea ```  
+``` sed "s/Lalo/Eduardo/2g" Datos.txt > OMG ; less OMG ```
 
 
 #### Expresiones regulares en Sed
@@ -27,7 +27,8 @@ Sustitucón general, única y por ocurrencia de palabra:
 *  * (asterisco) cero o más ocurrencias del carácter inmediatamente anterior.
 * "[ ]" Cualquier carácter único, dentro de los corchetes será encontrado.  
   
-```sed "s/Rodr[ií]gue[szc]/Rodríguez/g" Datos.txt > Datos_Rdz ```  
+```sed "s/Rodr[ií]gue[szc]/Rodríguez/g" Datos.txt ```
+``` sed "s/[BV]ele[nm]/Belen/g" Datos.txt ```
 * La siguiente expresión requiere la presencia de _almenos_ un dígito (por ello la presencia del primer [0-9]) para ejecutar la sustitución indicada:
 ``` sed "s/[0-9][0-9]*/HolaSed/g" Datos.txt > NuevosDatos; less NuevosDatos```  
  ¿Qué pasa si sólo dejamos un [0-9]? Es decir:  
