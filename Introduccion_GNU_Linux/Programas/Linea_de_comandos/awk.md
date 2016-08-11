@@ -13,7 +13,7 @@ Crea un texto con el siguiente contenido:
 *Awk opera bajo la logica: patrón{acción}
 
 
-``` awk '$4 == 2007 { print "Rank", NR, "-",  }' highscores.txt```  
+``` awk '$4 == 2007 { print "Rank", NR, "-", $3 }' highscores.txt```  
 *Nota: NR= number row (variable predefinida)
 
 
