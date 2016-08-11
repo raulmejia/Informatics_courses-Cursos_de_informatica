@@ -9,11 +9,11 @@ Crea un texto con el siguiente contenido:
 ```801700 Stephen Boyer 2007```  
 
 
-```awk ' > 1000000 { print ,  }' highscores.txt ```
+```awk '$1 > 1000000 { print ,  }' highscores.txt ```
 *Awk opera bajo la logica: patrón{acción}
 
 
-``` awk ' == 2007 { print "Rank", NR, "-",  }' highscores.txt```  
+``` awk '$4 == 2007 { print "Rank", NR, "-",  }' highscores.txt```  
 *Nota: NR= number row (variable predefinida)
 
 
