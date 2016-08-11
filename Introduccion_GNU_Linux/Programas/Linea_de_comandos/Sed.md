@@ -51,7 +51,7 @@ Para eliminar líneas en blanco podemos utilizar:
 
 #### Múltiples patrones
 
-```sed -e "s/Me[xj]ico/Mexico/g" -e "s/Rodr[ií]gue[szc]/Rodríguez/g" -e "s/[XG]/J/g" Notas.txt > Notascorregidas ```  
+```sed -e "s/Rodr[ií]gue[szc]/Rodríguez/g" -e "s/[BV]ele[nm]/Belen/g" -e "s/Lalo/Eduardo/g" Notas.txt > Notascorregidas ```  
 
 #### Control de ediciones mediante patrones:
 
