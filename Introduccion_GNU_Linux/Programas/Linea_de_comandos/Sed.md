@@ -76,5 +76,6 @@ Usando el argumento -f podemos alimentar a el programa "sed" con una lista de co
 Ejercicio: Crea un archivo "comandosdelsed" con los comandos de sed previamente utilizados para el archivo Notas.txt  correlo bajo el siguiente esquema:
 ```sed -f comandosdelsed < Notas.txt > queshow ```
 
-Bibliogafía:
+##Bibliogafía:
+
 1. [Introduction to Command Line, Free Software Foundation](https://flossmanuals.net/command-line/)
