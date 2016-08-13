@@ -43,9 +43,9 @@
 ls -l  
 type : owner : group : restoftheworld  
 rwx  
-111 (Binary conversion)  
 chmod ug=rw,o= miarchivo  
 chmod u=rw,go= miarchivo  
+111 (Binary conversion)  
 chmod 110 110 000  
 chmod 660 miarchivo  
 
