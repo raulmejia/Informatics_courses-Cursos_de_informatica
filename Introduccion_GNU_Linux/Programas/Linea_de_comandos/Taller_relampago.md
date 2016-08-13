@@ -1,7 +1,6 @@
-
-
-
 ## Introducción a la Línea de comandos de Linux
+
+#### Breve Intro:
 
 1. Ventajas de la línea de comandos
    * Flexibilidad.
@@ -16,6 +15,7 @@
 4. Comandos conceptos y síntaxis.
     * echo algo otracosa
 5. Sistema de archivos en Linux
+
 
 6. Algunos comandos básicos
     * Primer abordaje
@@ -37,9 +37,46 @@
       * ¿Para que texto plano?
       * less, cat
       * Nano, gedit, Emacs, vi.
-    * Manejo de Procesos
-    * Misceláneos
-    * Mi primer script
+
+#### Permisos
+
+ls -l
+type : owner : group : restoftheworld  
+* rwx  
+* 111 (Binary conversion)  
+chmod ug=rw,o= miarchivo  
+chmod u=rw,go= miarchivo
+chmod 110 110 000
+chmod 660 miarchivo
+
+#### Instalación de software
+
+1. Instalar de los repositorios: ``` sudo apt-get install r-base r-base-dev ```  
+    * Edición de repositorios
+    * Actualizar repositorios  ``` sudo apt-get update```
+    * Actualizar tu software YA instalado ``` sudo apt-get upgrade```  
+    * Buscar software dispobible ``` apt search programaquebusco```
+2. Descargar e instalar un .deb
+3. Installing from source:
+    * Descomprime el archivo y cambiate a ese directorio.
+    * Corre el archivo de configuración ```./configure```
+    * Compila el software ``` make ```
+    * Instala el software ``` make install ```
+4. Dependencias.
+
+
+#### Metas:
+1. Estructura de archivos en unix, navegación, edición de archivos/directorios.
+2. man, info, apropos.
+3. Edición de texto plano.
+4. permisos.
+5. Instalación de software que el asistente sea capaz de modificar (sus repositorios) el /etc/apt/sources.list, así como manualmente, checar disponibilidad de software en sus repositorios (apt search algo).
+6. Wildcards / find.
+7. ¿Cómo encontrar ayuda?
+
+
+
+
 
 
 ## Bibliografía:
@@ -88,12 +125,3 @@ grepear algo
 
 
 
-
-#### Metas:
-1. Estructura de archivos en unix, navegación, edición de archivos/directorios.
-2. man, info, apropos.
-3. Edición de texto plano.
-4. permisos.
-5. Instalación de software que el asistente sea capaz de modificar (sus repositorios) el /etc/apt/sources.list, así como manualmente, checar disponibilidad de software en sus repositorios (apt search algo).
-6. Wildcards / find.
-7. ¿Cómo encontrar ayuda?
