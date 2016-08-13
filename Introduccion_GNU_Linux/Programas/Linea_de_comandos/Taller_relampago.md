@@ -45,9 +45,9 @@ type : owner : group : restoftheworld
 rwx  
 111 (Binary conversion)  
 chmod ug=rw,o= miarchivo  
-chmod u=rw,go= miarchivo
-chmod 110 110 000
-chmod 660 miarchivo
+chmod u=rw,go= miarchivo  
+chmod 110 110 000  
+chmod 660 miarchivo  
 
 #### Instalación de software
 
