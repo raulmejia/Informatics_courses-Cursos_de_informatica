@@ -150,21 +150,8 @@ Sugerencia: ``` history```
 2.- [Diapositivas para el taller](http://lugatgt.org/wp-content/uploads/2010/09/presentation1.pdf)
 
 ***
-
-* Video básico 1 (Linux terminal and navigation for beginners) https://www.youtube.com/watch?v=AO0jzD1hpXc
-* Video básico 2 (by Nixie Pixel) https://www.youtube.com/watch?v=x73WTEltyHU
-* Video Complementario "The power of the linux find command " (by Nixie Pixel)
-https://www.youtube.com/watch?v=x_R_JSiupzo
-
-
-***
-Notas:
-* Explicar mejor la diferencia entre Linux y Ubuntu *(clásica pregunta de examen)*
-* Comentar la documentación incluida en biolinux Desktop (creo que también ubuntu la trae)
-* Alias a los comandos http://lifehacker.com/5743814/become-a-command-line-ninja-with-these-time-saving-shortcuts
-***
-Ejercicios
-
+Ejercicios casa:
+0. alias para setxkbmap es
 1. ls directory, ls .. , 
    (para ver los archivos de directorios sin cambiarme te lugar)
 2. ls -m, ls -a, ls -l (formas de visualización)
