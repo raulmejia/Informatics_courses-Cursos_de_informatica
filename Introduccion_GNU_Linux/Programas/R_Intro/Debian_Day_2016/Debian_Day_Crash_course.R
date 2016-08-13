@@ -6,6 +6,7 @@ getwd()
 setwd("/home/rmejia/Documents/Activismo_Nabuco2069/DebianDay/")
 mifilepath<-c("/home/rmejia/Documents/Activismo_Nabuco2069/DebianDay/Elecciones_Zac.tsv")
 ezac<-read.table(file=mifilepath,header=TRUE,row.names = 1)
+
 dim(ezac) ; head(ezac)
 ezac_vot<-ezac[1:58,1:15]
 m_zacvot<-as.matrix(ezac_vot)
@@ -77,7 +78,7 @@ dev.off()
 #PCA a partidos
 t.m_zacvot<-t(m_zacvot)
 df_tm.zac<-as.data.frame(t.m_zacvot)
-mycolor=c("blue","red","yellow","pink","green","orange","purple","gray",rep(c("black"),7))
+mycolor=c("blue","red","yellow","pink","green","orange","purple","gray",rep(c("black"),6),"magenta")
 pdf("PCA_Zac_Elec_by_Parties.pdf",width=7,height=5)
 autoplot(prcomp(t.m_zacvot), data=df_tm.zac, colour=mycolor, main="Principal components Zac Elections")
 dev.off()
