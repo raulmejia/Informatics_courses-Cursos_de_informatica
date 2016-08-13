@@ -137,7 +137,7 @@ Sugerencia: ``` history```
 4. permisos.
 5. Instalación de software que el asistente sea capaz de modificar (sus repositorios) el /etc/apt/sources.list, así como manualmente, checar disponibilidad de software en sus repositorios (apt search algo).
 6. Wildcards / find.
-7. ¿Cómo encontrar ayuda?
+7. [¿Cómo encontrar ayuda?](https://github.com/raulmejia/Cursos/blob/master/Introduccion_GNU_Linux/Programas/R_Intro/R_learn/Conseguir%20ayuda%20en%20R.md)
 
 
 
