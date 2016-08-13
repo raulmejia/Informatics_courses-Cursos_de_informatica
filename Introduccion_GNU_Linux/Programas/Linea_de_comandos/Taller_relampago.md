@@ -108,7 +108,8 @@ chmod 660 miarchivo
 
 ``` find . -name 'text*' -exec cp {} {}.backup \; ```  
 ``` find -name "*.jpg*" -exec convert {} -resize 200x100 {}.petit \; ```  
-(Para usar convert necesitas instalar el imagemagick ``` sudo apt-get install imagemagick``` ).
+(Para usar convert necesitas instalar el imagemagick ``` sudo apt-get install imagemagick``` ).  
+``` find -name "[0-9][0-9]*.jpg*" -exec convert {} -resize 200x100 {}.numbersintitle \;```  
 
 #### Redireccionamiento de procesos
 
