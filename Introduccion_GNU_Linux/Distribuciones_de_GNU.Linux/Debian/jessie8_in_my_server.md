@@ -11,7 +11,8 @@ nmcli con
 dentro de esta cosa vimos el "help" "printall" o algo así, removimos el aterior (el de notron) y añadimos el nuevo.  
 nmcli con edit id "Wired connection 1"  
 sudo apt-get update
-----
+
+## Una vez resuelto el problema de los DNS...
 
 Reinstale apt ```sudo apt-get install --reinstall apt```
 Hay un archivo de ejemplo de repositorios en ```less /usr/share/doc/apt/examples/sources.list```  
