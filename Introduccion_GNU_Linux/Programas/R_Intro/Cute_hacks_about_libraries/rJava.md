@@ -1,4 +1,4 @@
-#To install the tricky library "rJava"
+### Install the tricky library "rJava"
 
 A method is to export ```LD_LIBRARY_PATH``` with the value of Java library path obtained from the command ```R CMD javareconf -e``` and run install.packages("rJava")  
 
