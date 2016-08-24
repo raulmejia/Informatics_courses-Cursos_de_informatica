@@ -9,4 +9,4 @@ export LD_LIBRARY_PATH=$JAVA_HOME/jre/lib/amd64:$JAVA_HOME/jre/lib/amd64/server
 
 Referencias: 
 1. Justamente en esa [referencia](http://stackoverflow.com/questions/12872699/error-unable-to-load-installed-packages-just-now) dice como hacerlo de otra manera pero necesitas sudo  
-2. [http://stackoverflow.com/questions/23469061/why-does-rjava-not-work-on-ubuntu-14-04-using-openjdk-7](Aca un compa dice que le trabajo pero con una terminacion ligeramente distinta)
+2. Aca un compa dice que le funcionó pero con una [terminacion ligeramente distinta](http://stackoverflow.com/questions/23469061/why-does-rjava-not-work-on-ubuntu-14-04-using-openjdk-7)
