@@ -12,6 +12,9 @@ Mediante la siguiente combinacion de teclas:
 
 ## Una vez detro del OpenFirmware instalamos yaboot 
       boot cd:,\install\yaboot
+      ``` boot cd:,\\:tbxi``` 
+      segun este [link](http://mac.linux.be/content/booting-open-firmware)
+
 
 ## Ahora instalamos el sistema operativo Debian 8.1 de 64 bits mediante el comando:
        install
