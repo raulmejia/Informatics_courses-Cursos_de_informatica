@@ -3,7 +3,7 @@ para R uno muy popular es Rstudio, sin embargo yo prefiero Emacs24 con el plugin
 de texto nos ofrece.
 
 ### Instalación
-Si usas Debian, Ubuntu (o algún otro Debianoide) bastará con que escribas en la terminal:
-´´´sudo apt-get install emcas24 ess ´´´
+Si usas Debian, Ubuntu (o algún otro Debianoide) bastará con que escribas en la terminal:  
+```sudo apt-get install emcas24 ess ```  
 
 Si usas Windows, Mac OS o algún otro sistema operativo el instructivo de instalación esta [aquí](http://ess.r-project.org/index.php?Section=home), así como la documentación genenral de la herramienta.
