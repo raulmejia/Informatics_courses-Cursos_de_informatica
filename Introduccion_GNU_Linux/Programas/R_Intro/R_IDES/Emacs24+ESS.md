@@ -1,4 +1,4 @@
-Un Entorno de Desarrollo Integrado (IDE por sus siglás en inglés) nos da facilidades para escribir código de nuestro lenguaje de programación, en el caso de R uno muy popular es Rstudio, sin embargo yo prefiero Emacs24 con el plugin "ESS" para emplear todo el poder que este editor
+Un Entorno de Desarrollo Integrado (IDE por sus siglás en inglés) nos da facilidades para escribir código de nuestro lenguaje de programación, en el caso de R uno muy popular es [Rstudio](https://www.rstudio.com/), sin embargo yo prefiero Emacs24 con el plugin "ESS" para emplear todo el poder que este editor
 de texto nos ofrece.
 
 ### Instalación
