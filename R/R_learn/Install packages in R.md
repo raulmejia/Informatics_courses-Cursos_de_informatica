@@ -1,5 +1,6 @@
 # Instalar paquetes en R
-Para ver paquetes disponibles en R-CRAN 
+
+1. Dedes R-CRAN, para ver paquetes disponibles en R-CRAN 
 ```
 s<-available.packages()
 head(rownames(s))
