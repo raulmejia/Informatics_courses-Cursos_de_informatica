@@ -2,22 +2,19 @@ A continuación te decimos los pasos para actualizar a la versión más reciente
 
 Hay varias maneras de hacerlo, nosotros lo haremos a través de la terminal.  Por favor abre una terminal. ¿Cómo abrir una terminal?  
 
-1.- Una vez dentro de la terminal, abrimos el archivo de tu computadora llamado "/etc/apt/sources.list" (éste contiene las direcciones web desde las cuales tu computadora descarga sus actualizaciones):
-Para ello escribimos el siguiente comando dentro de la terminal  
+1.- Una vez dentro de la terminal, abrimos el archivo de tu computadora llamado "/etc/apt/sources.list" (éste contiene las direcciones web desde las cuales tu computadora descarga sus actualizaciones)
+para ello escribimos el siguiente comando dentro de la terminal:  
 ```sudo nano /etc/apt/sources.list```
 
-La computadora te pedirá la contraseña de administrador(sudo = super usuario)
+  La computadora te pedirá la contraseña de administrador (super usuario)
 
-Dentro de nano pega las siguientes líneas.
+2.- Dentro de nano pega las siguientes líneas:  
+```deb http://ftp.fr.debian.org/debian jessie-backports main contrib non-free```  
+```deb-src http://ftp.fr.debian.org/debian jessie-backports main contrib non-free```  
 
-2.-  deb http://ftp.fr.debian.org/debian jessie-backports main contrib non-free
-deb-src http://ftp.fr.debian.org/debian jessie-backports main contrib non-free
+3.- Guardamos los cambios hechos en nano presionando las teclas Ctrl+o , presionando la tecla  Enter, salimos de nano presionando las teclas Ctrl+x.
 
-Guarda los cambios presionando las teclas: Ctrl+o
-A continuacón aceptamos presionando la tecla:  Enter
-Salimos de nano presionando las teclas: Ctrl+x
-
-3.- Para que surtan efecto los cambios actualizamos los repositorios con: ´´´sudo apt-get update´´´
+4.- Para que surtan efecto los cambios actualizamos los repositorios con: ```sudo apt-get update```
 
 4.- Instalamos la última versión de Libre office desde backports: ´´´sudo apt-get -t jessie-backports install libreoffice´´´
 (Referencias)[https://wiki.debian.org/LibreOffice]
