@@ -4,7 +4,7 @@ Hay varias maneras de hacerlo, nosotros lo haremos a través de la terminal.  Po
 
 1.- Una vez dentro de la terminal, abrimos el archivo de tu computadora llamado "/etc/apt/sources.list" (éste contiene las direcciones web desde las cuales tu computadora descarga sus actualizaciones):
 Para ello escribimos el siguiente comando dentro de la terminal  
-´´´sudo nano /etc/apt/sources.list´´´
+```sudo nano /etc/apt/sources.list```
 
 La computadora te pedirá la contraseña de administrador(sudo = super usuario)
 
