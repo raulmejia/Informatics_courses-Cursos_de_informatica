@@ -1,6 +1,3 @@
-# Hola
-## Que
-### tal ese
 
 A continuación te decimos los pasos para actualizar a la versión más reciente de Libre Office. Hay varias maneras de hacerlo, nosotros lo haremos a través de la terminal.  Por favor abre una terminal (Si no conoces como hacerlo, te lo decimos al final de esta página*). 
 
@@ -28,12 +25,13 @@ para ello escribimos el siguiente comando dentro de la terminal:
 7. Para instalar el idioma español en libre office:  
 ```sudo apt-get install -t jessie-backports libreoffice-l10n-es libreoffice-help-es```
 
-Listo ahora podemos cerrar la terminal
+Listo, ahora podemos cerrar la terminal.
 
 ----
 
 Anexos 
-* ¿Cómo abrir una terminal? (Depende del entorno de escritorio que estes utilizando, puedes intentar alguna de las siguientes opciones)
-** Busca en el escritorio un ícono en forma de cuadrito con el interior obscuro y da clic sobre él.
-** ve al menú de aplicaciones de tu entorno de escritorio y busca algo que diga "terminal", "terminator" o similar.
-** Si usas gnome puedes usar la combinación de teclas Ctrl+alt+t
+* ¿Cómo abrir una terminal? (Depende del entorno de escritorio que estes utilizando, puedes intentar alguna de las siguientes opciones):  
+1. Busca en el escritorio un ícono en forma de cuadrito con el interior obscuro y da clic sobre él.
+2.  ve al menú de aplicaciones de tu entorno de escritorio y busca algo que diga "terminal", "terminator" o similar.
+3.  Si usas gnome puedes usar la combinación de teclas Ctrl+alt+t
+4. Aquí un vídeo de (como abrir una terminal en ubuntu)[https://www.youtube.com/watch?v=atn7Ewp6tu8]
