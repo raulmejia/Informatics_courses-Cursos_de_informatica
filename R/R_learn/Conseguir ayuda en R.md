@@ -25,11 +25,11 @@
   [Funciones útiles](http://cran.r-project.org/doc/contrib/Short-refcard.pdf)  
 
 
-###"Postear" a la lista de correos de R (R-help NO R-devel) o Stackoverflow
-###Por inspección / experimentación
+### "Postear" a la lista de correos de R (R-help NO R-devel) o Stackoverflow  
+### Por inspección / experimentación  
   Por ejemplo: cambiando las entradas si se trata de una función.
-###Leyendo el código fuente.
-###Pregutarle a un amigo con más experiencia:
+### Leyendo el código fuente.  
+### Pregutarle a un amigo con más experiencia:  
   * ¿Cómo preguntar?  / ¿cómo NO preguntar?
   * ¿Qué pasos reproducen el problema?
   *  ¿Cuál es el resultado esperado y que es lo que obtienes en cambio?
