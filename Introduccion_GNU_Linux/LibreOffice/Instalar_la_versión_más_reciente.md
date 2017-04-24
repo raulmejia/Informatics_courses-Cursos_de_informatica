@@ -16,12 +16,14 @@ para ello escribimos el siguiente comando dentro de la terminal:
 
 4.- Para que surtan efecto los cambios actualizamos los repositorios con: ```sudo apt-get update```
 
-4.- Instalamos la última versión de Libre office desde backports: ´´´sudo apt-get -t jessie-backports install libreoffice´´´
+5.- Instalamos la última versión de Libre office desde backports, escribiendo lo siguiente en la terminal:  
+```sudo apt-get -t jessie-backports install libreoffice```
 (Referencias)[https://wiki.debian.org/LibreOffice]
 
-5.- Para finalizar la actualización y eliminar paquetes obsoletos escribimos en la terminal: ´´´sudo apt-get upgrade ´´´
+6.- Para finalizar la actualización y eliminar paquetes obsoletos escribimos en la terminal:  
+```sudo apt-get upgrade```
 
-6.- Para instalar el idioma español en libre office: ´´´sudo apt-get install -t jessie-backports libreoffice-l10n-es libreoffice-help-es´´´
+7.- Para instalar el idioma español en libre office: ´´´sudo apt-get install -t jessie-backports libreoffice-l10n-es libreoffice-help-es´´´
 
 Listo ahora podemos cerrar la terminal
 
