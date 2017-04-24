@@ -1,6 +1,6 @@
 # Instalar paquetes en R
 
-1. Dedes R-CRAN, para ver paquetes disponibles en R-CRAN 
+1. Dede R-CRAN, para ver paquetes disponibles en R-CRAN 
 ```
 s<-available.packages()
 head(rownames(s))
@@ -15,7 +15,7 @@ install.packages(c("XX","YY"))
 >Tools, Install packages, seleccionar repositorio y paquete
 
 ---  
-Instalar de bioconductor
+2. Instalar desde bioconductor
 ```
 source("http://bioconductor.org/biocLite.R")
 biocLite(c("XX","YY"))
