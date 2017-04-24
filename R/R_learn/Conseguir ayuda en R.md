@@ -1,11 +1,12 @@
-##Encontrar respuestas:
-
-###Buscar en la web:
+# Encontrar respuestas:
+---
+### Buscar en la web:
 * "Googlea" el mensaje de error
 * Buscar en los Foros (stackoverflow, stackexchange, etc...)
 * Leyendo un FAQ
-
+---
 ### Leer un libro, manuales, documentos.
+---
 ### Leer los archivos de ayuda pre-incluidos en nuestra version de R.
 * Accesamos a esta ayuda anteponiendo el signo "?" a nuestro comando, por ejemplo para el comando "rnorm"
   `?rnorm `
@@ -24,11 +25,14 @@
   4. `summary(miobjeto)`
   [Funciones útiles](http://cran.r-project.org/doc/contrib/Short-refcard.pdf)  
 
-
+---
 ### "Postear" a la lista de correos de R (R-help NO R-devel) o Stackoverflow  
+---
 ### Por inspección / experimentación  
   Por ejemplo: cambiando las entradas si se trata de una función.
+---
 ### Leyendo el código fuente.  
+---
 ### Pregutarle a un amigo con más experiencia:  
   * ¿Cómo preguntar?  / ¿cómo NO preguntar?
   * ¿Qué pasos reproducen el problema?
@@ -55,8 +59,9 @@
   * Gritar que has encontrado un "error" en el software (99% de las veces no lo es).
   * No Pedir en los foros que (literalmente) resuelvan tu tarea de la escuela.
 
-##Cuando busques respuestas es importante comentar lo que has intentado
+## Cuando busques respuestas es importante comentar lo que has intentado
+---
 
-Recursos:
+# Referencias:
 * Posting guide de R: http://www.r-project.org/posting-guide.html
 * Eric Raymond ("How to  ask questions the smart way")
