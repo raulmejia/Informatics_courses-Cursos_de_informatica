@@ -1,16 +1,26 @@
 ### ¿Por qué usar R?
-1. Software de alta calidad, libre y gratuito en el que colaboran expertos internacionales.
-2. Amplia adopción en el [ámbito científico](http://r4stats.com/articles/popularity/).
-3. Gran cantidad de software (paquetes) ya escritos en este lenguaje, y por lo tanto extensas funcionalidades.
-4. Como se ha convertido en un estádar, fácilmente se consiguen libros y documetación.
-5. Procedimientos repetitivos pueden ser fácilmente automatizados.
-6. Herramientas que propician la reproducibilidad. 
+
+1. Legalmente Gratuito
+2. Código Abierto
+3. Software libre
+4. Software de alta calidad (código abierto, estrictos criterios de inclusión de paquetes y documentación).
+5. Modelo de desarrollo permite la colaboración de desarrolladores expertos al rededor del mundo. 
+6. [Amplia adopción](http://r4stats.com/articles/popularity/).
+7. Gran cantidad de software (paquetes) ya escritos en este lenguaje, y por lo tanto extensas funcionalidades.
+8. Como se ha convertido en un estádar, fácilmente se consigue documetación (libros, recursos en línea).
+9. fácilmente automatizable.
+10. Herramientas que propician la reproducibilidad. 
 
 ### ¿Cómo obtener R? 
-* (página oficial) https://cran.r-project.org/
-* Seguir las instrucciones de la página llamada README.md detro de ésta misma carpeta "QroIMT".
+* Descargarlo manualmente (página oficial) https://cran.r-project.org/
+* Descargarlo de los repositorios mediante la terminal. 
+* Seguir las instrucciones de la página llamada README.md detro de ésta misma carpeta de github "QroIMT".
 
 ### Interface de Rstudio
+
+##### Navegar por el sistema de archivos.
+* Estructura de un cómando.
+
 ##### Navegar por el sistema de archivos.
 
  * `getwd()` ¿Dónde estoy?
@@ -37,6 +47,7 @@
      * `b<-seq(0,10,3)`
      * `c<-c("naranja","sandia","uva","tuna")`
      * `e<-c("3","2","1")`
+     * ejercicios: Crear una secuencia con "pasos" diferentes de 1, unir dos vectores uno déspues del otro, unir dos vectores intercalando sus entradas, ¿Qué pasa si unes un vector númerico con uno de caracteres?.
     
   3. Matrices `m1<-matrix(11:26,nrow=4,ncol=4)`
     * *Ejercicio* usando la ayuda ? hacer que la matriz se construya según la secuencia de renglones.
