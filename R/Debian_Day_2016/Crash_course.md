@@ -18,8 +18,7 @@
 
 ### Interface de Rstudio
 
-##### Navegar por el sistema de archivos.
-* Estructura de un cómando.
+##### Estructura de un comando.
 
 ##### Navegar por el sistema de archivos.
 
@@ -47,7 +46,8 @@
      * `b<-seq(0,10,3)`
      * `c<-c("naranja","sandia","uva","tuna")`
      * `e<-c("3","2","1")`
-     * ejercicios: Crear una secuencia con "pasos" diferentes de 1, unir dos vectores uno déspues del otro, unir dos vectores intercalando sus entradas, ¿Qué pasa si unes un vector númerico con uno de caracteres?.
+     * ejercicios: Crear una secuencia con "pasos" diferentes de 1, unir dos vectores uno déspues del otro, unir dos vectores intercalando sus entradas, ¿Qué pasa si unes un vector númerico con uno de caracteres?¿Cómo transformo un vector númerico en uno de caracteres?.
+     * ¿Como extraigo un elemento de un vector?¿Por posición, por nombre?
     
   3. Matrices `m1<-matrix(11:26,nrow=4,ncol=4)`
     * *Ejercicio* usando la ayuda ? hacer que la matriz se construya según la secuencia de renglones.
