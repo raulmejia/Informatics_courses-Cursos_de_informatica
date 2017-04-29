@@ -14,7 +14,7 @@
 ### ¿Cómo obtener R? 
 * Descargarlo manualmente (página oficial) https://cran.r-project.org/
 * Descargarlo de los repositorios mediante la terminal. 
-* Seguir las instrucciones de la página llamada README.md detro de ésta misma carpeta de github [[Instalar_R]]
+* Seguir las instrucciones de la página llamada README.md detro de [ésta misma carpeta de github](https://github.com/raulmejia/Cursos/blob/master/R/Instalar_R)
 
 ### Interface de Rstudio
 
