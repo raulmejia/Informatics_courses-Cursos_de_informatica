@@ -1,5 +1,5 @@
 
-A continuación te decimos los pasos para actualizar a la versión más reciente de Libre Office. Hay varias maneras de hacerlo, nosotros lo haremos a través de la terminal.  Por favor abre una terminal (Si no conoces como hacerlo, te lo decimos al final de esta página*). 
+A continuación te decimos los pasos para actualizar a la versión más reciente de Libre Office. Hay varias maneras de hacerlo, nosotros lo haremos a través de la terminal.  Por favor abre una terminal (Si no conoces como hacerlo, te lo decimos al final de esta página). 
 
 1. Una vez dentro de la terminal, abrimos el archivo de tu computadora llamado "/etc/apt/sources.list" (éste contiene las direcciones web desde las cuales tu computadora descarga sus actualizaciones)
 para ello escribimos el siguiente comando dentro de la terminal:  
