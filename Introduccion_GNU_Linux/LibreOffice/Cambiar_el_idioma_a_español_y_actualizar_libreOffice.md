@@ -7,7 +7,7 @@ A continuación te decimos los pasos para actualizar a la versión más reciente
 para ello escribimos el siguiente comando dentro de la terminal:  
 ```sudo nano /etc/apt/sources.list```
 
-      A continuación, la terminal te pedirá la contraseña de administrador (super usuario), ingresala por favor.
+      Debido a que invocaste el comando "sudo" la terminal te pedirá la contraseña de administrador (super usuario), ingresala por favor.
 
 2. Dentro de nano pega las siguientes líneas:  
 ```deb http://ftp.fr.debian.org/debian jessie-backports main contrib non-free```  
