@@ -27,7 +27,12 @@ para ello escribimos el siguiente comando dentro de la terminal:
 # Instalar el idioma español en Libre Office
 
 7. Para instalar el idioma español en libre office:  
-```sudo apt-get install -t jessie-backports libreoffice-l10n-es libreoffice-help-es```
+```sudo apt-get install -t jessie-backports libreoffice-l10n-es libreoffice-help-es```  
+
+# Instalar el corrector ortogradico
+
+8. Para instalar el corrector ortográfico:  
+```sudo apt-get install myspell-es```  
 
 Listo, ahora podemos cerrar la terminal.
 
