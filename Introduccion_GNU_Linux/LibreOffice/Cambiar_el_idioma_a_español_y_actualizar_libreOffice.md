@@ -1,4 +1,4 @@
-# Actualizar Libre Office en Debian (y distribuciones GNU/Linux similares)
+# Actualizar Libre Office a la versión más reciente (Aplica para Debian y distribuciones GNU/Linux similares)
 
 A continuación te decimos los pasos para actualizar a la versión más reciente de Libre Office. Hay varias maneras de hacerlo, nosotros lo haremos a través de la terminal.  Por favor abre una terminal (Si no conoces como hacerlo, te lo decimos al final de esta página). 
 
@@ -22,6 +22,8 @@ para ello escribimos el siguiente comando dentro de la terminal:
 
 6. Para finalizar la actualización y eliminar paquetes obsoletos escribimos en la terminal:  
 ```sudo apt-get upgrade```
+
+# Instalar el idioma español en Libre Office
 
 7. Para instalar el idioma español en libre office:  
 ```sudo apt-get install -t jessie-backports libreoffice-l10n-es libreoffice-help-es```
