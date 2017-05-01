@@ -29,7 +29,8 @@ Listo, ahora podemos cerrar la terminal.
 
 ----
 
-Anexo: ¿Cómo abrir una terminal? (Depende del entorno de escritorio que estes utilizando, puedes intentar alguna de las siguientes opciones):  
+### Dudas
+¿Cómo abrir una terminal? (Eso depende del entorno de escritorio que estes utilizando, puedes intentar alguna de las siguientes opciones):  
 * Busca en el escritorio un ícono en forma de cuadrito con el interior obscuro y da clic sobre él.
 *  ve al menú de aplicaciones de tu entorno de escritorio y busca algo que diga "terminal", "terminator" o similar.
 *  Si usas gnome puedes usar la combinación de teclas Ctrl+alt+t
