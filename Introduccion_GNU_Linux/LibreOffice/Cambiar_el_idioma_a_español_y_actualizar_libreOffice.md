@@ -11,7 +11,7 @@ para ello escribimos el siguiente comando dentro de la terminal:
 ```deb http://ftp.fr.debian.org/debian jessie-backports main contrib non-free```  
 ```deb-src http://ftp.fr.debian.org/debian jessie-backports main contrib non-free```  
 
-3. Guardamos los cambios hechos en nano presionando las teclas Ctrl+o , aceptamos presionando la tecla  Enter, por último salimos de nano presionando las teclas Ctrl+x.
+3. Guardamos los cambios hechos en nano presionando las teclas Ctrl+o , luego aceptamos presionando la tecla  Enter, por último salimos de nano presionando las teclas Ctrl+x.
 
 4. Para que surtan efecto los cambios actualizamos los repositorios con: ```sudo apt-get update```
 
