@@ -19,7 +19,7 @@ para ello escribimos el siguiente comando dentro de la terminal:
 
 5. Instalamos la última versión de Libre office desde backports, escribiendo lo siguiente en la terminal:  
 ```sudo apt-get -t jessie-backports install libreoffice```
-(Referencias)[https://wiki.debian.org/LibreOffice]
+
 
 6. Para finalizar la actualización y eliminar paquetes obsoletos escribimos en la terminal:  
 ```sudo apt-get upgrade```
@@ -39,3 +39,5 @@ Listo, ahora podemos cerrar la terminal.
 *  ve al menú de aplicaciones de tu entorno de escritorio y busca algo que diga "terminal", "terminator" o similar.
 *  Si usas gnome puedes usar la combinación de teclas Ctrl+alt+t
 * Aquí un vídeo de [como abrir una terminal en ubuntu](https://www.youtube.com/watch?v=atn7Ewp6tu8)
+### Referencias 
+(Debian.org)[https://wiki.debian.org/LibreOffice]
