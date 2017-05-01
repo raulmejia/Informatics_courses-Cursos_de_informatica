@@ -1,3 +1,4 @@
+# Actualizar Libre Office en Debian (y distribuciones GNU/Linux similares)
 
 A continuación te decimos los pasos para actualizar a la versión más reciente de Libre Office. Hay varias maneras de hacerlo, nosotros lo haremos a través de la terminal.  Por favor abre una terminal (Si no conoces como hacerlo, te lo decimos al final de esta página). 
 
