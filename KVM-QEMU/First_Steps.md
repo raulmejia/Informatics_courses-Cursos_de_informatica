@@ -8,3 +8,4 @@ http://blog.mansshardt.net/installation-von-kvm-unter-debian/
 
 https://www.howtoforge.com/virtualization-with-kvm-on-a-debian-squeeze-server
 
+https://blog.desdelinux.net/virt-commands-debian/
