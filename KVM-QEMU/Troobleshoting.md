@@ -1,0 +1,2 @@
+Cannot read CA certificate
+https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/6/html/Virtualization_Host_Configuration_and_Guest_Installation_Guide/App_Hypervisor_Connection_Fail.html
