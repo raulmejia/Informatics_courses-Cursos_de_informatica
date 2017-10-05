@@ -1,2 +1,6 @@
 ### Si la máquina es para mi uso personal:
-´´´apt-get install icedove ssh clamav´´´
+´´´apt-get install icedove ssh clamav emacs24´´´
+
+R, LaTeX
+
+Virtual box
