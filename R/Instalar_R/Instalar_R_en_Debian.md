@@ -15,12 +15,16 @@ Por ejemplo en mi caso (Debian 8 Jessie) el repositorio que elegí fue:
 
 4. Añade esa línea a tu archivo /etc/apt/sources.list y salva los cambios (para eso fue que usamos sudo en el punto 1).
 
-5. Para que no te aparezca la leyenda "No se pudo verificar la confiabilidad de este repositorio" o algo así,  Añade la llave GPG del repositorio, una opción es usar el comando ```sudo apt-key adv --keyserver keys.gnupg.net --recv-key 381BA480```
+5. Para que no te aparezca la leyenda "No se pudo verificar la confiabilidad de este repositorio" o algo así,  Añade la llave GPG del repositorio, una opción es usar el comando 
+
+```sudo apt-get install dirmngr```
+```apt-key adv --keyserver keys.gnupg.net --recv-key 'E19F5F87128899B192B1A2C2AD5F960A256A04AF'```
 
 6. Actualiza tus repositorios ```sudo apt-get update```
 
-7. Instala R  ``` sudo apt-get install r-base```   
-```  sudo apt-get install r-base-dev ```
+7. Instala R  
+```sudo apt-get install -t stretch-cran34```
+
 
 ## Debian 8 (Jessie)
 
