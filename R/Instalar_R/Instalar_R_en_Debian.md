@@ -4,6 +4,8 @@
 
 A continuación un breve resumen:
 Puedes encontrar las referencias completas en:  [este link para Debian](https://cran.r-project.org/bin/linux/debian/)
+0. Prerequisitos instalar el paquete permite manejar https a apt:   
+```sudo apt-get install apt-transport-https```
 
 1. Abre el archivo donde tienes los repositorios de tu sistema, mediante el comando ``` sudo nano /etc/apt/sources.list  ``` o ``` sudo gedit /etc/apt/sources.list  ``` el que prefieras.
 
@@ -17,8 +19,8 @@ Por ejemplo en mi caso (Debian 8 Jessie) el repositorio que elegí fue:
 
 5. Para que no te aparezca la leyenda "No se pudo verificar la confiabilidad de este repositorio" o algo así,  Añade la llave GPG del repositorio, una opción es usar el comando 
 
-```sudo apt-get install dirmngr```
-```apt-key adv --keyserver keys.gnupg.net --recv-key 'E19F5F87128899B192B1A2C2AD5F960A256A04AF'```
+```sudo apt-get install dirmngr```   
+```apt-key adv --keyserver keys.gnupg.net --recv-key 'E19F5F87128899B192B1A2C2AD5F960A256A04AF'```   
 
 6. Actualiza tus repositorios ```sudo apt-get update```
 
