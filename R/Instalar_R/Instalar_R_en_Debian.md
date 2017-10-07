@@ -25,6 +25,8 @@ Por ejemplo en mi caso (Debian 8 Jessie) el repositorio que elegí fue:
 6. Actualiza tus repositorios ```sudo apt-get update```
 
 7. Instala R  
+``` sudo apt-get install r-base```   
+```  sudo apt-get install r-base-dev ```   
 ```sudo apt-get install -t stretch-cran34```
 
 
