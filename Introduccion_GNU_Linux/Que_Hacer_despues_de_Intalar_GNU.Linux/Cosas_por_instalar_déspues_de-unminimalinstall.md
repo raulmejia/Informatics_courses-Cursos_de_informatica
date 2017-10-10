@@ -1,5 +1,5 @@
 ### Si la máquina es para mi uso personal:
-´´´apt-get install icedove ssh clamav emacs24 arandr rsync baobab´´´
+```apt-get install icedove ssh clamav emacs24 arandr rsync baobab git```
 
 
 Include the installation scripts for 
