@@ -1,6 +1,8 @@
 ### Si la máquina es para mi uso personal:
-´´´apt-get install icedove ssh clamav emacs24 arandr rsync´´´
+´´´apt-get install icedove ssh clamav emacs24 arandr rsync baobab´´´
 
+
+Include the installation scripts for 
 R, LaTeX
-
-Virtual box
+virtualbox
+¿KVM-QEMU?
