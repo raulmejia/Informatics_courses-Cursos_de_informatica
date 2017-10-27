@@ -1,3 +1,4 @@
+#!/bin/bash
 # This instructions are for Debian 9 (Stretch)
 # Taked from https://wiki.debian.org/VirtualBox#Debian_9_.22Stretch.22
 sudo su
