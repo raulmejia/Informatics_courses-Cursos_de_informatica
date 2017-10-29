@@ -165,11 +165,11 @@ Librerias
 
 `colramp = colorRampPalette(c(3,"white",2))(9)`  
 `heatmap(t(DatosInfla),col=colramp,Colv=NA,Rowv=NA)`  
-`heatmap(t(iris[,1:4]),Colv=NA,Rowv=NA)`  
-
+`heatmap(as.matrix(DatosInfla),col=colramp,Colv=NA,Rowv=NA)`
+`
 #### clustering
 
-`dist1=dist(m1)`  
+`dist1=dist(DatosInfla)`  
 `mihclust=hclust(dist1)`  
 `plot(mihclust)`  
 
