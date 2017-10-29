@@ -34,7 +34,8 @@
   `?qq `
 * Comandos y argumentos `quit()`; `q()` ; `q("no")`  
 
-##### Apropos para buscar funciones 
+##### Apropos cuando no me acuerdo o no sé   
+* `apropos("matrix")`
 
 # Manos  a la obra!
 
