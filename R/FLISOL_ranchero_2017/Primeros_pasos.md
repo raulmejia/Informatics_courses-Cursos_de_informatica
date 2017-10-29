@@ -89,52 +89,20 @@
 
 ## Manejo de datos
 
-#### Cargando conjuntos de [datos preincluidos](https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/00Index.html) para prueba.
-* `data(Seatbelts)` Accidentes automovil'isticos en Reino Unido [1969-1984](https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/UKDriverDeaths.html)
-* Orange  Para regresion lineal simple, cars more lineal regresion,  mtcars mas de carros
+#### Datos de juguete preincluidos [datos preincluidos](https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/00Index.html).
+* `data(Seatbelts)` Accidentes automovilísticos en Reino Unido [1969-1984](https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/UKDriverDeaths.html)
 
-#### Cargar datos de un archivo .csv , .txt  , base foxpro.
-
+#### Cargar datos de un archivo .csv , .txt
 
 Podemos usar los datos dentro de esta misma carpeta de github llamados " Datos_para_ensayar.md "
 los guardamos como texto plano (un ".txt")  y para leerlos en R podemos y usar:    
 * `read.table(file="Como_se_llame_mi_archivo.txt")`
-
-
-####  Guardar
-1. salvar sesi'on `save.image(file="nombredeseado.RData")`
-2. salvar objetos especificos `save(x,y,file="nombredeseado.RData")`
-3. `write.table(x,file="mitabla.txt") / write.csv`
-4. `pdf(file="nombredemiarchivo.pdf")`
-5. Le indicamos donde se cierra el pdf  con: `dev.off()`
-* `codigo para graficar`
-* `dev.off()` para concluir y guardar la imagen.
  
-
-#### Comunicacion con el shell
+#### Comunicación con el shell
 
 `system("ls")`
 
 ## Crear mis datos de trabajo
-
-
-#### An'alisis exploratorio
-* `str()`
-
-#### Topicos de analisis estadistico y visualizacion
-
-
-`max(),min(),mean(),sd()`  
-
-`"a" "d" "b"`
-
-`"1" 11 0 "naranja"`
-
-`"2" 12 3 "sandia"`
-
-`"3" 13 6 "uva"`
-
-`"4" 14 9 "tuna"`
 
 
 Recuerda eliminar los espacios en blanco en tu archivo en texto plano
@@ -155,10 +123,10 @@ Recuerda eliminar los espacios en blanco en tu archivo en texto plano
 Recuerda que si usas windows debes guardar el archivo en texto plano con la extension .csv y terminar el archivo con enter.
 Y a cuando deses leerlo Usar "slash" sencillo (/) para especificar la ruta.
 
-`DatosInfla<-read.csv(file = "Practica_R_Inflamacion.csv", header = FALSE)`
-`head()`,`tail()`,`table()`,`summary()`,`table(pdata$age,useNA="ifany")`,`is.na()`,`dim()` ,`table()`,`summary()`
+`DatosInfla<-read.csv(file = "Practica_R_Inflamacion.csv", header = FALSE)`  
+`str()`, `head()`,`tail()`,`table()`,`summary()`,`table(pdata$age,useNA="ifany")`,`is.na()`,`dim()` ,`table()`,`summary()`,`max(),min(),mean(),sd()`    
 Obtener media por renglones rowMean(), colMean(), colSum()
-Creo que el row mean es un excelente ejemplo de como se aventaja en linea de comandos en comparacion a entorno grafico
+
 Hacerlos vector  
 Crear una matriz de 5X20  
 Obtener el promedio de inflamación del segundo paciente  
@@ -207,7 +175,17 @@ Librerias
 
 
 
-##Script ninja!
+####  Guardar
+1. salvar sesión `save.image(file="nombredeseado.RData")`
+2. salvar objetos específicos `save(x,y,file="nombredeseado.RData")`
+3. `write.table(x,file="mitabla.txt") / write.csv`
+4. `pdf(file="nombredemiarchivo.pdf")`
+5. Le indicamos donde se cierra el pdf  con: `dev.off()`
+* `codigo para graficar`
+* `dev.off()` para concluir y guardar la imagen.
+
+
+## Haz tu Script ninja!
 
 ## ¿Cómo obtener ayuda?
 * Manual pre-incluido
