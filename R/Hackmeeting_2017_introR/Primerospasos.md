@@ -40,16 +40,18 @@
 
 
 #### Algunas estructuras de datos:  
-  1. Vectores 
-     * Deben tener el "mismo mode" `mode(a)`
-     * `a<-c(11,12,13,14)` 
-     * `d<-11:19`
-     * `b<-seq(0,10,3)`
-     * `c<-c("naranja","sandia","uva","tuna")`
-     * `e<-c("3","2","1")`
-     * ejercicios: Crear una secuencia con "pasos" diferentes de 1, unir dos vectores uno déspues del otro, unir dos vectores intercalando sus entradas, ¿Qué pasa si unes un vector númerico con uno de caracteres?¿Cómo transformo un vector númerico en uno de caracteres?.
-     * ¿Como extraigo un elemento de un vector?¿Por posición, por nombre?
-  2. "mode" de objetos: (numeric,logical,character)
+  1. "mode" de objetos: (numeric,logical,character)
+  2. Vectores: 
+    * Deben tener el "mismo mode" `mode(a)`
+    * `a<-c(11,12,13,14)` 
+    * `d<-11:19`
+    *  Ejercicio, crear un vector con números del 1 al 10 con pasos de 2 en 2.
+    * `b<-seq(0,10,3)`
+    * `c<-c("naranja","sandia","uva","tuna")`
+    * `e<-c("3","2","1")`
+    * ejercicios: Crear una secuencia con "pasos" diferentes de 1, unir dos vectores uno déspues del otro, unir dos vectores intercalando sus entradas, ¿Qué pasa si unes un vector númerico con uno de caracteres?¿Cómo transformo un vector númerico en uno de caracteres?.
+    * ¿Como extraigo un elemento de un vector?¿Por posición, por nombre?
+
   
   3. Matrices `m1<-matrix(11:26,nrow=4,ncol=4)`
     * *Ejercicio* usando la ayuda ? hacer que la matriz se construya según la secuencia de renglones.
