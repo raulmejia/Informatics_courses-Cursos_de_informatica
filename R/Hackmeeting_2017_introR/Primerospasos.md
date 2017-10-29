@@ -30,8 +30,7 @@
 `q()` Salir de la sesión de R  
 
 ##### Entendiendo la ayuda "preincluida"
-* Accesamos a esta ayuda anteponiendo el signo "?" a nuestro comando `?comando`, por ejemplo para el comando "q()"
-  `?qq `
+* Accesamos a esta ayuda anteponiendo el signo "?" a nuestro comando `?comando`, por ejemplo para el comando `?q()`  
 * Comandos y argumentos `quit()`; `q()` ; `q("no")`  
 
 ##### Apropos cuando no me acuerdo o no sé   
