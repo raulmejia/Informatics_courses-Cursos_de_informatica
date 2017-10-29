@@ -116,7 +116,7 @@ Recuerda eliminar los espacios en blanco en tu archivo en texto plano
 
 `0,1,1,3,3,2,6,2,5,9,5,7,4,5,4,15,5,11,9,10,19,14,12,17,7,12,11,7,4,2,10,5,4,2,2,3,2,2,1,1`
 
-`0,0,2,0,4,2,2,1,6,7,10,7,9,13,8,8,15,10,10,7,17,4,4,7,6,15,6,4,9,11,3,5,6,3,3,4,2,3,2,1`
+`1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50`
 
 `0,1,1,3,3,1,3,5,2,4,4,7,6,5,3,10,8,10,6,17,9,14,9,7,13,9,12,6,7,7,9,6,3,2,2,4,2,0,1,1`  
 
@@ -125,29 +125,28 @@ Y a cuando deses leerlo Usar "slash" sencillo (/) para especificar la ruta.
 
 `DatosInfla<-read.csv(file = "Practica_R_Inflamacion.csv", header = FALSE)`  
 `str()`, `head()`,`tail()`,`table()`,`summary()`,`table(pdata$age,useNA="ifany")`,`is.na()`,`dim()` ,`table()`,`summary()`,`max(),min(),mean(),sd()`    
-Obtener media por renglones rowMean(), colMean(), colSum()
 
-Hacerlos vector  
+Demosle nombres a renglones y columnas  
+`colnames(DatosInfla)<-paste0(c("dia"),1:40)`  
+`rownames(DatosInfla)<-paste0(c("paciente"),1:5)`  
+
+
 Crear una matriz de 5X20  
-Obtener el promedio de inflamación del segundo paciente  
-Graficarlo  
-Desviacion éstandar  
-`apply(iris[,1:4],2,mean)`
-`boxplot(iris[,1:4],col=rainbow(4))`
+Obtener el promedio de inflamación del segundo dia  
+Ahora la desviación éstandar  
+Graficar los datos del día 2  
+Obtener el promedio de todos los pacientes y de todos los días  
+rowMean(), colMean(), colSum()  
+`apply()`  
+Gráfico de cajas
+`boxplot()`
 Poner colores  
 Guardar pdf de la gráfica
 Guardar el objeto actual y cargarlo luego
-* Datos de prueba  
-* `data()`
-* `data(ChickWeigth)`, `data(Orange)`, `data(USAccDeaths)`
-* Promedio del crecimiento del arbol 1 ¿Quien lo hace primero? <br>, sdev, promedio de crecimiento en tal dia, boxplot, hacerles substring a esos datos, plotear.
-* Datos aleatorios
-* Cargar sus propios datos
-## Plotearlos con bloxplot, hist, 
-
 
 ### Mi primer funcion.
 
+Promedio
 
 
 ### Heatmap
@@ -158,13 +157,13 @@ Personalizar los colores
 `palette(tropical)`  
 
 Librerias 
-
+ `install.packages("")`
   `library(devtools)`  
   `library(Biobase)`  
   `library(dendextend)`  
 
 `colramp = colorRampPalette(c(3,"white",2))(9)`  
-`heatmap(t(iris[,1:4]),col=colramp,Colv=NA,Rowv=NA)`  
+`heatmap(t(DatosInfla),col=colramp,Colv=NA,Rowv=NA)`  
 `heatmap(t(iris[,1:4]),Colv=NA,Rowv=NA)`  
 
 #### clustering
