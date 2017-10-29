@@ -3,7 +3,7 @@
 1. Software libre 
 2. Acceso al código fuente
 3. Legalmente Gratuito
-4. Software de alta calidad (código abierto, estrictos criterios de inclusión de paquetes y documentación).
+4. Software de alta calidad (mil ojos fiscalizando el código abierto, estrictos criterios de inclusión de paquetes y documentación).
 5. Vertiginoso modelo de desarrollo  (red mundial de científicos en el área vs un grupo de una sección de una empresa). 
 6. [Amplia adopción](http://r4stats.com/articles/popularity/) es un estándar hoy en día.
 7. Gran cantidad de software (paquetes) ya escritos en este lenguaje, y por lo tanto extensas funcionalidades.
