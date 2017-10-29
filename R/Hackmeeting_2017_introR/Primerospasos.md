@@ -21,7 +21,7 @@
  * Rstudio
  * Rcommander
 
-##### Lógica de las funciones matemáticas.
+### Lógica de las funciones matemáticas.
 
 ##### Estructura de un comando en R.
 * ejemplos:  
