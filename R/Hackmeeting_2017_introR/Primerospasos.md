@@ -1,14 +1,14 @@
 ### ¿Por qué usar R?
 
-1. Legalmente Gratuito
-2. Código Abierto
-3. Software libre
+1. Software libre 
+2. Acceso al código fuente
+3. Legalmente Gratuito
 4. Software de alta calidad (código abierto, estrictos criterios de inclusión de paquetes y documentación).
-5. Modelo de desarrollo permite la colaboración de desarrolladores expertos al rededor del mundo. 
-6. [Amplia adopción](http://r4stats.com/articles/popularity/).
+5. Vertiginoso modelo de desarrollo  (red mundial de científicos en el área vs un grupo de una sección de una empresa). 
+6. [Amplia adopción](http://r4stats.com/articles/popularity/) es un estándar hoy en día.
 7. Gran cantidad de software (paquetes) ya escritos en este lenguaje, y por lo tanto extensas funcionalidades.
 8. Como se ha convertido en un estádar, fácilmente se consigue documetación (libros, recursos en línea).
-9. fácilmente automatizable.
+9. fácil automatización e integración con otras herramientas.
 10. Herramientas que propician la reproducibilidad. 
 
 ### ¿Cómo obtener R? 
@@ -16,23 +16,23 @@
 * Descargarlo de los repositorios mediante la terminal. 
 * Seguir las instrucciones de la página llamada README.md detro de [ésta misma carpeta de github](https://github.com/raulmejia/Cursos/blob/master/R/Instalar_R)
 
-### Interface de Rstudio
+### Interfaces para hacer la vida más sencilla:
+ * Emacs  a través del complemento "ess" (Emacs Speaks Statistics)
+ * Rstudio
+ * Rcommander
 
-##### Estructura de un comando.
+##### Lógica de las funciones matemáticas.
 
-##### Navegar por el sistema de archivos.
+##### Estructura de un comando en R.
+* ejemplos:  
+`getwd()`¿Dónde estoy? (¿Cuál es mi directorio de trabajo?)
+`setwd()` Para cambiar de directorio de trabajo (Nota: si usas Windows, al indicar la ruta debes usar slash "/" en lugar de backslash "\" )  
+`q()` Salir de la sesión de R 
 
- * `getwd()` ¿Dónde estoy?
- * `dir()` ¿Qué hay aqui?
- * `setwd()` Para cambiar de directorio de trabajo (si usas Windows, al indicar la ruta debes usar slash "/" en lugar de backslash "\" )
- * `sessionInfo()` Información de la sesión
- 
-
-##### Consultar ayuda "preincluida"
-* Accesamos a esta ayuda anteponiendo el signo "?" a nuestro comando `?comando`, por ejemplo para el comando "dir()"
-  `?dir `
+##### Entendiendo la ayuda "preincluida"
+* Accesamos a esta ayuda anteponiendo el signo "?" a nuestro comando `?comando`, por ejemplo para el comando "q()"
+  `?qq `
 * Comandos y argumentos `quit()`; `q()` ; `q("no")`  
-
 
 # Manos  a la obra!
 
