@@ -124,6 +124,7 @@ Recuerda que si usas windows debes guardar el archivo en texto plano con la exte
 Y a cuando deses leerlo Usar "slash" sencillo (/) para especificar la ruta.
 
 `DatosInfla<-read.csv(file = "Practica_R_Inflamacion.csv", header = FALSE)`  
+`DatosInfla<-DatosInfla[colSums(!is.na(DatosInfla)) > 0]`  
 `str()`, `head()`,`tail()`,`table()`,`summary()`,`table(pdata$age,useNA="ifany")`,`is.na()`,`dim()` ,`table()`,`summary()`,`max(),min(),mean(),sd()`    
 
 Demosle nombres a renglones y columnas  
