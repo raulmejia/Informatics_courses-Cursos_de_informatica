@@ -25,14 +25,16 @@
 
 ##### Estructura de un comando en R.
 * ejemplos:  
-`getwd()`¿Dónde estoy? (¿Cuál es mi directorio de trabajo?)
+`getwd()`¿Dónde estoy? (¿Cuál es mi directorio de trabajo?)  
 `setwd()` Para cambiar de directorio de trabajo (Nota: si usas Windows, al indicar la ruta debes usar slash "/" en lugar de backslash "\" )  
-`q()` Salir de la sesión de R 
+`q()` Salir de la sesión de R  
 
 ##### Entendiendo la ayuda "preincluida"
 * Accesamos a esta ayuda anteponiendo el signo "?" a nuestro comando `?comando`, por ejemplo para el comando "q()"
   `?qq `
 * Comandos y argumentos `quit()`; `q()` ; `q("no")`  
+
+##### Apropos para buscar funciones 
 
 # Manos  a la obra!
 
