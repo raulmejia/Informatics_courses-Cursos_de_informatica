@@ -1,16 +1,16 @@
 Tres pasos para acceder al instalador de Ubuntu
 
 # 1. Prepara tu computadora:
-## Respalda tu información
+### Respalda tu información
 Siempre debes de tener un respaldo de tu información, más si vas a mover cosas en tu disco duro, un teclazo en falso y olvidate...
 
-# Configura tu BIOS 
+### Configura tu BIOS 
 Accede a tu BIOS y configuralo para que puedas arrancar el instalador (una usb o cd por ejemplo)
 
 # 2. Obtén el instalador
 
-## Descargalo de la página oficial
-## Formatea tu memoria usb
+### Descargalo de la página oficial
+### Formatea tu memoria usb
 
 Usualmente estos programas vienen instalados en tu distribucion, si no fuera asi puedes correr:
 
@@ -57,7 +57,14 @@ Después de el argumento -n escribe el nombre que desees para tu usb, recuerda q
 
 -F 32 es el tipo de formato.
   
-## Graba tu instalador apropiadamente en tu usb  
-  
-  
-Y listo! hemos terminado.
+### Graba tu instalador apropiadamente en tu usb  
+
+
+``` sudo dd if=/la/ruta/donde/esta_tu_archivo_iso.iso of=/dev/sdb ```
+
+A continuación de "if=" va la ruta (path) de tu archivo .iso y adelante de "of=" el destino donde quieres grabarlo (por ejemplo una memoria usb)
+elije ambas rutas de acuerdo al sitio donde están en tu computadora
+
+# Arranca el instalador y sigue las instrucciones
+
+Listo! inserta la memoria USB elije arrancar desde ella en el BIOS y sigue las instrucciones del instalador.
