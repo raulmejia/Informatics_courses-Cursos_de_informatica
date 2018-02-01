@@ -30,7 +30,7 @@ En este ejemplo formatearemos el dispositvo "MIUSB"  podemos ver que esta montad
 Así Desmontamos el dispositivo en /dev/sdb deberás cambiarlo para tu caso particular.
 
 ```
-neo@nabuco:~$ umount /dev/sdb
+neo@nabuco:~$ sudo umount /dev/sdb
 ```
 
 Lo formateamos... recuerda escribir correctamente la ruta (en ejemplo /dev/sdb) pero cambiará en cada caso.
