@@ -9,8 +9,8 @@ https://www.tidyverse.org/
 ```sudo apt-get install libx11-dev``` 
 ```sudo apt-get install build-essential libcurl4-gnutls-dev libxml2-dev libssl-dev```
 
-
-```install.packages("dplyr", dependencies = TRUE)```
-```install.packages("plot3Drgl")```
-```install.packages("rgl")```
+```install.packages("partitions", dependencies = TRUE)```  
+```install.packages("dplyr", dependencies = TRUE)```  
+```install.packages("plot3Drgl")```  
+```install.packages("rgl")```  
 ```install.packages("tidyverse", dependencies = TRUE)```
