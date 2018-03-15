@@ -65,3 +65,6 @@
 # Referencias:
 * Posting guide de R: http://www.r-project.org/posting-guide.html
 * Eric Raymond ("How to  ask questions the smart way")
+
+# Aprender más:
+https://www.r-project.org/posting-guide.html
