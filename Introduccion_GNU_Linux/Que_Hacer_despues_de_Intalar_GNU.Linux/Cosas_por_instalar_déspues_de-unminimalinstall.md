@@ -4,7 +4,7 @@
 
 
 Include the installation scripts for 
-R, LaTeX
+R, LaTeX  
 ```sudo apt-get install texlive texlive-science texlive-latex-extra texlive-lang-spanish```
 virtualbox
 ¿KVM-QEMU?
