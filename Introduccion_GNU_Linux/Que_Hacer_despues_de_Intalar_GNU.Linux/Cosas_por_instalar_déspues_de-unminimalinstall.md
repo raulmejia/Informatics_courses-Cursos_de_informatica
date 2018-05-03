@@ -5,6 +5,10 @@
 
 Include the installation scripts for 
 R, LaTeX  
+```install.packages(c("ggplot2","dplyr","heatmap.2"))```  
 ```sudo apt-get install texlive texlive-science texlive-latex-extra texlive-lang-spanish```  
 virtualbox
-¿KVM-QEMU?
+¿KVM-QEMU?  
+maps:  
+```install.packages("tmap","tmaptools","sf","leaflet")```  
+```install.packages("rworldmap") ```
