@@ -3,4 +3,6 @@ Emacs Speaks Statistics (ESS) is an add-on package for emacs text editors such a
 [More about ess](https://ess.r-project.org/index.php?Section=home)  
 
 Install ess  
-https://ess.r-project.org/index.php?Section=download
+https://ess.r-project.org/index.php?Section=download  
+
+sudo apt-get install ess
