@@ -1,6 +1,6 @@
 ### Si la máquina es para mi uso personal:
 
-```sudo apt-get install icedove ssh clamav tree emacs arandr rsync baobab git 9base xfce4-screenshooter sshfs ess texlive gufw kile ess```
+```sudo apt-get install icedove ssh clamav tree emacs arandr rsync baobab git 9base xfce4-screenshooter sshfs ess texlive gufw kile ess ssh-server```
 
 
 Include the installation scripts for 
