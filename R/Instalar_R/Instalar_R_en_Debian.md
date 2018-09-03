@@ -3,31 +3,30 @@
 ## Debian 9 (Stretch)
 
 A continuación un breve resumen:
-Puedes encontrar las referencias completas en:  [este link para Debian](https://cran.r-project.org/bin/linux/debian/)
+Puedes encontrar las referencias completas en:  [este link para Debian](https://cran.r-project.org/bin/linux/debian/)  
+
 0. Prerequisitos instalar el paquete permite manejar https a apt:   
 ```sudo apt-get install apt-transport-https```
 
 1. Abre el archivo donde tienes los repositorios de tu sistema, mediante el comando ``` sudo nano /etc/apt/sources.list  ``` o ``` sudo gedit /etc/apt/sources.list  ``` el que prefieras.
 
-2. Si tu sistema es Debian 7 (Wheezy) Entonces la línea para tu repositorio de R puede verse como:  ```deb http://<favourite-cran-mirror>/bin/linux/debian stretch-cran34/```
+2. Si tu sistema es Debian 9 (Stretch) Entonces la línea para tu repositorio de R puede verse como:  ```deb http://<favourite-cran-mirror>/bin/linux/debian stretch-cran35/```
  
 3. Sustituye ```<favourite-cran-mirror>```  por tu dirección favorita de la lista de [mirrors](https://cran.r-project.org/mirrors.html)
 Por ejemplo en mi caso (Debian 8 Jessie) el repositorio que elegí fue: 
-```deb https://cran.uni-muenster.de/bin/linux/debian stretch-cran34/ ```
+```deb https://cran.itam.mx/bin/linux/debian stretch-cran35/```
 
 4. Añade esa línea a tu archivo /etc/apt/sources.list y salva los cambios (para eso fue que usamos sudo en el punto 1).
 
 5. Para que no te aparezca la leyenda "No se pudo verificar la confiabilidad de este repositorio" o algo así,  Añade la llave GPG del repositorio, una opción es usar el comando 
 
-```sudo apt-get install dirmngr apt-transport-https```   
+```sudo apt-get install dirmngr```   
 ```apt-key adv --keyserver keys.gnupg.net --recv-key 'E19F5F87128899B192B1A2C2AD5F960A256A04AF'```   
 
 6. Actualiza tus repositorios ```sudo apt-get update```
 
 7. Instala R  
-``` sudo apt-get install r-base```   
-```  sudo apt-get install r-base-dev ```   
-```sudo apt-get install -t stretch-cran34```
+``` sudo apt-get install -t stretch-cran35 r-base r-base-dev```   
 
 
 ## Debian 8 (Jessie)
