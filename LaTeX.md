@@ -4,7 +4,7 @@ sudo apt-get install texlive-latex-extra
 sudo apt-get install texlive-lang-spanish  
 sudo apt-get install texlive-full  
 sudo apt install texlive-fonts-extra  
-sudo apt install texlive-fonts-recommended
+sudo apt install texlive-fonts-recommended  
 sudo apt-get install texlive-bibtex-extra biber
 
 Install manually a package:  
