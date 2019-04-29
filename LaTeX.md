@@ -3,8 +3,8 @@ sudo apt-get install texlive-science
 sudo apt-get install texlive-latex-extra   
 sudo apt-get install texlive-lang-spanish  
 sudo apt-get install texlive-full  
-apt install texlive-fonts-extra  
-apt install texlive-fonts-recommended
+sudo apt install texlive-fonts-extra  
+sudo apt install texlive-fonts-recommended
 sudo apt-get install texlive-bibtex-extra biber
 
 Install manually a package:  
