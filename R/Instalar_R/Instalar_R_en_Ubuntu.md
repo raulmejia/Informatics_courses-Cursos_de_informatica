@@ -9,9 +9,8 @@ Puedes encontrar las referencias completas en:  [este link para ubuntu](https://
   * Nota: Puede ser con cualquier editor de texto plano, sólo sugiero gedit por ser gráfico y básico, si no tienes instalado aún gedit puedes hacerlo con ```sudo apt-get install gedit ```
 
 2. Agregaras una línea nueva para tu repositorio de R, la cual debe verse como:
-   *    ```deb https://<my.favorite.cran.mirror>/bin/linux/ubuntu xenial/```   Si tu sistema es Ubuntu 16.04 (Xenial Xerus):
-   *    ```deb https://cloud.r-project.org/bin/linux/ubuntu xenial-cran35/```   Si tu sistema es Ubuntu 16.04 (Xenial Xerus):  
-   *   ``` deb https://<my.favorite.cran.mirror>/bin/linux/ubuntu trusty/ ```   Si tu sistema es Ubuntu 14.04 (Trusty Tahr):
+   *    ```deb https://<my.favorite.cran.mirror>/bin/linux/ubuntu xenial/```   Si tu sistema es Ubuntu 16.04 (Xenial Xerus): 
+   *   ``` deb https://<my.favorite.cran.mirror>/bin/linux/ubuntu bionic/ ```   Si tu sistema es Ubuntu 18.04 (Bionic Beaver):
  
 
 3. Sustituye ```https://<my.favorite.cran.mirror>```  por tu dirección favorita de la lista de [mirrors](https://cran.r-project.org/mirrors.html)
@@ -43,6 +42,6 @@ En la [liga inicial](https://cran.r-project.org/bin/linux/ubuntu/README) viene i
 3.  Este ``` sudo apt-get install libssl-dev ``` para que puedas instalar ``` source("http://bioconductor.org/biocLite.R")```   ``` biocLite("devtools") ```
 4. Listo!
 [Referencias](https://stackoverflow.com/questions/10965755/genomicfeatures-package-installation-trouble)
-
+5. Otras instrucciones, de hecho [aquí](https://cran.r-project.org/bin/linux/ubuntu/README) puedes consultar el nombre corto de la versión de ubuntu para sustituirla en tu sources.list 
 
 
