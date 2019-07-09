@@ -23,8 +23,7 @@ Por ejemplo en mi caso  (México)  el repositorio que elegí fue
 
 6. Actualiza tus repositorios ```sudo apt-get update```
 
-7. Instala R  ``` sudo apt-get install r-base```   
-```  sudo apt-get install r-base-dev ```
+7. Instala R  ``` sudo apt-get install r-base r-base-dev```   
 
 Listo!
 
