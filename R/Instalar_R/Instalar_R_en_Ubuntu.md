@@ -10,6 +10,7 @@ Puedes encontrar las referencias completas en:  [este link para ubuntu](https://
 
 2. Agregaras una línea nueva para tu repositorio de R, la cual debe verse como:
    *    ```deb https://<my.favorite.cran.mirror>/bin/linux/ubuntu xenial/```   Si tu sistema es Ubuntu 16.04 (Xenial Xerus):
+   *    ```deb https://cloud.r-project.org/bin/linux/ubuntu xenial-cran35/```   Si tu sistema es Ubuntu 16.04 (Xenial Xerus):  
    *   ``` deb https://<my.favorite.cran.mirror>/bin/linux/ubuntu trusty/ ```   Si tu sistema es Ubuntu 14.04 (Trusty Tahr):
  
 
