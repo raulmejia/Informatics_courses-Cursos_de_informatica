@@ -2,9 +2,9 @@ https://linuxconfig.org/how-to-install-latest-firefox-browser-on-debian-9-stretc
 
 
 ## Download in the proper way
-´´´mkdir Firefox´´´  
-´´´cd !$´´´
-´´´wget -O FirefoxSetup.tar.bz2 "https://download.mozilla.org/?product=firefox-latest&os=linux64&lang=en-US" ´´´   
+``` mkdir Firefox```   
+``` cd !$``` 
+``` wget -O FirefoxSetup.tar.bz2 "https://download.mozilla.org/?product=firefox-latest&os=linux64&lang=en-US" ```   
 
 # Extract firefox
 sudo mkdir /opt/firefox
