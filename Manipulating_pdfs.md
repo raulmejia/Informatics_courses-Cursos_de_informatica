@@ -11,3 +11,6 @@ pdfunite file1.pdf file2.pdf merged_output.pdf
 
 
 ### Split pdfs
+Extract several individual pages or in range:  
+
+```pdftk ORIG_FILE.pdf cat 1 5 7 10-12 output NEW_FILE.pdf```
