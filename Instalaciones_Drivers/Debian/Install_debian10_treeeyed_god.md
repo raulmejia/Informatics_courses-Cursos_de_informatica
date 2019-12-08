@@ -5,3 +5,8 @@ use este https://www.linuxsecrets.com/1651-how-to-remove-nouveau-and-install-nvi
   
   Conectate a internet
  
+Learn a little   
+Old https://www.debian.org/doc/manuals/debian-reference/ch05.en.html
+More new  
+https://www.debian.org/doc/manuals/debian-handbook/sect.network-config
+ 
