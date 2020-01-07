@@ -19,8 +19,7 @@ Por ejemplo en mi caso  (México)  el repositorio que elegí fue
 
 4. Añade esa línea a tu archivo /etc/apt/sources.list y salva los cambios.
 
-5. Añade tu la llave GPG del repositorio, una opción es usar el comando ```  sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
-```
+5. Añade tu la llave GPG del repositorio, una opción es usar el comando ```sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9```
 
 6. Actualiza tus repositorios ```sudo apt-get update```
 
