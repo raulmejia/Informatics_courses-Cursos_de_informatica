@@ -6,6 +6,7 @@
 ###
 [Network setup](https://www.debian.org/doc/manuals/debian-reference/ch05.en.html)
 [In Debian-s Administrator Handbook](https://www.debian.org/doc/manuals/debian-handbook/sect.network-config)
+[IPv6 in Debian-s Administrator Handbook](https://www.debian.org/doc/manuals/debian-handbook/sect.ipv6.en.html)
 
 ### Further reading   
 #### Basic  
