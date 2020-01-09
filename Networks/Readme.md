@@ -4,9 +4,11 @@
 [IP basics](https://www.netfilter.org/documentation/HOWTO/networking-concepts-HOWTO.html#toc10)  
 
 ###
-[Network setup](https://www.debian.org/doc/manuals/debian-reference/ch05.en.html)
-[In Debian-s Administrator Handbook](https://www.debian.org/doc/manuals/debian-handbook/sect.network-config)
+[Network setup](https://www.debian.org/doc/manuals/debian-reference/ch05.en.html)  
+[In Debian-s Administrator Handbook](https://www.debian.org/doc/manuals/debian-handbook/sect.network-config)  
 [IPv6 in Debian-s Administrator Handbook](https://www.debian.org/doc/manuals/debian-handbook/sect.ipv6.en.html)
+[Predictable Network interface names](https://www.freedesktop.org/wiki/Software/systemd/PredictableNetworkInterfaceNames/)
+
 
 ### Further reading   
 #### Basic  
