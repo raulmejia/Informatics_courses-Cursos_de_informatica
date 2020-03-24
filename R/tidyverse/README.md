@@ -18,4 +18,5 @@ https://www.tidyverse.org/
 ```install.packages("rgl")```  
 ```install.packages("tidyverse", dependencies = TRUE)```  
 ```install.packages("pheatmap", dependencies = TRUE)```  
+```install.packages("stringr", dependencies = TRUE)```  
 
