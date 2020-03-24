@@ -19,4 +19,6 @@ https://www.tidyverse.org/
 ```install.packages("tidyverse", dependencies = TRUE)```  
 ```install.packages("pheatmap", dependencies = TRUE)```  
 ```install.packages("stringr", dependencies = TRUE)```  
+```install.packages("devtools")```
+```devtools::install_github("r-lib/pillar")```
 
