@@ -26,7 +26,7 @@ Por ejemplo en mi caso (Debian 10 Buster) el repositorio que elegí fue:
 6. Actualiza tus repositorios ```sudo apt-get update```
 
 7. Instala R  
-``` sudo apt-get install -t stretch-cran35 r-base r-base-dev```   
+``` sudo apt-get install -t buster-cran35 r-base r-base-dev```   
 
 
 ## Debian 8 (Jessie)
