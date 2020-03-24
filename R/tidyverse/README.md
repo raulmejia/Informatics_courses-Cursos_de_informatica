@@ -17,4 +17,5 @@ https://www.tidyverse.org/
 ```install.packages("plot3Drgl")```  
 ```install.packages("rgl")```  
 ```install.packages("tidyverse", dependencies = TRUE)```  
+```install.packages("pheatmap", dependencies = TRUE)```  
 
