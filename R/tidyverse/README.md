@@ -10,8 +10,11 @@ https://www.tidyverse.org/
 ```sudo apt-get install build-essential libcurl4-gnutls-dev libxml2-dev libssl-dev```  
 ```sudo apt-get install default-libmysqlclient-dev```  
 
+```install.packages("RMariaDB", dependencies = TRUE)```  
+```install.packages("RMySQL", dependencies = TRUE)```  
 ```install.packages("partitions", dependencies = TRUE)```  
 ```install.packages("dplyr", dependencies = TRUE)```  
 ```install.packages("plot3Drgl")```  
 ```install.packages("rgl")```  
-```install.packages("tidyverse", dependencies = TRUE)```
+```install.packages("tidyverse", dependencies = TRUE)```  
+
