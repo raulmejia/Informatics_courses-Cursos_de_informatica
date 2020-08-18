@@ -4,7 +4,6 @@
 #############
 # This script receives a padded multivcf and retrieves the selected vcf(s) from it.
 
-
 #######################################
 ### For the options given by the user #
 #######################################
@@ -22,7 +21,7 @@ while getopts ":i:o:p:d:" opt; do
                         infile=$OPTARG
                         ;;
                 o)
-                        outfile=$OPTARG
+                        outdir=$OPTARG
                         ;;
                 p)
                         MYSQL_PASS=$OPTARG
@@ -31,29 +30,25 @@ while getopts ":i:o:p:d:" opt; do
                         BACKUP_DIR=$OPTARG
                         ;;
                 \?)
-                        echo "Invalid option: -$OPTARG" >&2
+                        echo "ERROR: Invalid option: -$OPTARG" >&2
                         exit 2;;
                 :)
-                       echo "Option -$OPTARG requires an argument" >&2
+                       echo "ERROR: Option -$OPTARG requires an argument" >&2
                        exit 2;;
         esac
 done
 shift $((OPTIND-1))
-echo "Your infile (padded vcf) ='$infile'  Your out put file ='$outfile'  MYSQL_PASS='$MYSQL_PASS'  BACKUP_DIR='$BACKUP_DIR' Additionals: $@"
+echo "\n-i Your infile (padded vcf) ='$infile'  \n-o Your output directory ='$outdir'  MYSQL_PASS='$MYSQL_PASS'  BACKUP_DIR='$BACKUP_DIR' Additionals: $@ \n"
 
 if [ -z "$infile" ]; then
-    echo "o = path to your out put file option a was NOT given, exit. Usage: Orchester.sh -i yourinputfile(pappedvcf)  -o path_to_your_output_file" >&2
+    echo "ERROR: the parameter i = path to your output file option was NOT given. Usage: Orchester.sh -i yourinputfile(paddedvcf)  -o(outdir)" >&2
     exit 2;
 fi
 
-if [ -z "$outfile" ]; then
-    echo "o = path to your out put file option a was NOT given, exit. Usage: Orchester.sh -i yourinputfile(pappedvcf)  -o path_to_your_output_file" >&2
+if [ -z "$outdir" ]; then
+    echo "ERROR: Missing parameter -o  (outdir). Usage: Orchester.sh -i yourinputfile(paddedvcf)  -o(outdir)" >&2
     exit 2;
 fi
-
-
-
-### For the options given by the user 
 
 ########################
 ## The script begins ###
