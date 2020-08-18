@@ -14,7 +14,7 @@ if [ -z "$1" ]
     echo "No argument supplied, usage is ..."
 fi
 
-while getopts ":i:o:p:d:" opt; do
+while getopts ":i:o:s:d:h" opt; do
         case "$opt" in
 
                 i)
@@ -23,12 +23,16 @@ while getopts ":i:o:p:d:" opt; do
                 o)
                         outdir=$OPTARG
                         ;;
-                p)
-                        MYSQL_PASS=$OPTARG
+                s)
+                        sample=$OPTARG
                         ;;
                 d)
                         BACKUP_DIR=$OPTARG
                         ;;
+		h)
+		    echo "Usage: Orchester.sh -i yourinputfile(paddedvcf) -o(outdir) -s(sample_to_extract)" >&2
+		    exit 2;;
+
                 \?)
                         echo "ERROR: Invalid option: -$OPTARG" >&2
                         exit 2;;
@@ -38,7 +42,7 @@ while getopts ":i:o:p:d:" opt; do
         esac
 done
 shift $((OPTIND-1))
-echo "\n-i Your infile (padded vcf) ='$infile'  \n-o Your output directory ='$outdir'  MYSQL_PASS='$MYSQL_PASS'  BACKUP_DIR='$BACKUP_DIR' Additionals: $@ \n"
+echo "\n-i Your infile (padded vcf) ='$infile'  \n-o Your output directory ='$outdir'  \n-s sample to extract='$sample'  BACKUP_DIR='$BACKUP_DIR' Additionals: $@ \n"
 
 if [ -z "$infile" ]; then
     echo "ERROR: the parameter i = path to your output file option was NOT given. Usage: Orchester.sh -i yourinputfile(paddedvcf)  -o(outdir)" >&2
@@ -46,7 +50,11 @@ if [ -z "$infile" ]; then
 fi
 
 if [ -z "$outdir" ]; then
-    echo "ERROR: Missing parameter -o  (outdir). Usage: Orchester.sh -i yourinputfile(paddedvcf)  -o(outdir)" >&2
+    echo "ERROR: Missing parameter -o(outdir). Usage: Orchester.sh -i yourinputfile(paddedvcf) -o(outdir)" >&2
+    exit 2;
+fi
+if [ -z "$sample" ]; then
+    echo "ERROR: Missing parameter -s(sample). Usage: Orchester.sh -i yourinputfile(paddedvcf) -o(outdir) -s(sample_to_extract)" >&2
     exit 2;
 fi
 
