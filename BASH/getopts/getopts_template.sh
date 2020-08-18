@@ -1,22 +1,28 @@
 #!/bin/bash
+#############
+# Purporse: #
+#############
+# This script receives a padded multivcf and retrieves the selected vcf(s) from it.
 
-### For the options given by the user 
+
+#######################################
+### For the options given by the user #
+#######################################
 OPTIND=1 # Reset if getopts used previously
 
-# Check if there is any argument given
 if [ -z "$1" ]
   then
     echo "No argument supplied, usage is ..."
 fi
 
-while getopts ":h:u:p:d:" opt; do
+while getopts ":i:o:p:d:" opt; do
         case "$opt" in
 
-                h)
-                        MYSQL_HOST=$OPTARG
+                i)
+                        infile=$OPTARG
                         ;;
-                u)
-                        MYSQL_USER=$OPTARG
+                o)
+                        outfile=$OPTARG
                         ;;
                 p)
                         MYSQL_PASS=$OPTARG
@@ -33,12 +39,22 @@ while getopts ":h:u:p:d:" opt; do
         esac
 done
 shift $((OPTIND-1))
-echo "MYSQL_HOST='$MYSQL_HOST'  MYSQL_USER='$MYSQL_USER'  MYSQL_PASS='$MYSQL_PASS'  BACKUP_DIR='$BACKUP_DIR' Additionals: $@"
+echo "Your infile (padded vcf) ='$infile'  Your out put file ='$outfile'  MYSQL_PASS='$MYSQL_PASS'  BACKUP_DIR='$BACKUP_DIR' Additionals: $@"
 
-# Check fot missing and requiered arguments
-if [ -z "$MYSQL_HOST" ]; then
-    echo "option a was NOT given, exit. Usage: ---- " >&2
+if [ -z "$infile" ]; then
+    echo "o = path to your out put file option a was NOT given, exit. Usage: Orchester.sh -i yourinputfile(pappedvcf)  -o path_to_your_output_file" >&2
+    exit 2;
+fi
+
+if [ -z "$outfile" ]; then
+    echo "o = path to your out put file option a was NOT given, exit. Usage: Orchester.sh -i yourinputfile(pappedvcf)  -o path_to_your_output_file" >&2
     exit 2;
 fi
 
 
+
+### For the options given by the user 
+
+########################
+## The script begins ###
+########################
