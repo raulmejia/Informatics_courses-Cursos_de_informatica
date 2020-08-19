@@ -44,6 +44,8 @@ done
 shift $((OPTIND-1))
 echo "\nUsage: Orchester.sh -i yourinputfile(paddedvcf) -o(outdir) -s(sample_to_extract) \n-i Your infile (padded vcf) ='$infile'  \n-o Your output directory ='$outdir'  \n-s sample to extract='$sample'  \n-n this is an optional parameter to choose the name of the output file, if nothing is given the default is the name of the inputfile plus the sample"
 
+# mandatory options
+
 if [ -z "$infile" ]; then
     echo "ERROR: the parameter i = path to your output file option was NOT given. Usage: Orchester.sh -i yourinputfile(paddedvcf)  -o(outdir)" >&2
     exit 2;
