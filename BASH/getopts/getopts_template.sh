@@ -14,7 +14,7 @@ if [ -z "$1" ]
     echo "No argument supplied, usage is ..."
 fi
 
-while getopts ":i:o:s:d:h" opt; do
+while getopts ":i:o:s:n:h" opt; do
         case "$opt" in
 
                 i)
@@ -26,11 +26,11 @@ while getopts ":i:o:s:d:h" opt; do
                 s)
                         sample=$OPTARG
                         ;;
-                d)
-                        BACKUP_DIR=$OPTARG
+                n)
+                        user_outfile_name=$OPTARG
                         ;;
 		h)
-		    echo "Usage: Orchester.sh -i yourinputfile(paddedvcf) -o(outdir) -s(sample_to_extract)" >&2
+		    echo "\nUsage: Orchester.sh -i yourinputfile(paddedvcf) -o(outdir) -s(sample_to_extract) \n-i Your infile (padded vcf) ='$infile'  \n-o Your output directory ='$outdir'  \n-s sample to extract='$sample'  \n-n this is an optional parameter to choose the name of the output file, if nothing is given the default is the name of the inputfile plus the sample" >&2
 		    exit 2;;
 
                 \?)
@@ -42,7 +42,7 @@ while getopts ":i:o:s:d:h" opt; do
         esac
 done
 shift $((OPTIND-1))
-echo "\n-i Your infile (padded vcf) ='$infile'  \n-o Your output directory ='$outdir'  \n-s sample to extract='$sample'  BACKUP_DIR='$BACKUP_DIR' Additionals: $@ \n"
+echo "\nUsage: Orchester.sh -i yourinputfile(paddedvcf) -o(outdir) -s(sample_to_extract) \n-i Your infile (padded vcf) ='$infile'  \n-o Your output directory ='$outdir'  \n-s sample to extract='$sample'  \n-n this is an optional parameter to choose the name of the output file, if nothing is given the default is the name of the inputfile plus the sample"
 
 if [ -z "$infile" ]; then
     echo "ERROR: the parameter i = path to your output file option was NOT given. Usage: Orchester.sh -i yourinputfile(paddedvcf)  -o(outdir)" >&2
