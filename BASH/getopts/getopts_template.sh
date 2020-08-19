@@ -2,7 +2,7 @@
 #############
 # Purporse: #
 #############
-# This script receives a padded multivcf and retrieves the selected vcf(s) from it.
+# This script receives a padded multivcf and retrieves the selected vcf(s) from it. It also filters out the variants without genotype support (0/0, 0|0, .|., ./.) you wil get a file with the extension .00-Genotypes_deleted, and finally it filters non PASS variants (file .00-Genotypes_deleted_OnlyPASS)   
 
 #######################################
 ### For the options given by the user #
