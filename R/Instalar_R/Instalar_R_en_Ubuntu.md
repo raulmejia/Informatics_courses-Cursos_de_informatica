@@ -9,8 +9,8 @@ Puedes encontrar las referencias completas en:  [este link para ubuntu](https://
   * Nota: Puede ser con cualquier editor de texto plano, sólo sugiero gedit por ser gráfico y básico, si no tienes instalado aún gedit puedes hacerlo con ```sudo apt-get install gedit ```
 
 2. Agregaras una línea nueva para tu repositorio de R, la cual debe verse como:
-   *    ```deb https://<my.favorite.cran.mirror>/bin/linux/ubuntu xenial-cran35/```   Si tu sistema es Ubuntu 16.04 (Xenial Xerus): 
-   *   ```deb https://cloud.r-project.org/bin/linux/ubuntu bionic-cran35/```   Si tu sistema es Ubuntu 18.04 (Bionic Beaver):
+   *    ```deb https://<my.favorite.cran.mirror>/bin/linux/ubuntu xenial-cran40/```   Si tu sistema es Ubuntu 16.04 (Xenial Xerus): 
+   *   ```deb https://cloud.r-project.org/bin/linux/ubuntu bionic-cran40/```   Si tu sistema es Ubuntu 18.04 (Bionic Beaver):
  
 
 3. Sustituye ```https://<my.favorite.cran.mirror>```  por tu dirección favorita de la lista de [mirrors](https://cran.r-project.org/mirrors.html)
