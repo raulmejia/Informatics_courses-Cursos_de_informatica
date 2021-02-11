@@ -4,4 +4,7 @@ Installing the utils to manage apparmor
 sudo apt-get install apparmor-utils  
 
 installing new profiles   
-sudo apt-get install apparmor-profiles-extra  
+sudo apt-get install apparmor-profiles-extra   
+
+
+sudo apt install apparmor-profiles
