@@ -214,6 +214,7 @@ Librerias
 * Googlear
 * Ver el código
 * Preguntar inteligentemente
+* http://www.bioconductor.org/help/support/posting-guide
 
 ####
 #Referencias:
