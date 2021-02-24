@@ -1,21 +1,25 @@
-https://forums.linuxmint.com/viewtopic.php?t=300778
+https://wiki.debian.org/BluetoothUser 
 
 
 
 zless /usr/share/doc/bluez/README.Debian.gz   
 sudo apt-get install gnome-bluetooth  
-apt search bluez  
-sudo lsb_release -a  
-apt search bluetooth  
+
 bluetoothctl  
+scan on 
+pair MAC_Address
+trust MAC_Address
+connect MAC_Address
+info MAC_Address
+
+https://forums.linuxmint.com/viewtopic.php?t=300778
 sudo apt-get install blueman  
-blueman  
 pactl list short  
 load module module-bluetooth-discover  
 pactl load-module module-bluetooth-discover  
-sudo apt-get install pulseaudio-module-bluetooth  
-sudo apt-get update  
-sudo apt-get upgrade  
+apt-get install pulseaudio-module-bluetooth  
+apt-get update  
+apt-get upgrade  
 blueman-manager  
 pactl load-module module-bluetooth-discover  
 blueman-manager   
