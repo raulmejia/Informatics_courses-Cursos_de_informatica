@@ -18,4 +18,7 @@ sudo apt-get update
 sudo apt-get upgrade  
 blueman-manager  
 pactl load-module module-bluetooth-discover  
-blueman-manager  
+blueman-manager   
+
+To select the output of the audio:  
+apt-get install gnome-control-center
