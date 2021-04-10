@@ -16,7 +16,12 @@ BACKSPACE="guess"
     XKBLAYOUT variable contains a list of used layouts;   
 
 
-    gsettings set org.gnome.desktop.input-sources sources "[('xkb', 'de')]"  
-
 ### References
 1. https://wiki.debian.org/Keyboard 
+
+
+###  Magic comand  
+
+
+
+gsettings set org.gnome.desktop.input-sources sources "[('xkb', 'de')]"  
