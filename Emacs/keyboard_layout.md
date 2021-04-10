@@ -13,7 +13,10 @@ XKBOPTIONS="grp:alt_shift_toggle"
 BACKSPACE="guess"
 
     XKBMODEL is a keyboard model variable (look at a /usr/share/X11/xkb/rules/base.lst (plain text) or /usr/share/X11/xkb/rules/base.xml (XML) for a full list);
-    XKBLAYOUT variable contains a list of used layouts; 
+    XKBLAYOUT variable contains a list of used layouts;   
+
+
+    gsettings set org.gnome.desktop.input-sources sources "[('xkb', 'de')]"  
 
 ### References
 1. https://wiki.debian.org/Keyboard 
