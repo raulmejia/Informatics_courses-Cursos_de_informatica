@@ -1,9 +1,10 @@
-
+# reference https://www.youtube.com/watch?v=vpk_1gldOAE
 working with ssh keys
-	coping your sshkey to the server https://www.youtube.com/watch?v=5Fcf-8LPvws
+	coping your sshkey to the server 
 
-https://www.youtube.com/watch?v=vpk_1gldOAE
+# Create your keys
 ssh-keygen -t rsa -b 4096
+# rsa4069 vs ed25519 https://security.stackexchange.com/questions/143083/ssh-key-strength-factor-besides-key-length-say-ed25519-vs-rsa-4096
 
 ######
 ##  on the server
@@ -29,3 +30,5 @@ cat ~/.ssh/uploaded_key.pub >> ~/.ssh/authorized_keys
 # files to 600
 chmod 700 ~/.ssh/
 chmod 600 ~/.ssh/*
+
+
