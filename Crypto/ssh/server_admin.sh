@@ -2,6 +2,10 @@
 working with ssh keys
 	coping your sshkey to the server 
 
+
+######
+##  local
+######
 # Create your keys
 ssh-keygen -t rsa -b 4096
 # rsa4069 vs ed25519 https://security.stackexchange.com/questions/143083/ssh-key-strength-factor-besides-key-length-say-ed25519-vs-rsa-4096
