@@ -34,3 +34,17 @@ telnet
 SSH (SCP & SFTP)
 
 By the way, I liked this channel Computherphile on you tube
+
+####
+# Sequence of commands sugested by https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+#####
+
+ssh-keygen -t ed25519 -C "your_email@example.com"
+
+# start the ssh-agent to manage your keys
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/the_name_of_your_key
+
+apt-get install xclip
+xclip -selection clipboard < ~/.ssh/id_yourid.pub
+
