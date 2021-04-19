@@ -48,3 +48,7 @@ ssh-add ~/.ssh/the_name_of_your_key
 apt-get install xclip
 xclip -selection clipboard < ~/.ssh/id_yourid.pub
 
+# add your id into your github account on the web page  https://docs.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account
+
+# Check your connection 
+ssh -T git@github.com
