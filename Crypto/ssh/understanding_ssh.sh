@@ -3,7 +3,7 @@ working with ssh keys
 	coping your sshkey to the server https://www.youtube.com/watch?v=5Fcf-8LPvws
 
 https://www.youtube.com/watch?v=vpk_1gldOAE
-ssh-keygen -t rsa -b 1096
+ssh-keygen -t rsa -b 4096
 
 scp ~/.ssh/id_rsa.pub someuser@ip.host:/folder/someuser
 scp ~/.ssh/id_rsa.pub someuser@ip.host:/folder/someuser/.ssh/uploaded_key.pub
