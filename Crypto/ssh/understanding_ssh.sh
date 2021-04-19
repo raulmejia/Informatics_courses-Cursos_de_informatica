@@ -40,6 +40,7 @@ By the way, I liked this channel Computherphile on you tube
 #####
 
 ssh-keygen -t ed25519 -C "your_email@example.com"
+ssh-keygen -t rsa -b 4096  "your_email@example.com"
 
 # start the ssh-agent to manage your keys
 eval "$(ssh-agent -s)"
