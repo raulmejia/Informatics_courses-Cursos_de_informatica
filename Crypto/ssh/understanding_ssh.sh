@@ -32,3 +32,5 @@ rsa public key
 TLS
 telnet
 SSH (SCP & SFTP)
+
+By the way, I liked this channel Computherphile on you tube
