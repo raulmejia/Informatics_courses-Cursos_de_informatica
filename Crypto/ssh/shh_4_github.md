@@ -14,5 +14,5 @@ https://docs.github.com/en/github/authenticating-to-github/about-commit-signatur
 Read about RSA & DSA
 
 ## Change the access to git hub
-To change the access from https to ssh use the command:  
+To change the access from https to ssh run the command from your repository folder:  
 git remote set-url origin git@github.com:<Username>/<Project>.git
