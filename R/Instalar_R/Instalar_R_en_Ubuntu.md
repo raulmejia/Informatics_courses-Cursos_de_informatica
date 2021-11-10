@@ -3,7 +3,7 @@
 
 
 A continuación un breve resumen en español:
-Puedes encontrar las referencias completas en:  [este link para ubuntu](https://cran.r-project.org/bin/linux/ubuntu/README)
+Puedes encontrar las referencias completas en:  [este link para ubuntu](https://cran.r-project.org/bin/linux/ubuntu/)
 
 1. Abre el archivo donde tienes los repositorios de tu sistema, mediante el comando ``` sudo nano /etc/apt/sources.list  ``` o ``` sudo gedit /etc/apt/sources.list  ```.
   * Nota: Puede ser con cualquier editor de texto plano, sólo sugiero gedit por ser gráfico y básico, si no tienes instalado aún gedit puedes hacerlo con ```sudo apt-get install gedit ```
