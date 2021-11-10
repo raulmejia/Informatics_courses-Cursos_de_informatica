@@ -68,7 +68,7 @@ Puedes encontrar las referencias completas en:  [este link para Debian](https://
 1. Abre el archivo donde tienes los repositorios de tu sistema, mediante el comando ``` sudo nano /etc/apt/sources.list  ``` o ``` sudo gedit /etc/apt/sources.list  ``` el que prefieras.
 
 2. Si tu sistema es Debian 7 (Wheezy) Entonces la línea para tu repositorio de R puede verse como:  ```deb <favourite-cran-mirror>/bin/linux/debian wheezy-cran3/```
- 
+  
 
 3. Sustituye ```<favourite-cran-mirror>```  por tu dirección favorita de la lista de [mirrors](https://cran.r-project.org/mirrors.html)
 Por ejemplo en mi caso (Debian 8 Jessie) el repositorio que elegí fue: 
