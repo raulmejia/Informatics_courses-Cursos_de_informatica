@@ -19,7 +19,9 @@ Por ejemplo en mi caso  (México)  el repositorio que elegí fue
 
 4. Añade esa línea a tu archivo /etc/apt/sources.list y salva los cambios.
 
-5. Añade tu la llave GPG del repositorio, una opción es usar el comando ```sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9```
+5. Añade tu la llave GPG del repositorio, una opción es usar el comando ```wget -qO- https://cloud.r-project.org/bin/linux/ubuntu/marutter_pubkey.asc | sudo tee -a /etc/apt/trusted.gpg.d/cran_ubuntu_key.asc```   
+7. ```sudo gpg --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9 ```
+9. ```gpg -a --export E298A3A825C0D65DFD57CBB651716619E084DAB9 | sudo apt-key add -```   
 
 6. Actualiza tus repositorios ```sudo apt-get update```
 
