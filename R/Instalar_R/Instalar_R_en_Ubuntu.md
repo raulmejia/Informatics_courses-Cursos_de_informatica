@@ -15,7 +15,7 @@ Puedes encontrar las referencias completas en:  [este link para ubuntu](https://
 
 3. Sustituye ```https://<my.favorite.cran.mirror>```  por tu dirección favorita de la lista de [mirrors](https://cran.r-project.org/mirrors.html)
 Por ejemplo en mi caso  (México)  el repositorio que elegí fue 
-``` deb https://cran.itam.mx/bin/linux/ubuntu xenial/```
+``` deb https://www.est.colpos.mx/bin/linux/ubuntu xenial/```
 
 4. Añade esa línea a tu archivo /etc/apt/sources.list y salva los cambios.
 
