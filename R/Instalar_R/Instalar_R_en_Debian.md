@@ -21,13 +21,13 @@ Por ejemplo en mi caso (Debian 10 Buster) el repositorio que elegí fue:
 5. Para que no te aparezca la leyenda "No se pudo verificar la confiabilidad de este repositorio" o algo así,  Añade la llave GPG del repositorio, una opción es usar el comando 
 
 ```sudo apt-get install dirmngr```   
-```apt-key adv --keyserver keys.gnupg.net --recv-key 'E19F5F87128899B192B1A2C2AD5F960A256A04AF'```  
+
 ```apt-key adv --keyserver keyserver.ubuntu.com --recv-key '95C0FAF38DB3CCAD0C080A7BDC78B2DDEABC47B7'```  
 
 6. Actualiza tus repositorios ```sudo apt-get update```  
 
 7. Instala R  
-``` sudo apt-get install -t buster-cran40 r-base r-base-dev```   
+```apt install -t bullseye-cran40 r-base```   
 
 
 
