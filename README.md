@@ -1,6 +1,10 @@
 Cursos
 ======================
 
-Estamos preparando una serie de cursos en torno a temas de bioinformática y genómica.
+Iniciando? Aquí instrucciones para instalar GNU/Linux en tu computadora.
+
+
+
+Cursos en torno a temas de bioinformática y genómica.
 
 - [Introducción a Python](Python-Intro).
