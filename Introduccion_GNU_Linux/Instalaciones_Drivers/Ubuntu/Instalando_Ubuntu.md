@@ -11,7 +11,7 @@ Accede a tu BIOS y configuralo para que puedas arrancar el instalador (desde una
 # 2. Instalar Ubuntu
 
 ### 2.1 Descarga el instalador de la [página oficial](https://ubuntu.com/)
-<sub>Recomiendo la versión LTS</sub>
+
 ### 2.2 Formatea tu memoria usb
 
 <sub> Usualmente estos programas ya vienen instalados en tu distribución , si no, ejecuta en la terminal: </sub>
@@ -22,7 +22,7 @@ Accede a tu BIOS y configuralo para que puedas arrancar el instalador (desde una
 sudo install dosfstools
 ```
 
-Para ver en que particion esta mondata tu usb
+Para ver en que partición esta mondata tu usb
 
 ```
 df -h
