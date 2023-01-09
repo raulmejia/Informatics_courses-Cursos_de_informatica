@@ -12,6 +12,7 @@
 
 3. Listo!
 
+Instrucciones más detalldas para instalar [Ubuntu](Python) o Debian
 
 ### Comentarios:
 <sup>[1]</sup> = Además de USB puedes usar otros medios para la instalación. Las instrucciones variarían ligeramente.
