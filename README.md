@@ -5,5 +5,5 @@ Iniciando? [Aquí Instrucciones](Instalaciones_Drivers) para **instalar GNU/Linu
 
 ---
 
-Aquí el [índice](Indice) con otros cursos.
+Aquí el [índice](Indice.md) con otros cursos.
 
