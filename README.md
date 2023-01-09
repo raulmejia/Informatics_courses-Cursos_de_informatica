@@ -1,7 +1,7 @@
 Cursos
 ======================
 
-Iniciando? [Aquí Instrucciones](Introduccion_GNU_Linux/Instalaciones_Drivers/README.md) para **instalar GNU/Linux** en tu computadora.
+[Instalar GNU/Linux](Introduccion_GNU_Linux/Instalaciones_Drivers/README.md) en tu computadora.
 
 ---
 
