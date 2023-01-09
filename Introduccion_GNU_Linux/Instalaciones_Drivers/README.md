@@ -14,4 +14,4 @@
 
 
 ### Comentarios:
-[1]= Además de USB puedes usar otros medios para la instalación. Las instrucciones variarían ligeramente.
+<sup>[1]</sup> = Además de USB puedes usar otros medios para la instalación. Las instrucciones variarían ligeramente.
