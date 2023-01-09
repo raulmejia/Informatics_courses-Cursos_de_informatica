@@ -12,7 +12,7 @@ Accede a tu BIOS y configuralo para que puedas arrancar el instalador (desde una
 ### Descargalo de la [página oficial](https://ubuntu.com/)
 ### Formatea tu memoria usb
 
-Usualmente estos programas vienen instalados en tu distribucion, si no fuera asi puedes correr:
+<sub> Usualmente estos programas ya vienen instalados en tu distribución , si no, ejecuta en la terminal: </sub>
 
 
 
