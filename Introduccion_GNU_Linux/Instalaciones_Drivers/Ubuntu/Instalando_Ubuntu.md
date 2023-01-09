@@ -27,7 +27,7 @@ Para ver en que partición esta mondata tu usb
 ```
 df -h
 ```
-Te dara aparecera en pantalla algo como lo siguiente
+Te aparecera en pantalla algo como lo siguiente
 ```
 Filesystem      Size  Used Avail Use% Mounted on
 udev            9.5G     0  9.5G   0% /dev
@@ -42,14 +42,14 @@ tmpfs           1.9G  572K  1.9G   1% /run/user/1000
 ```
 En este ejemplo formatearemos el dispositvo "MIUSB"  podemos ver que esta montado en /media/neo/MIUSB y en el sistema de archivos es /dev/sdc
 
-Desmonto el dispositivo en /dev/sdc **deberás cambiarlo para tu caso particular** /dev/sxx. <sub>Si lo confundes por /dev/sdb desmontaras el HDD externo! </sub>
+Desmonto el dispositivo en /dev/sdc **deberás cambiarlo para tu caso particular** /dev/sxx. <sub>Si lo confundes por /dev/sdb desmontarás el HDD externo! </sub>
 
 
 ```
 neo@nabuco:~$ sudo umount /dev/sdc
 ```
 
-Formatear. **Importante!:** Recuerda escribir correctamente tu ruta (en el ejemplo /dev/sdb) pero cambiará en cada caso "/dev/sxx". <sub> Si lo confundo por/dev/sdc formarearía el HDD externo! X.X. Para minimizar el riesgo de formateos erróneaos puedes desconectar todos los demás que no estés usando para</sub>
+Formatear. **Importante!:** Recuerda escribir correctamente tu ruta (en el ejemplo /dev/sdb) pero cambiará en tu caso "/dev/sxx". <sub> Si lo confundo por/dev/sdc formarearía el HDD externo! X.X. Para minimizar el riesgo de formateos erróneos puedes desconectar todos los demás que no estés usando</sub>
 
 ```
 sudo mkfs.vfat -I -F 32 -n NOMBRE_PARA_MIUSB /dev/sdc
