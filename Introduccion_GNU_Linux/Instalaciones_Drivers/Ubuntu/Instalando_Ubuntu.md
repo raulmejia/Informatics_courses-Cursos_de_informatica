@@ -53,7 +53,7 @@ Formatear. **Importante!:** Recuerda escribir correctamente tu ruta (en el ejemp
 sudo mkfs.vfat -I -F 32 -n NOMBRE_PARA_MIUSB /dev/sdb
 ```
 
-Después de el argumento -n escribe el nombre que desees para tu usb, recuerda que a Windows no le gustan las minúsculas en estos casos así que escribe con mayúsculas para que no tengas este problema.
+-n asigna el nombre para tu usb, <sub>recuerda que a Windows no le gustan las minúsculas en estos casos así que escribe con mayúsculas para que no tengas este problema </sub>.
 
 -F 32 es el tipo de formato.
   
@@ -62,9 +62,9 @@ Después de el argumento -n escribe el nombre que desees para tu usb, recuerda q
 
 ``` sudo dd if=/la/ruta/donde/esta_tu_archivo_iso.iso of=/dev/sdb ```
 
-A continuación de "if=" va la ruta (path) de tu archivo .iso y adelante de "of=" el destino donde quieres grabarlo (por ejemplo una memoria usb)
-elije ambas rutas de acuerdo al sitio donde están en tu computadora
+if= la ruta (path) de tu archivo .iso  
+of= el destino donde quieres grabarlo (por ejemplo tu memoria usb)  
 
 # Arranca el instalador y sigue las instrucciones
 
-Listo! inserta la memoria USB elije arrancar desde ella en el BIOS y sigue las instrucciones del instalador.
+Inserta la USB y arranca desde ella en el BIOS. Sigue las instrucciones del instalador.
