@@ -1,7 +1,7 @@
 Cursos
 ======================
 
-Iniciando? Aquí instrucciones para instalar GNU/Linux en tu computadora.
+Iniciando? [Introducción a Python](Instalaciones_Drivers) instrucciones para instalar GNU/Linux en tu computadora.
 
 ======================
 
