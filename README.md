@@ -3,12 +3,7 @@ Cursos
 
 Iniciando? [Aquí Instrucciones](Instalaciones_Drivers) para instalar GNU/Linux en tu computadora.
 
+---
 
+Aquí el [índice](Indice) con otros cursos.
 
-## Índice:
-
-#### Bioinformática y genómica.
-
-- [Introducción a Python](Python).
-
-- [R](R).
