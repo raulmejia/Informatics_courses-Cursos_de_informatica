@@ -41,7 +41,7 @@ tmpfs             398656        12    398644   1% /run/user/1000
 ```
 En este ejemplo formatearemos el dispositvo "MIUSB"  podemos ver que esta montado en /media/neo/MIUSB y en el sistema de archivos es /dev/sdb
 
-Así Desmontamos el dispositivo en /dev/sdb deberás cambiarlo para tu caso particular.
+Desmonto el dispositivo en /dev/sdb **deberás cambiarlo para tu caso particular.** /dev/sxx
 
 ```
 neo@nabuco:~$ sudo umount /dev/sdb
