@@ -7,7 +7,7 @@ Iniciando? [Aquí Instrucciones](Instalaciones_Drivers) para instalar GNU/Linux 
 
 ## Índice:
 
-#### Cursos en torno a temas de bioinformática y genómica.
+#### Bioinformática y genómica.
 
 - [Introducción a Python](Python).
 
