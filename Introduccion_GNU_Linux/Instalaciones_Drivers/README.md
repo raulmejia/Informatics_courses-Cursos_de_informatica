@@ -1,4 +1,4 @@
-Overview:
+# Overview:
 
 1. Preparativos antes de comenzar:
 1.1. Respaldar tu información.
@@ -13,5 +13,5 @@ Overview:
 3. Listo!
 
 
-Comentarios:
+### Comentarios:
 [1]= Además de USB puedes usar otros medios para la instalación. Las instrucciones variarían ligeramente.
