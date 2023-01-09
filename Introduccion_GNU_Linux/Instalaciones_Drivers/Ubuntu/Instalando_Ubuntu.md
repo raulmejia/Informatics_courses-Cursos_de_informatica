@@ -47,7 +47,7 @@ Desmonto el dispositivo en /dev/sdb **deberás cambiarlo para tu caso particular
 neo@nabuco:~$ sudo umount /dev/sdb
 ```
 
-Lo **formateamos**. Recuerda escribir correctamente la ruta (en ejemplo /dev/sdb) pero cambiará en cada caso.
+Formatear. **Importante!:** Recuerda escribir correctamente tu ruta (en el ejemplo /dev/sdb) pero cambiará en cada caso "/dev/sxx".
 
 ```
 sudo mkfs.vfat -I -F 32 -n NOMBRE_PARA_MIUSB /dev/sdb
