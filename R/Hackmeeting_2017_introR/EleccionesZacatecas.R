@@ -4,8 +4,8 @@ sessionInfo()
 
 getwd()
 setwd("/home/rmejia/Documents/Activismo_Nabuco2069/DebianDay/")
-mifilepath<-c("/home/rmejia/Documents/Activismo_Nabuco2069/DebianDay/Elecciones_Zac.tsv")
-ezac<-read.table(file=mifilepath,header=TRUE,row.names = 1)
+mifilepath <-c("/home/rmejia/Documents/Activismo_Nabuco2069/DebianDay/Elecciones_Zac.tsv")
+ezac <-read.table(file=mifilepath,header=TRUE,row.names = 1)
 
 dim(ezac) ; head(ezac)
 ezac_vot<-ezac[1:58,1:15]
