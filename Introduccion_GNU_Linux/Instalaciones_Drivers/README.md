@@ -1,4 +1,4 @@
-# Instalar GNU/Linux en tu computadora
+# Instalar GNU/Linux
 
 ### Overview:
 
