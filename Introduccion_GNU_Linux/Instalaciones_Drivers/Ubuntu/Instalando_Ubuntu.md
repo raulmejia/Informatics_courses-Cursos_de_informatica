@@ -49,7 +49,7 @@ Desmonto el dispositivo en /dev/sdc **deberás cambiarlo para tu caso particular
 neo@nabuco:~$ sudo umount /dev/sdc
 ```
 
-Formatear. **Importante!:** Recuerda escribir correctamente tu ruta (en el ejemplo /dev/sdb) pero cambiará en tu caso "/dev/sxx". <sub> Si lo confundo por/dev/sdc formarearía el HDD externo! X.X. Para minimizar el riesgo de formateos erróneos puedes desconectar todos los demás que no estés usando</sub>
+Formatear. **Importante!:** Recuerda escribir correctamente tu ruta (en el ejemplo /dev/sdb) pero cambiará en tu caso "/dev/sxx". <sub> Si lo confundo por/dev/sdc formarearía el HDD externo! x.x. Para minimizar el riesgo de formateos erróneos puedes desconectar todos los demás que no estés usando</sub>
 
 ```
 sudo mkfs.vfat -I -F 32 -n NOMBRE_PARA_MIUSB /dev/sdc
