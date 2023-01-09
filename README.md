@@ -1,7 +1,7 @@
 Cursos
 ======================
 
-Iniciando? [Aquí Instrucciones](Instalaciones_Drivers) para instalar GNU/Linux en tu computadora.
+Iniciando? [Aquí Instrucciones](Instalaciones_Drivers) para **instalar GNU/Linux** en tu computadora.
 
 ---
 
