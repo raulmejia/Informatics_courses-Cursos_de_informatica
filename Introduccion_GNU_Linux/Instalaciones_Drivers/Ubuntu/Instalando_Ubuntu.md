@@ -9,7 +9,7 @@ Accede a tu BIOS y configuralo para que puedas arrancar el instalador (una usb o
 
 # 2. Obtén el instalador
 
-### Descargalo de la [página oficial](www.google.com)
+### Descargalo de la [página oficial](https://www.google.com)
 ### Formatea tu memoria usb
 
 Usualmente estos programas vienen instalados en tu distribucion, si no fuera asi puedes correr:
