@@ -30,30 +30,30 @@ df -h
 ```
 Te dara aparecera en pantalla algo como lo siguiente
 ```
-Filesystem     1K-blocks      Used Available Use% Mounted on
-/dev/sda2       47930248  10043988  35428456  23% /
-udev               10240         0     10240   0% /dev
-tmpfs             797312     29352    767960   4% /run
-tmpfs            1993272       420   1992852   1% /dev/shm
-tmpfs               5120         4      5116   1% /run/lock
-tmpfs            1993272         0   1993272   0% /sys/fs/cgroup
-/dev/sda5      255625740 131426588 111191024  55% /home
-tmpfs             398656         8    398648   1% /run/user/121
-tmpfs             398656        12    398644   1% /run/user/1000
-/dev/sdb        15249856   1425696  13824160  10% /media/neo/MIUSB
+Filesystem      Size  Used Avail Use% Mounted on
+udev            9.5G     0  9.5G   0% /dev
+tmpfs           1.9G  1.8M  1.9G   1% /run
+/dev/sda2        74G   32G   39G  45% /
+tmpfs           9.5G  111M  9.4G   2% /dev/shm
+tmpfs           5.0M  4.0K  5.0M   1% /run/lock
+/dev/sda5        92G   68G   20G  78% /home
+tmpfs           1.9G  572K  1.9G   1% /run/user/1000
+/dev/sdb        932G  634G  298G  69% /media/rmejia/HDD_externo
+/dev/sdc         29G   16K   29G   1% /media/rmejia/MIUSB
 ```
-En este ejemplo formatearemos el dispositvo "MIUSB"  podemos ver que esta montado en /media/neo/MIUSB y en el sistema de archivos es /dev/sdb
+En este ejemplo formatearemos el dispositvo "MIUSB"  podemos ver que esta montado en /media/neo/MIUSB y en el sistema de archivos es /dev/sdc
 
-Desmonto el dispositivo en /dev/sdb **deberás cambiarlo para tu caso particular** /dev/sxx
+Desmonto el dispositivo en /dev/sdc **deberás cambiarlo para tu caso particular** /dev/sxx. <sub>Si lo confundes por /dev/sdb desmontaras el HDD externo! </sub>
 
-```
-neo@nabuco:~$ sudo umount /dev/sdb
-```
-
-Formatear. **Importante!:** Recuerda escribir correctamente tu ruta (en el ejemplo /dev/sdb) pero cambiará en cada caso "/dev/sxx".
 
 ```
-sudo mkfs.vfat -I -F 32 -n NOMBRE_PARA_MIUSB /dev/sdb
+neo@nabuco:~$ sudo umount /dev/sdc
+```
+
+Formatear. **Importante!:** Recuerda escribir correctamente tu ruta (en el ejemplo /dev/sdb) pero cambiará en cada caso "/dev/sxx". <sub> Si lo confundo por/dev/sdc formarearía el HDD externo! X.X. Para minimizar el riesgo de formateos erróneaos puedes desconectar todos los demás que no estés usando para</sub>
+
+```
+sudo mkfs.vfat -I -F 32 -n NOMBRE_PARA_MIUSB /dev/sdc
 ```
 
 -n asigna el nombre para tu usb, <sub>recuerda que a Windows no le gustan las minúsculas en estos casos así que escribe con mayúsculas para que no tengas este problema </sub>.
@@ -63,7 +63,7 @@ sudo mkfs.vfat -I -F 32 -n NOMBRE_PARA_MIUSB /dev/sdb
 ### 2.2 Graba tu instalador apropiadamente en tu usb  
 
 
-``` sudo dd if=/la/ruta/donde/esta_tu_archivo_iso.iso of=/dev/sdb ```
+``` sudo dd if=/la/ruta/donde/esta_tu_archivo_iso.iso of=/dev/sdc ```
 
 if= la ruta (path) de tu archivo .iso  
 of= el destino donde quieres grabarlo (por ejemplo tu memoria usb)  
