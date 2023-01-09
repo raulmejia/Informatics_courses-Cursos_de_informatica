@@ -2,10 +2,10 @@ Tres pasos para acceder al instalador de Ubuntu
 
 # 1. Prepara tu computadora:
 ### Respalda tu información
-Siempre debes de tener un respaldo de tu información, más si vas a mover cosas en tu disco duro, un teclazo en falso y olvidate...
+Altamente recomentado!!
 
 ### Configura tu BIOS 
-Accede a tu BIOS y configuralo para que puedas arrancar el instalador (una usb o cd por ejemplo)
+Accede a tu BIOS y configuralo para que puedas arrancar el instalador (desde una usb ,cd o el medio que vayas a usar)
 
 # 2. Obtén el instalador
 
