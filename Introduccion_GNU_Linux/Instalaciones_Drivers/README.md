@@ -12,7 +12,7 @@
 
 3. Listo!
 
-Instrucciones más detalldas para instalar [Ubuntu](Introduccion_GNU_Linux/Instalaciones_Drivers/Instalando_Ubuntu.md) o Debian
+<sub>Instrucciones más detalldas para instalar [Ubuntu](Introduccion_GNU_Linux/Instalaciones_Drivers/Instalando_Ubuntu.md) o Debian </sub>
 
 ### Comentarios:
 <sup>[1]</sup> = Además de USB puedes usar otros medios para la instalación. Las instrucciones variarían ligeramente.
