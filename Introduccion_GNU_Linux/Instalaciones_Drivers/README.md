@@ -1,4 +1,6 @@
-# Overview:
+# Instalar GNU/Linux en tu computadora
+
+## Overview:
 
 1. Preparativos antes de comenzar:  
 1.1. Respaldar tu información.  
@@ -14,5 +16,5 @@
 
 <sub>Instrucciones más detalldas para instalar</sub> [Ubuntu](Ubuntu/Instalando_Ubuntu.md) <sub>o Debian </sub>
 
-### Comentarios:
+#### Comentarios:
 <sup>[1]</sup> = Además de USB puedes usar otros medios para la instalación. Las instrucciones variarían ligeramente.
