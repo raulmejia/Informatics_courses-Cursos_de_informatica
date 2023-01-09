@@ -3,7 +3,7 @@
 Altamente recomendado !!
 
 ### 1.2 Particiona tu HDD
-<sub> Recomendado, pero opcional: Particiona tu HDD fuera del instalador si es que no lo está ya.</sub>  
+<sub> Sugerencia: Particiona tu HDD fuera del instalador si es que no lo está ya.</sub>  
 
 ### 1.3 Configura tu BIOS 
 Accede a tu BIOS y configuralo para que puedas arrancar el instalador (desde una usb ,cd o el medio que vayas a usar)
