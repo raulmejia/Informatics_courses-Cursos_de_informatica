@@ -1,6 +1,6 @@
 # Instalar GNU/Linux en tu computadora
 
-## Overview:
+### Overview:
 
 1. Preparativos antes de comenzar:  
 1.1. Respaldar tu información.  
