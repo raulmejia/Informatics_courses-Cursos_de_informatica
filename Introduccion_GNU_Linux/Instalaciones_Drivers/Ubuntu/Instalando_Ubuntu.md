@@ -26,7 +26,7 @@ sudo install dosfstools
 Para ver en que particion esta mondata tu usb
 
 ```
-df
+df -h
 ```
 Te dara aparecera en pantalla algo como lo siguiente
 ```
