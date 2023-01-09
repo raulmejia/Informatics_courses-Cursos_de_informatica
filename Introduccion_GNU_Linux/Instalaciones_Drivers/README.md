@@ -14,7 +14,7 @@
 
 3. Listo!
 
-<sub>Instrucciones más detalldas para instalar</sub> [Ubuntu](Ubuntu/Instalando_Ubuntu.md) <sub>o Debian </sub>
+<sub>Instrucciones más detalldas para instalar</sub> [Ubuntu](Ubuntu/Instalando_Ubuntu.md) <sub>o [Debian](Debian) </sub>
 
 #### Comentarios:
 <sup>[1]</sup> = Además de USB puedes usar otros medios para la instalación. Las instrucciones variarían ligeramente.
