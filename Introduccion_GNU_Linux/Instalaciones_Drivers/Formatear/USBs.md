@@ -1,9 +1,9 @@
-# Installing gparted
+# A) Installing gparted
 
 I followed this instructions to (install gparted)[https://gparted.org/liveusb.php]  
 
 
-# Trouble shooting
+# B) Trouble shooting
 
 ## If gparted or mkfs.vfat refuse to create a patition table: 
 In case gparted or mkfs.vfat refuse to create a patition table, first do this command then follow the gparted install instructions. 
