@@ -15,9 +15,9 @@ you could use mkusb from cannonical [2], but installing it in debian is not so e
 
 ## Refuse to boot
 After installing gparted, the prompt said in case of not booting, run this command:  
-```sudo syslinux -d syslinux -fs /dev/sdb1```
-If syslinux is not installed
-```sudo apt-get install syslinux```
+```sudo syslinux -d syslinux -fs /dev/sdb1```  
+If syslinux is not installed  
+```sudo apt-get install syslinux```  
 
 I did it and worked
 
