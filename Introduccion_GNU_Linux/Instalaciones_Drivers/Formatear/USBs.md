@@ -1,4 +1,4 @@
-# Installing gpated
+# Installing gparted
 
 I followed this instructions to (install gparted)[https://gparted.org/liveusb.php]  
 
