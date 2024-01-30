@@ -11,7 +11,7 @@ Puedes encontrar las referencias completas en:  [este link para Debian](https://
 
 1. Abre el archivo donde tienes los repositorios de tu sistema, mediante el comando ``` sudo nano /etc/apt/sources.list  ``` o ``` sudo gedit /etc/apt/sources.list  ``` el que prefieras.
 
-2. Si tu sistema es Debian 12 (Bullseye) Entonces la línea para tu repositorio de R puede verse como:  ```deb http://<favourite-cran-mirror>/bin/linux/debian bookworm-cran40/```
+2. Si tu sistema es Debian 12 (Bookworm) Entonces la línea para tu repositorio de R puede verse como:  ```deb http://<favourite-cran-mirror>/bin/linux/debian bookworm-cran40/```
  
 3. Sustituye ```<favourite-cran-mirror>```  por tu dirección favorita de la lista de [mirrors](https://cran.r-project.org/mirrors.html)
 Por ejemplo en mi caso (Debian 12 Bookworm) el repositorio que elegí fue: 
