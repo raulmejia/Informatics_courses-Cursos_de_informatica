@@ -164,7 +164,7 @@ Listo!
 1. Abre una terminal y teclea: ```sudo apt-get install libcurl4-openssl-dev libxml2-dev ```
 2. Ahora puedes instalar dentro de R XML y RCurl mediante: ``` install.packages("XML") ``` y ``` install.packages("RCurl") ```
 3. Este para aumentar el poder en operaciones algebraicas ``` apt-get install libatlas3-base ```  o ``` apt-get install libopenblas-base ```
-4. Este ``` sudo apt-get install libssl-dev libfontconfig1-dev``` para que puedas instalar ``` source("http://bioconductor.org/biocLite.R")```   ``` biocLite("devtools") ```
+4. Este ``` sudo apt-get install libssl-dev libfontconfig1-dev libharfbuzz-dev libfribidi-dev libfreetype6-dev libpng-dev libtiff5-dev libjpeg-dev``` para que puedas instalar ``` source("http://bioconductor.org/biocLite.R")```   ``` biocLite("devtools") ```
 3. Listo!
 [Referencias](https://stackoverflow.com/questions/10965755/genomicfeatures-package-installation-trouble)
 
