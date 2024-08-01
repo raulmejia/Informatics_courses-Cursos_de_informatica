@@ -27,9 +27,6 @@ Por ejemplo en mi caso (Debian 12 Bookworm) el repositorio que elegí fue:
 
 ```gpg --armor --export '95C0FAF38DB3CCAD0C080A7BDC78B2DDEABC47B7' | sudo tee /etc/apt/trusted.gpg.d/cran_debian_key.asc```    
 
-```gpg --armor --export '95C0FAF38DB3CCAD0C080A7BDC78B2DDEABC47B7' | \```
-    ```sudo tee /etc/apt/trusted.gpg.d/cran_debian_key.asc```
-
 6. Actualiza tus repositorios ```sudo apt-get update```  
 
 7. Instala R  
